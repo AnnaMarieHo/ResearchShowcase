@@ -5,7 +5,7 @@ export default function About() {
     <div className="visualize-container">
       <div className="vh-container">
         <div className="visualize-header">
-          <h1>Project Overview</h1>
+          <h1>Project</h1>
         </div>
       </div>
     </div>
