@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   height: 25vw;
-  min-height: 220px;
+  min-height: 370px;
 
   /*margin: 40px;*/
   margin: 40px;
@@ -13,8 +13,7 @@
   display: flex;
   justify-content: center;
   margin: 0;
-  min-width: 800px;
-  min-height: 220px;
+  min-height: 370px;
 
   background-color: rgba(31, 31, 31, 0.9);
 }
@@ -30,16 +29,28 @@
 
 .visualize-container h1 {
   display: flex;
-  font-size: 2.5vw;
+  font-size: 1.7vw;
   justify-items: center;
   align-items: center;
 }
-@media (max-width: 800px) {
+
+@media (max-width: 1000px) {
+  .visualize-container h1 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 500px) {
   .visualize-container h1 {
     display: flex;
-
-    font-size: 20px;
+    font-size: 24px;
     justify-items: center;
     align-items: center;
+  }
+  .visualize-container {
+    width: 500px;
+  }
+  .vh-container {
+    width: 500px;
   }
 }

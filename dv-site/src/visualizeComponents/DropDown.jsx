@@ -11,12 +11,12 @@ export default function Dropdown({
     <div style={{ margin: 30 }}>
       <select
         className={className}
-        selectedDropdown={selectedDropdown}
+        value={selectedDropdown}
         onChange={onChange}
       >
         {options.map((option, index) => (
-          <option key={index} className="option">
-            {option}
+          <option key={index} value={option.label} className="option">
+            {option.label}
           </option>
         ))}
       </select>

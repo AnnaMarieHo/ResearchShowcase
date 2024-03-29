@@ -11,16 +11,15 @@ import { motion as m } from "framer-motion";
 export default function VisualizeBody() {
   return (
     <m.div
+      style={{ minWidth: "500px" }}
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.75, ease: "easeOut" }}
     >
-      <div className="">
-        <VisualizationSection />
-        {/* <DataDescription /> */}
-        {/* <VennSection />
+      <VisualizationSection />
+      {/* <DataDescription /> */}
+      {/* <VennSection />
         <DataDescription /> */}
-      </div>
     </m.div>
   );
 }

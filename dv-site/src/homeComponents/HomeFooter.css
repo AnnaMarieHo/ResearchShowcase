@@ -4,7 +4,7 @@
   align-items: center;
   margin: 0;
   background-color: rgba(31, 31, 31, 1);
-  min-width: 700px;
+  min-width: 500px;
 }
 
 .footer-box {
@@ -16,7 +16,6 @@
   margin-top: 0px;
   opacity: 100%;
   margin: 20px;
-  width: 1000px;
   height: 7px;
   top: 35%;
   left: 50%;

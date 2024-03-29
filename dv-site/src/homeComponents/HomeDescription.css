@@ -3,7 +3,7 @@
   justify-content: center;
   margin: 0;
   /* height: auto; */
-  min-width: 800px;
+  /* min-width: 800px; */
   background-color: rgb(240, 240, 240);
 }
 
@@ -19,7 +19,7 @@
   margin-top: 0px;
   opacity: 100%;
   margin: 10px;
-  min-width: 800px;
+  /* min-width: 800px; */
 
   height: inherit;
   top: 35%;
@@ -39,7 +39,7 @@
   color: black;
   opacity: 75%;
   font-weight: 600;
-  font-size: 27px;
+  font-size: 30px;
   margin-bottom: 40px;
 }
 
@@ -54,14 +54,14 @@
   margin-bottom: 50px;
   /*font-size: 125%;*/
   max-width: 900px;
-  font-size: 20px;
+  font-size: 23px;
 }
 
 .p2-indent {
   text-indent: 50px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .p2-large-font {
     font-size: 30px;
   }
@@ -69,7 +69,10 @@
     /* width: 100%; */
     padding: 30px;
     margin-top: 0px;
-
+    width: 400px;
     margin: 10px;
+  }
+  .p2-container {
+    width: 500px;
   }
 }

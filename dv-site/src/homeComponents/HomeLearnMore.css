@@ -17,7 +17,7 @@
 .p3-background {
   background-image: url(../Bioinformatics-vs-computational-biology.jpg);
   background-size: 100%;
-  min-width: 800px;
+  min-width: 500px;
   background-repeat: repeat-y;
   min-height: 300px;
 }
@@ -25,9 +25,19 @@
 .buttons-container {
   display: flex;
   justify-content: center;
+  flex-direction: row;
   margin: 0;
   width: 100%;
   border-width: 3px;
+
+  /* background-color: rgba(31, 31, 31, 0.8);*/
+}
+.buttons-subcontainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  padding: 0%;
 
   /* background-color: rgba(31, 31, 31, 0.8);*/
 }
@@ -41,7 +51,6 @@
   margin-bottom: 50px;
   width: 1000px;
   height: inherit;
-  min-width: 800px;
 
   top: 35%;
   left: 50%;
@@ -91,4 +100,16 @@
 
 .expandable-box {
   position: absolute;
+}
+@media (max-width: 600px) {
+  .buttons-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .buttons-subcontainer {
+    padding: 0%;
+  }
+  .p3-box {
+    width: 500px;
+  }
 }

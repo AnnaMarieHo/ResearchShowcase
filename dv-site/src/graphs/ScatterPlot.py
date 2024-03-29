@@ -1,7 +1,5 @@
-
 import pandas as pd
-import plotly.express as px
-import plotly.io as pio
+import plotly.graph_objects as go
 import numpy as np
 
 def create_scatterplot(csv_path, output_html_path):
@@ -11,45 +9,56 @@ def create_scatterplot(csv_path, output_html_path):
     data['-log10(padj)'] = -np.log10(data['padj'])
 
     # Define thresholds
-    p_value_threshold = -np.log10(0.05)  # -log10(0.05)
+    p_value_threshold = -np.log10(0.05)
 
-    # Create a new column for coloring based on significance and log2FoldChange
+    # Categorize points based on significance and direction of regulation
     data['Category'] = 'Non-Significant'
-    data.loc[(data['-log10(padj)'] >= p_value_threshold) & (data['log2FoldChange'] > 0), 'Category'] = 'Positive Significant'
-    data.loc[(data['-log10(padj)'] >= p_value_threshold) & (data['log2FoldChange'] < 0), 'Category'] = 'Negative Significant'
+    data.loc[(data['-log10(padj)'] >= p_value_threshold) & (data['log2FoldChange'] > 0), 'Category'] = 'Up Regulated'
+    data.loc[(data['-log10(padj)'] >= p_value_threshold) & (data['log2FoldChange'] < 0), 'Category'] = 'Down Regulated'
 
-    scatterplot = px.scatter(
-        data_frame=data,
-        x="log2FoldChange",
-        y="-log10(padj)",
-        hover_data=["gene_name", "gene_id"],
-        size_max=13,
-        color="Category",
-        color_discrete_map={
-            "Non-Significant": "lightslategray",
-            "Positive Significant": "blue",
-            "Negative Significant": "red"
-        }
+    fig = go.Figure()
+
+    # Define hover templates
+    hovertemplate_non_sig = "gene_name=%{customdata[0]}<br>-log10(padj)=%{y}<br>log2FoldChange=%{x}<br>gene_id=%{customdata[1]}<extra></extra>"
+    hovertemplate_sig = "gene_name=%{customdata[0]}<br>-log10(padj)=%{y}<extra></extra>"
+
+    # Plot each category with a different hovertemplate
+    for category, color, hovertemplate in [
+        ('Non-Significant', 'lightslategray', hovertemplate_non_sig),
+        ('Up Regulated', 'blue', hovertemplate_sig),
+        ('Down Regulated', 'red', hovertemplate_sig)]:
+
+        category_data = data[data['Category'] == category]
+
+        fig.add_trace(go.Scattergl(
+            x=category_data['log2FoldChange'],
+            y=category_data['-log10(padj)'],
+            mode='markers',
+            marker=dict(color=color),
+            customdata=np.stack((category_data['gene_name'], category_data['gene_id']), axis=-1),
+            hovertemplate=hovertemplate,
+            name=category
+        ))
+
+    # Customize gridlines and make dotted lines thinner
+    fig.update_layout(
+        xaxis=dict(showgrid=True, gridwidth=0.5, gridcolor='lightgrey'),
+        yaxis=dict(showgrid=True, gridwidth=0.5, gridcolor='lightgrey'),
+        plot_bgcolor='white'
     )
 
-    # Add horizontal and vertical dashed lines for significance thresholds
-    scatterplot.add_hline(y=p_value_threshold, line_dash="dash", line_width=0.8, line_color="red")
-    scatterplot.add_vline(x=0, line_dash="dash", line_width=0.8, line_color="red")
+    # Add thinner horizontal and vertical dashed lines for significance thresholds
+    fig.add_hline(y=p_value_threshold, line_dash="dash", line_width=1, line_color="grey")
+    fig.add_vline(x=0, line_dash="dash", line_width=1, line_color="grey")
 
-    scatterplot.update_layout(
+    fig.update_layout(
         autosize=True,
         margin=dict(l=20, r=20, t=20, b=20),
-        # plot_bgcolor='whitesmoke',
-        # paper_bgcolor='whitesmoke',  # Set the entire background to whitesmoke
-        
-        plot_bgcolor='white',
-        paper_bgcolor='white',  # Set the entire background to whitesmoke
-
+        xaxis_title="Log2 Fold Change",
+        yaxis_title="-Log10(padj)"
     )
-    scatterplot.update_xaxes(showgrid=True, gridwidth=0.5, gridcolor='lightgray', zeroline=True, zerolinecolor='lightgray')
-    scatterplot.update_yaxes(showgrid=True, gridwidth=0.5, gridcolor='lightgray',zeroline=True, zerolinecolor='lightgray')
 
-    pio.write_html(scatterplot, file=output_html_path, full_html=False, include_plotlyjs='cdn')
+    fig.write_html(output_html_path, include_plotlyjs='cdn')
 
 if __name__ == "__main__":
 

@@ -20,31 +20,34 @@ function Plot3() {
         <div className="p3-box">
           <div className="p3-large-font">Learn More</div>
           <div className="buttons-container">
-            {/* <ExpandingButton tab="Publications" /> */}
-            <ExpandingButton
-              tab="About"
-              info={projectInfo}
-              image={infoImg}
-              link="/about"
-            />
-            <ExpandingButton
-              tab="CNS-Met Cobre"
-              info={cobreInfo}
-              image={groupImage}
-              link="https://medicine.uky.edu/centers/scobirc/cns-met-metabolomics-core"
-            />
-            <ExpandingButton
-              tab="Selenica Lab"
-              info={selenicaLabInfo}
-              image={sLab}
-              link="http://selenicalab.createuky.net/"
-            />
-            <ExpandingButton
-              tab="Miller Lab"
-              info={millerLabInfo}
-              image={mLab}
-              link="https://millerlab.createuky.net/our-research/"
-            />
+            <div className="buttons-subcontainer">
+              <ExpandingButton
+                tab="About"
+                info={projectInfo}
+                image={infoImg}
+                link="/about"
+              />
+              <ExpandingButton
+                tab="CNS-Met Cobre"
+                info={cobreInfo}
+                image={groupImage}
+                link="https://medicine.uky.edu/centers/scobirc/cns-met-metabolomics-core"
+              />
+            </div>
+            <div className="buttons-subcontainer">
+              <ExpandingButton
+                tab="Selenica Lab"
+                info={selenicaLabInfo}
+                image={sLab}
+                link="http://selenicalab.createuky.net/"
+              />
+              <ExpandingButton
+                tab="Miller Lab"
+                info={millerLabInfo}
+                image={mLab}
+                link="https://millerlab.createuky.net/our-research/"
+              />
+            </div>
           </div>
         </div>
       </div>

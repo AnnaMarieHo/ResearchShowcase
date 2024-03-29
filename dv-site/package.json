@@ -1,5 +1,6 @@
 {
   "name": "dv-site",
+  "homepage": "https://eif5a.millerlab.createuky.net/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -40,10 +41,13 @@
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
     "@vitejs/plugin-react": "^4.0.3",
+    "customize-cra": "^1.0.0",
     "eslint": "^8.45.0",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
+    "raw-loader": "^4.0.2",
+    "react-app-rewired": "^2.2.1",
     "vite": "^4.4.5"
   },
   "compilerOptions": {

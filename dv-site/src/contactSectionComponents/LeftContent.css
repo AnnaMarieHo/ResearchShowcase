@@ -31,6 +31,6 @@
 @media (max-width: 900px) {
   .phone-container {
     width: 30vw;
-    min-width: 500px;
+    min-width: 400px;
   }
 }

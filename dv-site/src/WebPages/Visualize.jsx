@@ -1,19 +1,13 @@
 import VisualizeHero from "../visualizeComponents/VisualizeHero";
 import VisualizeBody from "../visualizeComponents/VisualizeBody";
 import { motion as m } from "framer-motion";
+import VisualizeSection from "../visualizeComponents/VolcanoVisualizationsSection/VisualizationSection";
 
 export default function Visualize() {
   return (
-    <m.div
-    // initial={{ opacity: 0 }}
-    // animate={{ opacity: 1 }}
-    // transition={{ duration: 0.75, ease: "easeOut" }}
-    >
+    <div style={{ minWidth: "500px" }}>
       <VisualizeHero />
-      <VisualizeBody />
-      {/* 
-      <VennVisualizations />
-      <DataDescription /> */}
-    </m.div>
+      <VisualizeSection />
+    </div>
   );
 }

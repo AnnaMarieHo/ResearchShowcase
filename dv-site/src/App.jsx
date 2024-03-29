@@ -14,8 +14,9 @@ function App() {
 
   return (
     <>
-      <div className="">
-        <Navbar />
+      <Navbar />
+
+      <div style={{ minWidth: "500px" }}>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<About />} />
