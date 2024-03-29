@@ -10,7 +10,7 @@ export default function ContactSection() {
     <div className="">
       <div className="form-container">
         <div className="contact-title">
-          <p style={{ fontSize: 27 }}>CONTACT</p>
+          <p style={{ fontSize: 27 }}>CONTCT</p>
         </div>
         <div className="form-inner-container">
           <div className="form-content">
