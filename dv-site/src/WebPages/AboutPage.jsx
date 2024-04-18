@@ -2,7 +2,7 @@ import "./AboutPage.css";
 import "../homeComponents/HomeDescription.css";
 import CustomDropDown from "../CustomDropDown";
 import { motion as m } from "framer-motion";
-// import Venn from "./visualizePage/VennDiagrams";
+import DotPlot from "../barCharts/testNetwork/DotPlot.jsx";
 export default function About() {
   const data = {
     nodes: [
@@ -27,8 +27,6 @@ export default function About() {
           >
             <div className="about-header">
               <h1>Contact</h1>
-              {/* <h1>Project Overview Page</h1>
-            <p>Under Construction</p> */}
             </div>
           </m.div>
         </div>

@@ -1,0 +1,902 @@
+{
+  "predicted gene, 23935 [Source:MGI Symbol;Acc:MGI:5453712]": {
+    "SHEF16_fpkm": 12.8507830447,
+    "SHEF18_fpkm": 13.2722238776,
+    "SHEF20_fpkm": 12.7114355403,
+    "SHEF6_fpkm": 13.950639369,
+    "SHEF7_fpkm": 12.2121323971,
+    "SHEF8_fpkm": 12.8484726883,
+    "SHEF9_fpkm": 13.5180788153
+  },
+  "mitochondrially encoded cytochrome c oxidase I [Source:MGI Symbol;Acc:MGI:102504]": {
+    "SHEF16_fpkm": 13.005747416,
+    "SHEF18_fpkm": 12.8987270713,
+    "SHEF20_fpkm": 12.8090449779,
+    "SHEF6_fpkm": 13.019827428,
+    "SHEF7_fpkm": 12.9938764976,
+    "SHEF8_fpkm": 13.0053922762,
+    "SHEF9_fpkm": 12.9220482047
+  },
+  "mitochondrially encoded cytochrome b [Source:MGI Symbol;Acc:MGI:102501]": {
+    "SHEF16_fpkm": 12.2131660208,
+    "SHEF18_fpkm": 12.3588217458,
+    "SHEF20_fpkm": 11.7595405429,
+    "SHEF6_fpkm": 12.0382496214,
+    "SHEF7_fpkm": 11.975578775,
+    "SHEF8_fpkm": 11.992561426,
+    "SHEF9_fpkm": 11.9036355745
+  },
+  "mitochondrially encoded NADH dehydrogenase 1 [Source:MGI Symbol;Acc:MGI:101787]": {
+    "SHEF16_fpkm": 12.2528692428,
+    "SHEF18_fpkm": 12.4054816714,
+    "SHEF20_fpkm": 11.6645430464,
+    "SHEF6_fpkm": 11.7535238709,
+    "SHEF7_fpkm": 11.7124858525,
+    "SHEF8_fpkm": 11.7837851928,
+    "SHEF9_fpkm": 11.6313928744
+  },
+  "mitochondrially encoded 12S rRNA [Source:MGI Symbol;Acc:MGI:102493]": {
+    "SHEF16_fpkm": 11.5289493497,
+    "SHEF18_fpkm": 11.9921098331,
+    "SHEF20_fpkm": 10.8409904813,
+    "SHEF6_fpkm": 11.1547714884,
+    "SHEF7_fpkm": 11.1464065127,
+    "SHEF8_fpkm": 11.0256225171,
+    "SHEF9_fpkm": 11.0990407454
+  },
+  "mitochondrially encoded NADH dehydrogenase 2 [Source:MGI Symbol;Acc:MGI:102500]": {
+    "SHEF16_fpkm": 11.311029139,
+    "SHEF18_fpkm": 11.5031422235,
+    "SHEF20_fpkm": 10.7794092392,
+    "SHEF6_fpkm": 11.0190306135,
+    "SHEF7_fpkm": 10.9279233914,
+    "SHEF8_fpkm": 11.0189483943,
+    "SHEF9_fpkm": 10.8997599941
+  },
+  "mitochondrially encoded 16S rRNA [Source:MGI Symbol;Acc:MGI:102492]": {
+    "SHEF16_fpkm": 11.125778215,
+    "SHEF18_fpkm": 11.7376352334,
+    "SHEF20_fpkm": 10.8291117845,
+    "SHEF6_fpkm": 10.9410830429,
+    "SHEF7_fpkm": 10.9359628898,
+    "SHEF8_fpkm": 10.7655640483,
+    "SHEF9_fpkm": 10.98453402
+  },
+  "ferritin heavy polypeptide 1 [Source:MGI Symbol;Acc:MGI:95588]": {
+    "SHEF16_fpkm": 11.260358382,
+    "SHEF18_fpkm": 11.5857511172,
+    "SHEF20_fpkm": 10.4296349549,
+    "SHEF6_fpkm": 10.8508941327,
+    "SHEF7_fpkm": 11.0472884572,
+    "SHEF8_fpkm": 10.8808166347,
+    "SHEF9_fpkm": 10.514667183
+  },
+  "mitochondrially encoded NADH dehydrogenase 4 [Source:MGI Symbol;Acc:MGI:102498]": {
+    "SHEF16_fpkm": 11.2194430488,
+    "SHEF18_fpkm": 11.4662375523,
+    "SHEF20_fpkm": 10.493499624,
+    "SHEF6_fpkm": 10.8018057355,
+    "SHEF7_fpkm": 10.7304104794,
+    "SHEF8_fpkm": 10.6584099066,
+    "SHEF9_fpkm": 10.6358121899
+  },
+  "mitochondrially encoded NADH dehydrogenase 6 [Source:MGI Symbol;Acc:MGI:102495]": {
+    "SHEF16_fpkm": 10.7538508548,
+    "SHEF18_fpkm": 10.9137273749,
+    "SHEF20_fpkm": 10.4056677338,
+    "SHEF6_fpkm": 10.5318600771,
+    "SHEF7_fpkm": 10.505121753,
+    "SHEF8_fpkm": 10.2740760829,
+    "SHEF9_fpkm": 10.4046422777
+  },
+  "mitochondrially encoded tRNA proline [Source:MGI Symbol;Acc:MGI:102478]": {
+    "SHEF16_fpkm": 10.5676905,
+    "SHEF18_fpkm": 10.768935082,
+    "SHEF20_fpkm": 10.2123304055,
+    "SHEF6_fpkm": 10.3547880613,
+    "SHEF7_fpkm": 10.3544861596,
+    "SHEF8_fpkm": 10.1391611325,
+    "SHEF9_fpkm": 10.0983381269
+  },
+  "mitochondrially encoded NADH dehydrogenase 5 [Source:MGI Symbol;Acc:MGI:102496]": {
+    "SHEF16_fpkm": 9.6506798308,
+    "SHEF18_fpkm": 9.6046481077,
+    "SHEF20_fpkm": 10.5094567491,
+    "SHEF6_fpkm": 10.658412182,
+    "SHEF7_fpkm": 10.578457237,
+    "SHEF8_fpkm": 10.0232558791,
+    "SHEF9_fpkm": 10.6170999142
+  },
+  "calmodulin 2 [Source:MGI Symbol;Acc:MGI:103250]": {
+    "SHEF16_fpkm": 10.3323261887,
+    "SHEF18_fpkm": 10.5046318183,
+    "SHEF20_fpkm": 9.8173957324,
+    "SHEF6_fpkm": 10.0893730039,
+    "SHEF7_fpkm": 10.0623664695,
+    "SHEF8_fpkm": 10.1714385711,
+    "SHEF9_fpkm": 9.872588538
+  },
+  "carboxypeptidase E [Source:MGI Symbol;Acc:MGI:101932]": {
+    "SHEF16_fpkm": 10.0857518874,
+    "SHEF18_fpkm": 10.3035667911,
+    "SHEF20_fpkm": 9.937448448,
+    "SHEF6_fpkm": 10.1541242096,
+    "SHEF7_fpkm": 10.0811631908,
+    "SHEF8_fpkm": 9.9888180348,
+    "SHEF9_fpkm": 9.9750052812
+  },
+  "cystatin C [Source:MGI Symbol;Acc:MGI:102519]": {
+    "SHEF16_fpkm": 10.1646783206,
+    "SHEF18_fpkm": 10.6549666846,
+    "SHEF20_fpkm": 9.5604599673,
+    "SHEF6_fpkm": 9.66406279,
+    "SHEF7_fpkm": 9.6798248404,
+    "SHEF8_fpkm": 9.7866094777,
+    "SHEF9_fpkm": 9.5234604016
+  },
+  "selenoprotein W [Source:MGI Symbol;Acc:MGI:1100878]": {
+    "SHEF16_fpkm": 10.0378078715,
+    "SHEF18_fpkm": 10.5053085898,
+    "SHEF20_fpkm": 9.5179827421,
+    "SHEF6_fpkm": 9.6687067325,
+    "SHEF7_fpkm": 9.8104980101,
+    "SHEF8_fpkm": 9.6820670607,
+    "SHEF9_fpkm": 9.3563272209
+  },
+  "calmodulin 3 [Source:MGI Symbol;Acc:MGI:103249]": {
+    "SHEF16_fpkm": 10.0323252823,
+    "SHEF18_fpkm": 10.2342270278,
+    "SHEF20_fpkm": 9.4778714826,
+    "SHEF6_fpkm": 9.6467230933,
+    "SHEF7_fpkm": 9.7123926844,
+    "SHEF8_fpkm": 9.7300944504,
+    "SHEF9_fpkm": 9.3395610032
+  },
+  "eukaryotic translation elongation factor 1 alpha 1 [Source:MGI Symbol;Acc:MGI:1096881]": {
+    "SHEF16_fpkm": 9.7870783784,
+    "SHEF18_fpkm": 10.050223864,
+    "SHEF20_fpkm": 9.5143324656,
+    "SHEF6_fpkm": 9.6986982866,
+    "SHEF7_fpkm": 9.6332981004,
+    "SHEF8_fpkm": 9.8597865891,
+    "SHEF9_fpkm": 9.6062765052
+  },
+  "apolipoprotein E [Source:MGI Symbol;Acc:MGI:88057]": {
+    "SHEF16_fpkm": 10.079532336,
+    "SHEF18_fpkm": 10.5316806483,
+    "SHEF20_fpkm": 9.350512687,
+    "SHEF6_fpkm": 9.2912126495,
+    "SHEF7_fpkm": 9.3806235038,
+    "SHEF8_fpkm": 9.5124468681,
+    "SHEF9_fpkm": 9.3720289558
+  },
+  "neurogranin [Source:MGI Symbol;Acc:MGI:1927184]": {
+    "SHEF16_fpkm": 10.0514733446,
+    "SHEF18_fpkm": 10.2351589215,
+    "SHEF20_fpkm": 8.9980864784,
+    "SHEF6_fpkm": 9.2511208899,
+    "SHEF7_fpkm": 9.3799146579,
+    "SHEF8_fpkm": 9.6432593128,
+    "SHEF9_fpkm": 8.916869065
+  },
+  "neurochondrin [Source:MGI Symbol;Acc:MGI:1347351]": {
+    "SHEF16_fpkm": 9.1866827232,
+    "SHEF18_fpkm": 9.6394386297,
+    "SHEF20_fpkm": 9.1538686755,
+    "SHEF6_fpkm": 9.5092913544,
+    "SHEF7_fpkm": 9.5568961515,
+    "SHEF8_fpkm": 9.5772543339,
+    "SHEF9_fpkm": 9.1795269954
+  },
+  "dendrin [Source:MGI Symbol;Acc:MGI:108101]": {
+    "SHEF16_fpkm": 9.1404034805,
+    "SHEF18_fpkm": 9.7443672387,
+    "SHEF20_fpkm": 9.0374212369,
+    "SHEF6_fpkm": 9.4975582116,
+    "SHEF7_fpkm": 9.5579385041,
+    "SHEF8_fpkm": 9.4850048528,
+    "SHEF9_fpkm": 9.0518219286
+  },
+  "hippocalcin [Source:MGI Symbol;Acc:MGI:1336200]": {
+    "SHEF16_fpkm": 9.0561013122,
+    "SHEF18_fpkm": 9.9658568606,
+    "SHEF20_fpkm": 8.8340903577,
+    "SHEF6_fpkm": 9.4439125677,
+    "SHEF7_fpkm": 9.616272387,
+    "SHEF8_fpkm": 9.3754431079,
+    "SHEF9_fpkm": 8.7575377154
+  },
+  "heat shock protein 90 alpha (cytosolic), class B member 1 [Source:MGI Symbol;Acc:MGI:96247]": {
+    "SHEF16_fpkm": 9.3191476911,
+    "SHEF18_fpkm": 9.6623001909,
+    "SHEF20_fpkm": 8.9385790174,
+    "SHEF6_fpkm": 9.0677461278,
+    "SHEF7_fpkm": 9.1885205612,
+    "SHEF8_fpkm": 9.2382255966,
+    "SHEF9_fpkm": 9.0592089133
+  },
+  "prosaposin [Source:MGI Symbol;Acc:MGI:97783]": {
+    "SHEF16_fpkm": 9.3584836542,
+    "SHEF18_fpkm": 9.4876036393,
+    "SHEF20_fpkm": 9.1172259069,
+    "SHEF6_fpkm": 9.0813991458,
+    "SHEF7_fpkm": 9.0613763458,
+    "SHEF8_fpkm": 9.1929181393,
+    "SHEF9_fpkm": 9.1613871527
+  },
+  "SPARC-like 1 [Source:MGI Symbol;Acc:MGI:108110]": {
+    "SHEF16_fpkm": 9.3281946505,
+    "SHEF18_fpkm": 9.2483617479,
+    "SHEF20_fpkm": 9.3203219277,
+    "SHEF6_fpkm": 9.0173794214,
+    "SHEF7_fpkm": 9.0246483471,
+    "SHEF8_fpkm": 9.1302614547,
+    "SHEF9_fpkm": 9.2164623493
+  },
+  "ribosomal protein, large, P1 [Source:MGI Symbol;Acc:MGI:1927099]": {
+    "SHEF16_fpkm": 9.5579033141,
+    "SHEF18_fpkm": 9.8861657105,
+    "SHEF20_fpkm": 8.9447634652,
+    "SHEF6_fpkm": 8.8206324598,
+    "SHEF7_fpkm": 8.9766515024,
+    "SHEF8_fpkm": 9.1220064084,
+    "SHEF9_fpkm": 8.8697854075
+  },
+  "calmodulin 1 [Source:MGI Symbol;Acc:MGI:88251]": {
+    "SHEF16_fpkm": 9.1156608938,
+    "SHEF18_fpkm": 8.997896712,
+    "SHEF20_fpkm": 9.0211341019,
+    "SHEF6_fpkm": 9.1877385039,
+    "SHEF7_fpkm": 9.0562316836,
+    "SHEF8_fpkm": 9.1000593223,
+    "SHEF9_fpkm": 9.0808603592
+  },
+  "calcium/calmodulin-dependent protein kinase II alpha [Source:MGI Symbol;Acc:MGI:88256]": {
+    "SHEF16_fpkm": 8.7389496856,
+    "SHEF18_fpkm": 9.021335429,
+    "SHEF20_fpkm": 8.9017828928,
+    "SHEF6_fpkm": 9.2340301025,
+    "SHEF7_fpkm": 9.2168851152,
+    "SHEF8_fpkm": 9.010324762,
+    "SHEF9_fpkm": 8.7703690806
+  },
+  "eukaryotic translation elongation factor 1 alpha 2 [Source:MGI Symbol;Acc:MGI:1096317]": {
+    "SHEF16_fpkm": 9.4176287402,
+    "SHEF18_fpkm": 9.4577080464,
+    "SHEF20_fpkm": 8.7845242543,
+    "SHEF6_fpkm": 8.7024044038,
+    "SHEF7_fpkm": 8.6680918302,
+    "SHEF8_fpkm": 8.8792971661,
+    "SHEF9_fpkm": 8.6092165484
+  },
+  "ATPase, Na+/K+ transporting, beta 1 polypeptide [Source:MGI Symbol;Acc:MGI:88108]": {
+    "SHEF16_fpkm": 8.7577889948,
+    "SHEF18_fpkm": 8.768952155,
+    "SHEF20_fpkm": 8.8625585108,
+    "SHEF6_fpkm": 9.0335315124,
+    "SHEF7_fpkm": 8.993753285,
+    "SHEF8_fpkm": 9.0120062061,
+    "SHEF9_fpkm": 8.9523196735
+  },
+  "cytochrome c oxidase subunit 8A [Source:MGI Symbol;Acc:MGI:105959]": {
+    "SHEF16_fpkm": 9.2127831773,
+    "SHEF18_fpkm": 9.5707709247,
+    "SHEF20_fpkm": 8.7513392555,
+    "SHEF6_fpkm": 8.6625133945,
+    "SHEF7_fpkm": 8.7959849428,
+    "SHEF8_fpkm": 8.7161385838,
+    "SHEF9_fpkm": 8.6469750189
+  },
+  "thymosin, beta 4, X chromosome [Source:MGI Symbol;Acc:MGI:99510]": {
+    "SHEF16_fpkm": 8.9688977804,
+    "SHEF18_fpkm": 9.5018584588,
+    "SHEF20_fpkm": 8.4296253785,
+    "SHEF6_fpkm": 8.7835285676,
+    "SHEF7_fpkm": 8.9307828157,
+    "SHEF8_fpkm": 8.9238294589,
+    "SHEF9_fpkm": 8.572019351
+  },
+  "ATPase, Na+/K+ transporting, alpha 3 polypeptide [Source:MGI Symbol;Acc:MGI:88107]": {
+    "SHEF16_fpkm": 8.7542715643,
+    "SHEF18_fpkm": 9.0540680561,
+    "SHEF20_fpkm": 8.7005732705,
+    "SHEF6_fpkm": 8.7877364343,
+    "SHEF7_fpkm": 8.6897688906,
+    "SHEF8_fpkm": 8.8240893775,
+    "SHEF9_fpkm": 8.5407483377
+  },
+  "amyloid beta (A4) precursor-like protein 1 [Source:MGI Symbol;Acc:MGI:88046]": {
+    "SHEF16_fpkm": 9.0354903097,
+    "SHEF18_fpkm": 9.1609619391,
+    "SHEF20_fpkm": 8.511864154,
+    "SHEF6_fpkm": 8.6100779813,
+    "SHEF7_fpkm": 8.6216546311,
+    "SHEF8_fpkm": 8.77834316,
+    "SHEF9_fpkm": 8.4368359067
+  },
+  "cytochrome c oxidase subunit 6A1 [Source:MGI Symbol;Acc:MGI:103099]": {
+    "SHEF16_fpkm": 9.1844516536,
+    "SHEF18_fpkm": 9.3588519668,
+    "SHEF20_fpkm": 8.4987862099,
+    "SHEF6_fpkm": 8.5155100278,
+    "SHEF7_fpkm": 8.473173234,
+    "SHEF8_fpkm": 8.48560644,
+    "SHEF9_fpkm": 8.4393636734
+  },
+  "glutamate-ammonia ligase (glutamine synthetase) [Source:MGI Symbol;Acc:MGI:95739]": {
+    "SHEF16_fpkm": 8.5957681279,
+    "SHEF18_fpkm": 9.2914725896,
+    "SHEF20_fpkm": 8.6870235095,
+    "SHEF6_fpkm": 8.5355364687,
+    "SHEF7_fpkm": 8.6162295704,
+    "SHEF8_fpkm": 8.9184192511,
+    "SHEF9_fpkm": 8.2560929838
+  },
+  "ribosomal protein S15 [Source:MGI Symbol;Acc:MGI:98117]": {
+    "SHEF16_fpkm": 9.1225770939,
+    "SHEF18_fpkm": 9.2864349499,
+    "SHEF20_fpkm": 8.3982989519,
+    "SHEF6_fpkm": 8.2778641517,
+    "SHEF7_fpkm": 8.3619309859,
+    "SHEF8_fpkm": 8.6014305508,
+    "SHEF9_fpkm": 8.3739331272
+  },
+  "ubiquitin B [Source:MGI Symbol;Acc:MGI:98888]": {
+    "SHEF16_fpkm": 8.8348804329,
+    "SHEF18_fpkm": 9.2500150872,
+    "SHEF20_fpkm": 8.329788208,
+    "SHEF6_fpkm": 8.4640194997,
+    "SHEF7_fpkm": 8.4611415777,
+    "SHEF8_fpkm": 8.6345708075,
+    "SHEF9_fpkm": 8.4121491273
+  },
+  "actin, beta [Source:MGI Symbol;Acc:MGI:87904]": {
+    "SHEF16_fpkm": 8.961986129,
+    "SHEF18_fpkm": 9.2157068645,
+    "SHEF20_fpkm": 8.371564761,
+    "SHEF6_fpkm": 8.4331777182,
+    "SHEF7_fpkm": 8.4536228333,
+    "SHEF8_fpkm": 8.6088692847,
+    "SHEF9_fpkm": 8.1631652159
+  },
+  "prion protein [Source:MGI Symbol;Acc:MGI:97769]": {
+    "SHEF16_fpkm": 8.7239653969,
+    "SHEF18_fpkm": 8.8717348449,
+    "SHEF20_fpkm": 8.4383555194,
+    "SHEF6_fpkm": 8.5841446429,
+    "SHEF7_fpkm": 8.5440544221,
+    "SHEF8_fpkm": 8.5775607179,
+    "SHEF9_fpkm": 8.3864585254
+  },
+  "kinesin family member 5A [Source:MGI Symbol;Acc:MGI:109564]": {
+    "SHEF16_fpkm": 8.8227905178,
+    "SHEF18_fpkm": 8.360480788,
+    "SHEF20_fpkm": 8.5907719006,
+    "SHEF6_fpkm": 8.5661229578,
+    "SHEF7_fpkm": 8.468776506,
+    "SHEF8_fpkm": 8.5230057997,
+    "SHEF9_fpkm": 8.6946896195
+  },
+  "stathmin-like 3 [Source:MGI Symbol;Acc:MGI:1277137]": {
+    "SHEF16_fpkm": 9.0028711564,
+    "SHEF18_fpkm": 9.1806986161,
+    "SHEF20_fpkm": 8.3612316556,
+    "SHEF6_fpkm": 8.0857396861,
+    "SHEF7_fpkm": 8.2619693024,
+    "SHEF8_fpkm": 8.5219573513,
+    "SHEF9_fpkm": 8.2531094947
+  },
+  "eukaryotic translation elongation factor 2 [Source:MGI Symbol;Acc:MGI:95288]": {
+    "SHEF16_fpkm": 8.8221589845,
+    "SHEF18_fpkm": 8.9183169042,
+    "SHEF20_fpkm": 8.3619958405,
+    "SHEF6_fpkm": 8.3275709021,
+    "SHEF7_fpkm": 8.1776265546,
+    "SHEF8_fpkm": 8.4555823928,
+    "SHEF9_fpkm": 8.2351280088
+  },
+  "protein phosphatase 1, regulatory subunit 9B [Source:MGI Symbol;Acc:MGI:2387581]": {
+    "SHEF16_fpkm": 8.5395301316,
+    "SHEF18_fpkm": 9.0687950583,
+    "SHEF20_fpkm": 8.2515615851,
+    "SHEF6_fpkm": 8.4661369617,
+    "SHEF7_fpkm": 8.5127513712,
+    "SHEF8_fpkm": 8.323007277,
+    "SHEF9_fpkm": 8.0785786073
+  },
+  "complexin 2 [Source:MGI Symbol;Acc:MGI:104726]": {
+    "SHEF16_fpkm": 8.4025602896,
+    "SHEF18_fpkm": 8.73093542,
+    "SHEF20_fpkm": 8.2449053029,
+    "SHEF6_fpkm": 8.513317425,
+    "SHEF7_fpkm": 8.5039657827,
+    "SHEF8_fpkm": 8.46171607,
+    "SHEF9_fpkm": 8.2779318672
+  },
+  "glycoprotein m6a [Source:MGI Symbol;Acc:MGI:107671]": {
+    "SHEF16_fpkm": 8.1840501025,
+    "SHEF18_fpkm": 7.9838397973,
+    "SHEF20_fpkm": 8.4499533832,
+    "SHEF6_fpkm": 8.853568837,
+    "SHEF7_fpkm": 8.5851847214,
+    "SHEF8_fpkm": 8.432717488,
+    "SHEF9_fpkm": 8.5989920506
+  },
+  "Nedd4 family interacting protein 1 [Source:MGI Symbol;Acc:MGI:1929601]": {
+    "SHEF16_fpkm": 8.619796663,
+    "SHEF18_fpkm": 8.4134844461,
+    "SHEF20_fpkm": 8.3050137884,
+    "SHEF6_fpkm": 8.461236504,
+    "SHEF7_fpkm": 8.2568519715,
+    "SHEF8_fpkm": 8.4951545479,
+    "SHEF9_fpkm": 8.396192439
+  },
+  "upregulated during skeletal muscle growth 5 [Source:MGI Symbol;Acc:MGI:1891435]": {
+    "SHEF16_fpkm": 8.8867515427,
+    "SHEF18_fpkm": 9.123110837,
+    "SHEF20_fpkm": 8.1951518575,
+    "SHEF6_fpkm": 7.9221156976,
+    "SHEF7_fpkm": 8.1561505185,
+    "SHEF8_fpkm": 8.3050555085,
+    "SHEF9_fpkm": 8.2404938927
+  },
+  "cornichon family AMPA receptor auxiliary protein 2 [Source:MGI Symbol;Acc:MGI:1277225]": {
+    "SHEF16_fpkm": 8.2502822838,
+    "SHEF18_fpkm": 9.0207893687,
+    "SHEF20_fpkm": 7.9234678981,
+    "SHEF6_fpkm": 8.5753814906,
+    "SHEF7_fpkm": 8.5417068989,
+    "SHEF8_fpkm": 8.4442460522,
+    "SHEF9_fpkm": 7.9501468071
+  },
+  "integral membrane protein 2C [Source:MGI Symbol;Acc:MGI:1927594]": {
+    "SHEF16_fpkm": 8.580858495,
+    "SHEF18_fpkm": 8.9310950266,
+    "SHEF20_fpkm": 8.0283255476,
+    "SHEF6_fpkm": 8.3296177711,
+    "SHEF7_fpkm": 8.3105777903,
+    "SHEF8_fpkm": 8.3298419146,
+    "SHEF9_fpkm": 8.1339708783
+  },
+  "creatine kinase, brain [Source:MGI Symbol;Acc:MGI:88407]": {
+    "SHEF16_fpkm": 9.024728383,
+    "SHEF18_fpkm": 8.9555820696,
+    "SHEF20_fpkm": 8.2469172947,
+    "SHEF6_fpkm": 8.0533267203,
+    "SHEF7_fpkm": 7.953613125,
+    "SHEF8_fpkm": 8.2036397527,
+    "SHEF9_fpkm": 8.0364457314
+  },
+  "myelin basic protein [Source:MGI Symbol;Acc:MGI:96925]": {
+    "SHEF16_fpkm": 8.5751855004,
+    "SHEF18_fpkm": 8.8592641272,
+    "SHEF20_fpkm": 7.873740574,
+    "SHEF6_fpkm": 8.2426552123,
+    "SHEF7_fpkm": 8.4620411197,
+    "SHEF8_fpkm": 8.4257554509,
+    "SHEF9_fpkm": 8.0000255828
+  },
+  "protein phosphatase 3, regulatory subunit B, alpha isoform (calcineurin B, type I) [Source:MGI Symbol;Acc:MGI:107172]": {
+    "SHEF16_fpkm": 8.2927601123,
+    "SHEF18_fpkm": 8.4902253626,
+    "SHEF20_fpkm": 7.9865595741,
+    "SHEF6_fpkm": 8.5291714271,
+    "SHEF7_fpkm": 8.4476195581,
+    "SHEF8_fpkm": 8.4636783345,
+    "SHEF9_fpkm": 8.0771743822
+  },
+  "synaptosomal-associated protein 25 [Source:MGI Symbol;Acc:MGI:98331]": {
+    "SHEF16_fpkm": 8.4981132719,
+    "SHEF18_fpkm": 8.3160475038,
+    "SHEF20_fpkm": 8.237768024,
+    "SHEF6_fpkm": 8.3851636669,
+    "SHEF7_fpkm": 8.2753861574,
+    "SHEF8_fpkm": 8.341239994,
+    "SHEF9_fpkm": 8.1946570135
+  },
+  "proteolipid protein (myelin) 1 [Source:MGI Symbol;Acc:MGI:97623]": {
+    "SHEF16_fpkm": 8.2342586573,
+    "SHEF18_fpkm": 8.1165284808,
+    "SHEF20_fpkm": 8.0463173865,
+    "SHEF6_fpkm": 8.4510442368,
+    "SHEF7_fpkm": 8.6349932218,
+    "SHEF8_fpkm": 8.3939045492,
+    "SHEF9_fpkm": 8.2808422861
+  },
+  "ADP-ribosylation factor 3 [Source:MGI Symbol;Acc:MGI:99432]": {
+    "SHEF16_fpkm": 8.3821667255,
+    "SHEF18_fpkm": 8.5070834525,
+    "SHEF20_fpkm": 8.0836243001,
+    "SHEF6_fpkm": 8.4393181478,
+    "SHEF7_fpkm": 8.3095634195,
+    "SHEF8_fpkm": 8.2635776163,
+    "SHEF9_fpkm": 8.1071827639
+  },
+  "olfactomedin 1 [Source:MGI Symbol;Acc:MGI:1860437]": {
+    "SHEF16_fpkm": 8.4596321475,
+    "SHEF18_fpkm": 8.6988525384,
+    "SHEF20_fpkm": 8.0807146522,
+    "SHEF6_fpkm": 8.2307146233,
+    "SHEF7_fpkm": 8.2600682034,
+    "SHEF8_fpkm": 8.2551803589,
+    "SHEF9_fpkm": 7.9764249599
+  },
+  "dynamin 1 [Source:MGI Symbol;Acc:MGI:107384]": {
+    "SHEF16_fpkm": 8.3735138911,
+    "SHEF18_fpkm": 8.4930765218,
+    "SHEF20_fpkm": 8.1662547673,
+    "SHEF6_fpkm": 8.3355822713,
+    "SHEF7_fpkm": 8.2033472781,
+    "SHEF8_fpkm": 8.2746667011,
+    "SHEF9_fpkm": 8.0576173785
+  },
+  "tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, epsilon polypeptide [Source:MGI Symbol;Acc:MGI:894689]": {
+    "SHEF16_fpkm": 8.4350751825,
+    "SHEF18_fpkm": 8.7212198613,
+    "SHEF20_fpkm": 8.0369431914,
+    "SHEF6_fpkm": 8.1893430477,
+    "SHEF7_fpkm": 8.1730495626,
+    "SHEF8_fpkm": 8.2962863879,
+    "SHEF9_fpkm": 8.0332930793
+  },
+  "glyceraldehyde-3-phosphate dehydrogenase [Source:MGI Symbol;Acc:MGI:95640]": {
+    "SHEF16_fpkm": 8.7232008361,
+    "SHEF18_fpkm": 8.6776947559,
+    "SHEF20_fpkm": 7.8554942625,
+    "SHEF6_fpkm": 8.3048646919,
+    "SHEF7_fpkm": 7.9399223434,
+    "SHEF8_fpkm": 8.4682986902,
+    "SHEF9_fpkm": 7.8789404069
+  },
+  "parathymosin [Source:MGI Symbol;Acc:MGI:1916452]": {
+    "SHEF16_fpkm": 8.7272874459,
+    "SHEF18_fpkm": 8.8407591788,
+    "SHEF20_fpkm": 7.8315937881,
+    "SHEF6_fpkm": 8.1483737503,
+    "SHEF7_fpkm": 8.1250179163,
+    "SHEF8_fpkm": 8.192542385,
+    "SHEF9_fpkm": 7.9443930085
+  },
+  "ubiquitin carboxy-terminal hydrolase L1 [Source:MGI Symbol;Acc:MGI:103149]": {
+    "SHEF16_fpkm": 8.6275093836,
+    "SHEF18_fpkm": 8.7667644657,
+    "SHEF20_fpkm": 8.0979070707,
+    "SHEF6_fpkm": 8.0420502382,
+    "SHEF7_fpkm": 8.1579535983,
+    "SHEF8_fpkm": 8.129412917,
+    "SHEF9_fpkm": 7.9783263583
+  },
+  "N-myc downstream regulated gene 4 [Source:MGI Symbol;Acc:MGI:2384590]": {
+    "SHEF16_fpkm": 8.3001671563,
+    "SHEF18_fpkm": 8.1594738135,
+    "SHEF20_fpkm": 8.3189554631,
+    "SHEF6_fpkm": 8.2461594071,
+    "SHEF7_fpkm": 8.2035900422,
+    "SHEF8_fpkm": 8.2680685975,
+    "SHEF9_fpkm": 8.1547166891
+  },
+  "visinin-like 1 [Source:MGI Symbol;Acc:MGI:1349453]": {
+    "SHEF16_fpkm": 8.797393526,
+    "SHEF18_fpkm": 8.3445985913,
+    "SHEF20_fpkm": 8.1721506922,
+    "SHEF6_fpkm": 8.1273145734,
+    "SHEF7_fpkm": 7.8474160109,
+    "SHEF8_fpkm": 8.1629754345,
+    "SHEF9_fpkm": 8.0098776307
+  },
+  "tubulin, beta 2A class IIA [Source:MGI Symbol;Acc:MGI:107861]": {
+    "SHEF16_fpkm": 8.3454668082,
+    "SHEF18_fpkm": 8.7713483522,
+    "SHEF20_fpkm": 7.9684320813,
+    "SHEF6_fpkm": 8.1124054416,
+    "SHEF7_fpkm": 8.0215869467,
+    "SHEF8_fpkm": 8.2357422515,
+    "SHEF9_fpkm": 8.0004155321
+  },
+  "tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, eta polypeptide [Source:MGI Symbol;Acc:MGI:109194]": {
+    "SHEF16_fpkm": 8.3303447123,
+    "SHEF18_fpkm": 8.5141138999,
+    "SHEF20_fpkm": 7.9779510997,
+    "SHEF6_fpkm": 8.2505791163,
+    "SHEF7_fpkm": 8.1487650242,
+    "SHEF8_fpkm": 8.1926811609,
+    "SHEF9_fpkm": 7.993175502
+  },
+  "tubulin, beta 4A class IVA [Source:MGI Symbol;Acc:MGI:107848]": {
+    "SHEF16_fpkm": 8.5365739766,
+    "SHEF18_fpkm": 8.6121752866,
+    "SHEF20_fpkm": 7.94796457,
+    "SHEF6_fpkm": 8.036663162,
+    "SHEF7_fpkm": 8.0580206841,
+    "SHEF8_fpkm": 8.2260582686,
+    "SHEF9_fpkm": 7.8118617512
+  },
+  "sodium channel, voltage-gated, type I, beta [Source:MGI Symbol;Acc:MGI:98247]": {
+    "SHEF16_fpkm": 8.6106841623,
+    "SHEF18_fpkm": 8.6277664395,
+    "SHEF20_fpkm": 8.0367698934,
+    "SHEF6_fpkm": 7.968922491,
+    "SHEF7_fpkm": 8.1067297255,
+    "SHEF8_fpkm": 8.0490099094,
+    "SHEF9_fpkm": 7.716322549
+  },
+  "ribosomal protein L17 [Source:MGI Symbol;Acc:MGI:2448270]": {
+    "SHEF16_fpkm": 8.6698211427,
+    "SHEF18_fpkm": 8.794660347,
+    "SHEF20_fpkm": 7.9768664119,
+    "SHEF6_fpkm": 7.7073606045,
+    "SHEF7_fpkm": 7.8564562965,
+    "SHEF8_fpkm": 8.1068167461,
+    "SHEF9_fpkm": 7.9381299179
+  },
+  "solute carrier family 17 (sodium-dependent inorganic phosphate cotransporter), member 7 [Source:MGI Symbol;Acc:MGI:1920211]": {
+    "SHEF16_fpkm": 8.2466476099,
+    "SHEF18_fpkm": 8.5964761962,
+    "SHEF20_fpkm": 7.9403281148,
+    "SHEF6_fpkm": 8.1840471986,
+    "SHEF7_fpkm": 8.1093005152,
+    "SHEF8_fpkm": 8.0814252471,
+    "SHEF9_fpkm": 7.852993838
+  },
+  "cofilin 1, non-muscle [Source:MGI Symbol;Acc:MGI:101757]": {
+    "SHEF16_fpkm": 8.5323147616,
+    "SHEF18_fpkm": 8.6812290059,
+    "SHEF20_fpkm": 7.9513648916,
+    "SHEF6_fpkm": 7.9888286804,
+    "SHEF7_fpkm": 7.960644747,
+    "SHEF8_fpkm": 8.0858329713,
+    "SHEF9_fpkm": 7.8052262899
+  },
+  "dynein light chain LC8-type 2 [Source:MGI Symbol;Acc:MGI:1915347]": {
+    "SHEF16_fpkm": 8.4678911591,
+    "SHEF18_fpkm": 8.6112600201,
+    "SHEF20_fpkm": 7.9998950942,
+    "SHEF6_fpkm": 7.9530017881,
+    "SHEF7_fpkm": 7.9559228292,
+    "SHEF8_fpkm": 7.9448760244,
+    "SHEF9_fpkm": 7.9397658905
+  },
+  "somatostatin [Source:MGI Symbol;Acc:MGI:98326]": {
+    "SHEF16_fpkm": 8.4836449234,
+    "SHEF18_fpkm": 8.6314982315,
+    "SHEF20_fpkm": 7.6764902321,
+    "SHEF6_fpkm": 8.0301335549,
+    "SHEF7_fpkm": 7.9117054839,
+    "SHEF8_fpkm": 7.9919938442,
+    "SHEF9_fpkm": 7.9759676549
+  },
+  "ATP synthase, H+ transporting mitochondrial F1 complex, beta subunit [Source:MGI Symbol;Acc:MGI:107801]": {
+    "SHEF16_fpkm": 8.4758622392,
+    "SHEF18_fpkm": 8.5956763397,
+    "SHEF20_fpkm": 7.8893137129,
+    "SHEF6_fpkm": 7.9020332925,
+    "SHEF7_fpkm": 7.829154009,
+    "SHEF8_fpkm": 8.0477783741,
+    "SHEF9_fpkm": 7.9160571264
+  },
+  "cytochrome c oxidase subunit 4I1 [Source:MGI Symbol;Acc:MGI:88473]": {
+    "SHEF16_fpkm": 8.6144461082,
+    "SHEF18_fpkm": 8.7264424682,
+    "SHEF20_fpkm": 7.85143251,
+    "SHEF6_fpkm": 7.7686174865,
+    "SHEF7_fpkm": 7.7880517923,
+    "SHEF8_fpkm": 7.943321032,
+    "SHEF9_fpkm": 7.8318825968
+  },
+  "RIKEN cDNA 2900097C17 gene [Source:MGI Symbol;Acc:MGI:1914767]": {
+    "SHEF16_fpkm": 7.670356757,
+    "SHEF18_fpkm": 7.6874715473,
+    "SHEF20_fpkm": 8.1559838868,
+    "SHEF6_fpkm": 8.4501105915,
+    "SHEF7_fpkm": 8.3685602885,
+    "SHEF8_fpkm": 7.9519075287,
+    "SHEF9_fpkm": 8.164807605
+  },
+  "chromogranin B [Source:MGI Symbol;Acc:MGI:88395]": {
+    "SHEF16_fpkm": 8.025109349,
+    "SHEF18_fpkm": 8.2499412638,
+    "SHEF20_fpkm": 7.9960896873,
+    "SHEF6_fpkm": 8.1768602001,
+    "SHEF7_fpkm": 8.3011432864,
+    "SHEF8_fpkm": 8.0344968243,
+    "SHEF9_fpkm": 7.6636643424
+  },
+  "integral membrane protein 2B [Source:MGI Symbol;Acc:MGI:1309517]": {
+    "SHEF16_fpkm": 8.0978860295,
+    "SHEF18_fpkm": 8.2162706187,
+    "SHEF20_fpkm": 7.8699665869,
+    "SHEF6_fpkm": 8.1193783802,
+    "SHEF7_fpkm": 8.1269715078,
+    "SHEF8_fpkm": 8.0837088787,
+    "SHEF9_fpkm": 7.9035738887
+  },
+  "stearoyl-Coenzyme A desaturase 2 [Source:MGI Symbol;Acc:MGI:98240]": {
+    "SHEF16_fpkm": 7.8645804932,
+    "SHEF18_fpkm": 7.7969126779,
+    "SHEF20_fpkm": 8.0587212653,
+    "SHEF6_fpkm": 8.1204734568,
+    "SHEF7_fpkm": 8.195898413,
+    "SHEF8_fpkm": 8.1485522155,
+    "SHEF9_fpkm": 8.1780196495
+  },
+  "pyruvate kinase, muscle [Source:MGI Symbol;Acc:MGI:97591]": {
+    "SHEF16_fpkm": 8.3276154688,
+    "SHEF18_fpkm": 8.5605035567,
+    "SHEF20_fpkm": 7.8593959145,
+    "SHEF6_fpkm": 7.9084076439,
+    "SHEF7_fpkm": 7.8296502009,
+    "SHEF8_fpkm": 8.0053372424,
+    "SHEF9_fpkm": 7.8406255619
+  },
+  "heat shock protein 8 [Source:MGI Symbol;Acc:MGI:105384]": {
+    "SHEF16_fpkm": 8.3975449399,
+    "SHEF18_fpkm": 8.7098688704,
+    "SHEF20_fpkm": 7.5444912238,
+    "SHEF6_fpkm": 7.6339413805,
+    "SHEF7_fpkm": 8.0622434887,
+    "SHEF8_fpkm": 8.1714133207,
+    "SHEF9_fpkm": 7.7491229498
+  },
+  "ATP synthase, H+ transporting, mitochondrial F1 complex, alpha subunit 1 [Source:MGI Symbol;Acc:MGI:88115]": {
+    "SHEF16_fpkm": 8.32866587,
+    "SHEF18_fpkm": 8.3885371286,
+    "SHEF20_fpkm": 7.8489016691,
+    "SHEF6_fpkm": 7.9391980933,
+    "SHEF7_fpkm": 7.8144554743,
+    "SHEF8_fpkm": 8.0406474585,
+    "SHEF9_fpkm": 7.8827094656
+  },
+  "ribosomal protein S3A1 [Source:MGI Symbol;Acc:MGI:1202063]": {
+    "SHEF16_fpkm": 8.3673958229,
+    "SHEF18_fpkm": 8.5687217201,
+    "SHEF20_fpkm": 7.7606846997,
+    "SHEF6_fpkm": 7.7971416068,
+    "SHEF7_fpkm": 7.8585120697,
+    "SHEF8_fpkm": 8.0497422287,
+    "SHEF9_fpkm": 7.7894959434
+  },
+  "solute carrier family 25 (mitochondrial carrier, adenine nucleotide translocator), member 4 [Source:MGI Symbol;Acc:MGI:1353495]": {
+    "SHEF16_fpkm": 8.3480170844,
+    "SHEF18_fpkm": 8.3840227025,
+    "SHEF20_fpkm": 7.8253679371,
+    "SHEF6_fpkm": 7.8670962881,
+    "SHEF7_fpkm": 7.8605509411,
+    "SHEF8_fpkm": 8.0119473429,
+    "SHEF9_fpkm": 7.8401540309
+  },
+  "F-box and leucine-rich repeat protein 16 [Source:MGI Symbol;Acc:MGI:2448488]": {
+    "SHEF16_fpkm": 8.0128055557,
+    "SHEF18_fpkm": 8.0397572911,
+    "SHEF20_fpkm": 7.8688600347,
+    "SHEF6_fpkm": 8.2193597811,
+    "SHEF7_fpkm": 8.0702359443,
+    "SHEF8_fpkm": 8.003289131,
+    "SHEF9_fpkm": 7.8027303954
+  },
+  "heat shock protein 90, alpha (cytosolic), class A member 1 [Source:MGI Symbol;Acc:MGI:96250]": {
+    "SHEF16_fpkm": 7.6519945596,
+    "SHEF18_fpkm": 7.572399738,
+    "SHEF20_fpkm": 8.0084695251,
+    "SHEF6_fpkm": 8.2330991769,
+    "SHEF7_fpkm": 8.1619706939,
+    "SHEF8_fpkm": 7.9654377406,
+    "SHEF9_fpkm": 8.2602766121
+  },
+  "tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, zeta polypeptide [Source:MGI Symbol;Acc:MGI:109484]": {
+    "SHEF16_fpkm": 8.0217167416,
+    "SHEF18_fpkm": 8.191786536,
+    "SHEF20_fpkm": 7.6868026379,
+    "SHEF6_fpkm": 8.0463696311,
+    "SHEF7_fpkm": 7.9144769654,
+    "SHEF8_fpkm": 8.0477918529,
+    "SHEF9_fpkm": 7.7762768017
+  },
+  "clusterin [Source:MGI Symbol;Acc:MGI:88423]": {
+    "SHEF16_fpkm": 8.1944074815,
+    "SHEF18_fpkm": 8.5423194895,
+    "SHEF20_fpkm": 7.7358043938,
+    "SHEF6_fpkm": 7.737743294,
+    "SHEF7_fpkm": 7.7805627894,
+    "SHEF8_fpkm": 7.8109191391,
+    "SHEF9_fpkm": 7.8291809004
+  },
+  "complexin 1 [Source:MGI Symbol;Acc:MGI:104727]": {
+    "SHEF16_fpkm": 8.3277317288,
+    "SHEF18_fpkm": 8.3027771756,
+    "SHEF20_fpkm": 7.9043219397,
+    "SHEF6_fpkm": 7.7782140246,
+    "SHEF7_fpkm": 7.7898055711,
+    "SHEF8_fpkm": 7.8233975185,
+    "SHEF9_fpkm": 7.6977046288
+  },
+  "vesicle-associated membrane protein 2 [Source:MGI Symbol;Acc:MGI:1313277]": {
+    "SHEF16_fpkm": 8.2386241771,
+    "SHEF18_fpkm": 8.3339011015,
+    "SHEF20_fpkm": 7.8146768216,
+    "SHEF6_fpkm": 7.8492965793,
+    "SHEF7_fpkm": 7.7682655906,
+    "SHEF8_fpkm": 7.8434637352,
+    "SHEF9_fpkm": 7.681226511
+  },
+  "gamma-aminobutyric acid (GABA) A receptor-associated protein-like 1 [Source:MGI Symbol;Acc:MGI:1914980]": {
+    "SHEF16_fpkm": 8.3183334648,
+    "SHEF18_fpkm": 8.5069163432,
+    "SHEF20_fpkm": 7.6975662143,
+    "SHEF6_fpkm": 7.7018298804,
+    "SHEF7_fpkm": 7.68452734,
+    "SHEF8_fpkm": 7.8617845096,
+    "SHEF9_fpkm": 7.6707649453
+  },
+  "calsyntenin 1 [Source:MGI Symbol;Acc:MGI:1929895]": {
+    "SHEF16_fpkm": 8.1871077585,
+    "SHEF18_fpkm": 8.0889621693,
+    "SHEF20_fpkm": 7.9100609695,
+    "SHEF6_fpkm": 7.8294353901,
+    "SHEF7_fpkm": 7.750010688,
+    "SHEF8_fpkm": 7.8239055349,
+    "SHEF9_fpkm": 7.7754518459
+  },
+  "metallothionein 3 [Source:MGI Symbol;Acc:MGI:97173]": {
+    "SHEF16_fpkm": 8.3834845347,
+    "SHEF18_fpkm": 8.7916612217,
+    "SHEF20_fpkm": 7.7642589414,
+    "SHEF6_fpkm": 7.3225021922,
+    "SHEF7_fpkm": 7.7842412554,
+    "SHEF8_fpkm": 7.769841899,
+    "SHEF9_fpkm": 7.5160141894
+  },
+  "calcium/calmodulin-dependent protein kinase II inhibitor 1 [Source:MGI Symbol;Acc:MGI:1913509]": {
+    "SHEF16_fpkm": 8.7388737048,
+    "SHEF18_fpkm": 8.2618887269,
+    "SHEF20_fpkm": 7.8693732968,
+    "SHEF6_fpkm": 7.6192363305,
+    "SHEF7_fpkm": 7.6435023196,
+    "SHEF8_fpkm": 7.6149653714,
+    "SHEF9_fpkm": 7.5019155245
+  },
+  "ribosomal protein L4 [Source:MGI Symbol;Acc:MGI:1915141]": {
+    "SHEF16_fpkm": 8.2340883874,
+    "SHEF18_fpkm": 8.4059291013,
+    "SHEF20_fpkm": 7.6609997979,
+    "SHEF6_fpkm": 7.7398437697,
+    "SHEF7_fpkm": 7.6434519217,
+    "SHEF8_fpkm": 7.8963067846,
+    "SHEF9_fpkm": 7.6681087388
+  },
+  "aldolase C, fructose-bisphosphate [Source:MGI Symbol;Acc:MGI:101863]": {
+    "SHEF16_fpkm": 8.3111263683,
+    "SHEF18_fpkm": 8.5189869522,
+    "SHEF20_fpkm": 7.7760026865,
+    "SHEF6_fpkm": 7.5753415799,
+    "SHEF7_fpkm": 7.5921694092,
+    "SHEF8_fpkm": 7.6946970961,
+    "SHEF9_fpkm": 7.7548463547
+  },
+  "cortexin 1 [Source:MGI Symbol;Acc:MGI:88566]": {
+    "SHEF16_fpkm": 8.4295338864,
+    "SHEF18_fpkm": 8.372030987,
+    "SHEF20_fpkm": 7.7785107753,
+    "SHEF6_fpkm": 7.6080675112,
+    "SHEF7_fpkm": 7.6305653121,
+    "SHEF8_fpkm": 7.8028881106,
+    "SHEF9_fpkm": 7.5502911681
+  },
+  "basigin [Source:MGI Symbol;Acc:MGI:88208]": {
+    "SHEF16_fpkm": 8.1096141481,
+    "SHEF18_fpkm": 8.2765246488,
+    "SHEF20_fpkm": 7.5277427948,
+    "SHEF6_fpkm": 7.7585947591,
+    "SHEF7_fpkm": 7.4971572238,
+    "SHEF8_fpkm": 7.8828913592,
+    "SHEF9_fpkm": 7.8567229347
+  },
+  "proprotein convertase subtilisin/kexin type 1 inhibitor [Source:MGI Symbol;Acc:MGI:1353431]": {
+    "SHEF16_fpkm": 8.6286013679,
+    "SHEF18_fpkm": 8.5461501918,
+    "SHEF20_fpkm": 7.6882357961,
+    "SHEF6_fpkm": 7.5890876593,
+    "SHEF7_fpkm": 7.4611986293,
+    "SHEF8_fpkm": 7.5583196736,
+    "SHEF9_fpkm": 7.376714427
+  }
+}

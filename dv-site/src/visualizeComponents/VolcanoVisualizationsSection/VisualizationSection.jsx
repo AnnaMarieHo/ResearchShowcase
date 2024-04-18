@@ -4,12 +4,15 @@ import PlotlyGraph from "../../graphs/PlotlyGraph";
 import Dropdown from "../DropDown";
 import MultiStateToggle from "../MultiStateToggle";
 import DownArrow from "../../generalComponents/DownArrow";
-import PlotlyBarChart from "../../barCharts/PlotlyJSGraph";
+// import PlotlyBarChart from "../../barCharts/PlotlyJSGraph";
 import PlotlyJSPlot from "../../graphs/PlotlyJSPlot";
 import "../../graphs/PlotlyGraph.css";
 import GeneInfoComponent from "./GeneInfo";
 import { AnimatePresence, useScroll } from "framer-motion";
 import RegulationInfo from "./RegulationInfo";
+import ToggleCharts from "./ToggleCharts";
+import DotPlot from "../../barCharts/testNetwork/DotPlot";
+import HeatMap from "../../barCharts/testNetwork/HeatMap";
 
 import {
   chartDataMapping,
@@ -106,11 +109,6 @@ export default function DEGListDatasets() {
     // setNumTerms(10);
   };
 
-  const handleTermChange = (e) => {
-    const value = e.target.value;
-    setNumTerms(parseInt(value));
-  };
-
   const handleThresholdChange = (e) => {
     setTempThreshold(e.target.value);
   };
@@ -136,30 +134,6 @@ export default function DEGListDatasets() {
     setShowGeneInfo(false);
     console.log(showGeneInfo);
   };
-
-  const handleChartClick = (eventData) => {
-    const clickedPoint = eventData.points[0];
-
-    console.log("Clicked point data:");
-    console.log("Label:", clickedPoint.label); // Accessing the label
-    console.log("X Value:", clickedPoint.x); // Accessing x value
-    console.log("Y Value:", clickedPoint.y); // Accessing y value
-    console.log("Enrichment Score:", clickedPoint.value);
-    setBarChartData({
-      barLabel: clickedPoint.label,
-      xVal: clickedPoint.x,
-      yVal: clickedPoint.y,
-      enrichmentScore: clickedPoint.enrichmentScore,
-    });
-    setShowGeneInfo(true);
-  };
-
-  const dropdownTerms = [
-    { label: "-- choose --", value: "-- choose --" },
-    { label: label, value: 10 },
-    { label: label2, value: 20 },
-    { label: label3, value: 50 },
-  ];
 
   useEffect(() => {
     async function loadGraphData() {
@@ -338,12 +312,24 @@ export default function DEGListDatasets() {
                       threshold={pValueThreshold}
                       handlePlotlyClick={handlePlotlyClick}
                     />
-                    <PlotlyBarChart
-                      chart={selectedChartData}
-                      numTerms="50"
-                      mainCategory={mainCategory}
+
+                    <HeatMap />
+                    <h3
+                      style={{
+                        textAlign: "center",
+                        color: "black",
+                        fontSize: "21px",
+                        width: "250px",
+                        height: "80px",
+                        marginTop: "90px",
+                      }}
+                    >
+                      {" "}
+                      {selectedDropdown} STRING analysis results
+                    </h3>
+                    <ToggleCharts
                       subCategory="AllGenes"
-                      handleChartClick={handleChartClick}
+                      currentPlot={mainCategory}
                     />
                   </>
                 ) : (
@@ -369,98 +355,18 @@ export default function DEGListDatasets() {
       )}
       {dataFromChild === "KEGG" && (
         <>
-          <Dropdown
-            className={DEGdropdownLength}
-            selectedDropdown={selectedDropdown}
-            onChange={handleMainCategoryChange}
-            options={dropdownOptions}
-          />
-          <Dropdown
-            className={termsLength}
-            selectedDropdown={numTerms.toString()}
-            onChange={(e) => setNumTerms(parseInt(e.target.value))}
-            options={dropdownTerms}
-          />
-          {/* {showGeneInfo && console.log("clicked")} */}
-          {showGeneInfo && (
-            <AnimatePresence>
-              <RegulationInfo
-                barChartData={barChartData}
-                onClose={handleCloseClick}
-              />
-            </AnimatePresence>
-          )}
-          {selectedChartData && (
-            <PlotlyBarChart
-              chart={selectedChartData}
-              numTerms={numTerms}
-              mainCategory={mainCategory}
-              subCategory={subCategory}
-              handleChartClick={handleChartClick}
-            />
-          )}
+          <ToggleCharts subCategory={subCategory} />
         </>
       )}
       {dataFromChild === "Wiki\nPathways" && (
         <>
-          <Dropdown
-            className={DEGdropdownLength}
-            selectedDropdown={selectedDropdown}
-            onChange={handleMainCategoryChange}
-            options={dropdownOptions}
-          />
-          <Dropdown
-            className={termsLength}
-            selectedDropdown={numTerms.toString()}
-            onChange={(e) => setNumTerms(parseInt(e.target.value))}
-            options={dropdownTerms}
-          />
-          {showGeneInfo && (
-            <AnimatePresence>
-              <RegulationInfo
-                barChartData={barChartData}
-                onClose={handleCloseClick}
-              />
-            </AnimatePresence>
-          )}
-          {selectedChartData && (
-            <PlotlyBarChart
-              chart={selectedChartData}
-              numTerms={numTerms}
-              handleChartClick={handleChartClick}
-            />
-          )}
+          <ToggleCharts subCategory={subCategory} currentPlot={null} />
         </>
       )}
       {dataFromChild === "Reactome" && (
         <>
-          <Dropdown
-            className={DEGdropdownLength}
-            selectedDropdown={selectedDropdown}
-            onChange={handleMainCategoryChange}
-            options={dropdownOptions}
-          />
-          <Dropdown
-            className={termsLength}
-            selectedDropdown={numTerms.toString()}
-            onChange={handleTermChange}
-            options={dropdownTerms}
-          />
-          {showGeneInfo && (
-            <AnimatePresence>
-              <RegulationInfo
-                barChartData={barChartData}
-                onClose={handleCloseClick}
-              />
-            </AnimatePresence>
-          )}
-          {selectedChartData && (
-            <PlotlyBarChart
-              chart={selectedChartData}
-              numTerms={numTerms}
-              handleChartClick={handleChartClick}
-            />
-          )}
+          <ToggleCharts subCategory={subCategory} currentPlot={null} />
+          <DotPlot />
         </>
       )}
       {dataFromChild === "STRING" && (

@@ -132,7 +132,7 @@ const PlotlyBarChart = ({ numTerms, chart, handleChartClick }) => {
         maxWidth: 1300,
         minHeight: 1000,
         marginTop: 60,
-        marginBottom: 30,
+        // marginBottom: 10,
         height: "100%",
       }}
     ></div>

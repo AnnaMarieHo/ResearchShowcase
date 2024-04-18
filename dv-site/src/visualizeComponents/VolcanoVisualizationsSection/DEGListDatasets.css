@@ -30,6 +30,7 @@
   min-width: 500px;
   /* padding: 30px; */
   height: auto;
+  min-height: 500px;
   background-color: rgb(255, 255, 255);
   transition: height 0.5s;
   /* height: 60vw; */

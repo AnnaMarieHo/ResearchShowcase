@@ -60,6 +60,65 @@ df39.to_json('DHS_DOHHvsTar4_EC/enrichment.NetworkNeighborAL.json', orient='reco
 
 
 
+def compute_ratio(value):
+    parts = value.split('|')
+    return float(parts[0]) / float(parts[1])
+
+def apply_ratio_computation(df, gene_ratio_col='GeneRatio', bg_ratio_col='BgRatio'):
+    if gene_ratio_col in df.columns:
+        df[gene_ratio_col] = df[gene_ratio_col].apply(compute_ratio)
+    if bg_ratio_col in df.columns:
+        df[bg_ratio_col] = df[bg_ratio_col].apply(compute_ratio)
+    return df
+
+def process_file(file_path, sep='\t', to_json_path=None, json_orient='records'):
+    df = pd.read_csv(file_path, sep=sep)
+    df = apply_ratio_computation(df)
+    if to_json_path:
+        df.to_json(to_json_path, orient=json_orient, lines=False)
+    return df
+
+df39 = process_file('testNetwork/eIF5AvsWT_EC.all.Reactome_enrich.csv', sep=',')
+df39.to_json('testNetwork/eIF5AvsWT_EC.all.Reactome_enrich.json', orient='records', lines=False)
+
+df40 = process_file('testNetwork/eIF5AvsWT_EC.DEG.all.csv', sep=',')
+df40.to_json('testNetwork/eIF5AvsWT_EC.DEG.all.json', orient='records', lines=False)
+
+# from scipy.cluster.hierarchy import linkage, leaves_list
+# from scipy.spatial.distance import pdist
+# import json
+
+# def cluster_and_prepare_data(data):
+#     # Calculate the pairwise distances between observations
+#     distance_matrix = pdist(data, metric='euclidean')
+
+#     # Perform hierarchical clustering
+#     linked = linkage(distance_matrix, 'ward')
+
+#     # Order the data according to the clustering
+#     order = leaves_list(linked)
+#     ordered_data = data.iloc[order, :].iloc[:, order]
+
+#     # Convert data to a format suitable for JSON serialization
+#     data_list = ordered_data.values.tolist()
+#     return {
+#         'ordered_data': data_list,
+#         'order': order.tolist()
+#     }
+
+# def process_file(filepath, sep=','):
+#     df = pd.read_csv(filepath)
+#     # Assuming the dataframe needs to be prepared or normalized for clustering
+#     # Normalize or preprocess data as needed before clustering
+#     normalized_data = df  # Placeholder for actual preprocessing
+#     return cluster_and_prepare_data(normalized_data)
+
+# # Example usage
+# clustered_data = process_file('testNetwork/eIF5AvsWT_EC.DEG.all.csv', sep=',')
+# # Saving the clustered data as JSON
+# with open('testNetwork/eIF5AvsWT_EC.DEG.all.json', 'w') as f:
+#     json.dump(clustered_data, f)
+
 
 
 
