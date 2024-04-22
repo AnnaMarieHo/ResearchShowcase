@@ -13,6 +13,9 @@ import RegulationInfo from "./RegulationInfo";
 import ToggleCharts from "./ToggleCharts";
 import DotPlot from "../../barCharts/testNetwork/DotPlot";
 import HeatMap from "../../barCharts/testNetwork/HeatMap";
+import ClusterPlot1 from "../../clusterCharts/ClusterPlot1";
+import ClusterPlot3 from "../../clusterCharts/ClusterPlot3";
+import ClusterPlot4 from "../../clusterCharts/ClusterPlot4";
 
 import {
   chartDataMapping,
@@ -226,12 +229,38 @@ export default function DEGListDatasets() {
       <MultiStateToggle sendDataToParent={handleDataFromChild} />
       {dataFromChild === "All Genes" && (
         <>
+          {/* <h3
+            style={{
+              margin: 60,
+              height: 80,
+              color: "black",
+              textAlign: "center",
+            }}
+          >
+            differentially expressed genes grouped <br />
+            by similar expression patterns
+          </h3>
+
+          <div className="cluster">
+            <HeatMap />
+            <div className="cluster-columns">
+              <ClusterPlot1 />
+              <ClusterPlot3 />
+              <ClusterPlot4 />
+              <ClusterPlot4 />
+            </div>
+          </div> */}
           <div className="all-genes-container">
             <div className="view-pathway">
-              <h3 style={{ margin: 30 }}>View a Pathway</h3>
-              <DownArrow />
+              <h3 style={{ margin: 30 }}>
+                Explore the group by group comparisons
+                <br />
+                of differentially Expressed Genes
+              </h3>
             </div>
           </div>
+          <DownArrow />
+
           <div className="DEG-box">
             <Dropdown
               className={DEGdropdownLength}
@@ -313,24 +342,23 @@ export default function DEGListDatasets() {
                       handlePlotlyClick={handlePlotlyClick}
                     />
 
-                    <HeatMap />
-                    <h3
+                    {/* <h3
                       style={{
                         textAlign: "center",
                         color: "black",
-                        fontSize: "21px",
+                        fontSize: "19px",
                         width: "250px",
                         height: "80px",
-                        marginTop: "90px",
+                        marginTop: "30px",
                       }}
                     >
                       {" "}
-                      {selectedDropdown} STRING analysis results
+                      STRING analysis results
                     </h3>
                     <ToggleCharts
                       subCategory="AllGenes"
                       currentPlot={mainCategory}
-                    />
+                    /> */}
                   </>
                 ) : (
                   <div

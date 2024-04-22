@@ -66,25 +66,30 @@
 # plt.title('Clustered Deviation from Average Gene Expression (Range -2 to 2)')
 # plt.show()
 
+
+
 import pandas as pd
 import numpy as np
 
 # Load the data
-file_path = './DHS_DOHHvsTar4_EC.DEG.csv'  # Adjust the file path accordingly
+file_path = './heatmap.csv'  # Adjust the file path accordingly
 data = pd.read_csv(file_path)
 
-# Filter columns for FPKM values
-fpkm_columns = [col for col in data.columns if 'fpkm' in col]
+# Ensure there's a gene name column, if not you might need to adjust the column name
+assert 'gene_name' in data.columns, "Data does not include 'gene_name' column."
+
+# Filter columns for FPKM values and include gene names for grouping
+fpkm_columns = [col for col in data.columns if 'SHEF' in col]
 
 # Apply log2 transformation to FPKM values with an offset of 1 to avoid log(0)
 data[fpkm_columns] = np.log2(data[fpkm_columns] + 1)
 
-# Group data by 'gene_biotype' and calculate mean transformed FPKM for each biotype
-gene_groups = data.groupby('gene_description')[fpkm_columns].mean()
+# Group data by 'gene_description', calculate mean transformed FPKM for each description, and collect gene names
+grouped_data = data.groupby('gene_description').agg({**{col: 'mean' for col in fpkm_columns}, 'gene_name': lambda x: list(x)})
 
-# Select the top 50 gene biotypes based on average expression
-top_gene_groups = gene_groups.mean(axis=1).nlargest(100).index
-top_gene_groups_data = gene_groups.loc[top_gene_groups]
+# Select the top 50 gene descriptions based on average expression
+top_gene_groups = grouped_data[fpkm_columns].mean(axis=1).nlargest(200).index
+top_gene_groups_data = grouped_data.loc[top_gene_groups]
 
 # Convert the top gene groups data to JSON format for visualization
 json_data = top_gene_groups_data.to_json(orient='index')
@@ -93,5 +98,6 @@ json_data = top_gene_groups_data.to_json(orient='index')
 json_file_path = 'heatmap_data.json'  # Specify the output JSON file path
 with open(json_file_path, 'w') as file:
     file.write(json_data)
+
 
 print(f"Data written to {json_file_path}.")

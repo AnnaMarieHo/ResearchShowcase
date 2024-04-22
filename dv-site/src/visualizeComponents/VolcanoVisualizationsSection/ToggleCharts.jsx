@@ -72,20 +72,25 @@ export default function ToggleCharts({ subCategory, currentPlot }) {
           options={dropdownOptions}
         />
       )}
-      <Dropdown
-        className={termsLength}
-        selectedDropdown={numTerms.toString()}
-        onChange={(e) => setNumTerms(parseInt(e.target.value))}
-        options={dropdownTerms}
-      />
-      <span className="tooltip">
-        ?
-        <span className="tooltip-text">
-          Select the groups that you would like to view Enriched Pathways for.
-          Then select the top regulations in groups of 10, 20, or 50. If the
-          dataset has fewer results than these - then all data will be displayed
+      <div
+        style={{ display: "flex", flexDirection: "row", alignItems: "center" }}
+      >
+        <Dropdown
+          className={termsLength}
+          selectedDropdown={numTerms.toString()}
+          onChange={(e) => setNumTerms(parseInt(e.target.value))}
+          options={dropdownTerms}
+        />
+        <span className="tooltip">
+          ?
+          <span className="tooltip-text">
+            Select the groups that you would like to view Enriched Pathways for.
+            Then select the top regulations in groups of 10, 20, or 50. If the
+            dataset has fewer results than these - then all data will be
+            displayed
+          </span>
         </span>
-      </span>
+      </div>
       {showGeneInfo && (
         <AnimatePresence>
           <RegulationInfo

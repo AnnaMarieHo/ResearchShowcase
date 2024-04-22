@@ -57,7 +57,7 @@ const PlotlyBarChart = ({ numTerms, chart, handleChartClick }) => {
         margin: {
           t: 25,
           l: 300,
-          b: 300,
+          b: 100,
           r: 125,
         },
         plot_bgcolor: "white",
