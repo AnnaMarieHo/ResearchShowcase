@@ -19,6 +19,7 @@ export default function ToggleCharts({ subCategory, currentPlot }) {
   const [showGeneInfo, setShowGeneInfo] = useState(false);
   const [barChartData, setBarChartData] = useState(null);
   const [showDropdowns, setShowDropdowns] = useState(true);
+  const [dataLength, setDataLength] = useState(0); // State to hold the length of data
 
   useEffect(() => {
     if (subCategory === "AllGenes") {
@@ -34,7 +35,15 @@ export default function ToggleCharts({ subCategory, currentPlot }) {
       setSelectedChartData(chartDataMapping[mainCat]?.[subCategory] || null);
       setMainCategory(mainCat);
     }
-  }, [selectedDropdown, subCategory, currentPlot]);
+
+    const getDataLength = (selectedChartData) => {
+      if (selectedChartData != null) {
+        const length = selectedChartData.length;
+        setDataLength(length); // Update the state with the length of the data
+      }
+    };
+    getDataLength(selectedChartData); // Call the function
+  }, [selectedDropdown, subCategory, currentPlot, selectedChartData]); // Include selectedChartData in dependency array
 
   const handleMainCategoryChange = (e) => {
     setSelectedDropdown(e.target.value);
@@ -46,6 +55,7 @@ export default function ToggleCharts({ subCategory, currentPlot }) {
 
   const handleChartClick = (eventData) => {
     const clickedPoint = eventData.points[0];
+    console.log(clickedPoint);
     setBarChartData({
       barLabel: clickedPoint.label,
       xVal: clickedPoint.x,
@@ -55,12 +65,23 @@ export default function ToggleCharts({ subCategory, currentPlot }) {
     setShowGeneInfo(true);
   };
 
-  const dropdownTerms = [
-    { label: "-- choose --", value: "-- choose --" },
-    { label: "10", value: 10 },
-    { label: "20", value: 20 },
-    { label: "50", value: 50 },
-  ];
+  const renderDropdownOptions = () => {
+    if (dataLength < 50) {
+      const options = [{ label: "-- choose --", value: "-- choose --" }];
+      if (dataLength >= 10) options.push({ label: "10", value: 10 });
+      if (dataLength >= 20) options.push({ label: "20", value: 20 });
+      if (dataLength >= 50) options.push({ label: "50", value: 50 });
+      options.push({ label: dataLength, value: dataLength });
+      return options;
+    } else {
+      return [
+        { label: "-- choose --", value: "-- choose --" },
+        { label: "10", value: 10 },
+        { label: "20", value: 20 },
+        { label: "50", value: 50 },
+      ];
+    }
+  };
 
   return (
     <>
@@ -79,7 +100,7 @@ export default function ToggleCharts({ subCategory, currentPlot }) {
           className={termsLength}
           selectedDropdown={numTerms.toString()}
           onChange={(e) => setNumTerms(parseInt(e.target.value))}
-          options={dropdownTerms}
+          options={renderDropdownOptions()}
         />
         <span className="tooltip">
           ?

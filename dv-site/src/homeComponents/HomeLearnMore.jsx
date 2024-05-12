@@ -31,7 +31,7 @@ function Plot3() {
                 tab="CNS-Met Cobre"
                 info={cobreInfo}
                 image={groupImage}
-                link="https://medicine.uky.edu/centers/scobirc/cns-met-metabolomics-core"
+                link="https://medicine.uky.edu/centers/scobirc/cns-met-cobre"
               />
             </div>
             <div className="buttons-subcontainer">

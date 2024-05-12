@@ -52,6 +52,14 @@ import Tar4_WikiPathways from "../../barCharts/Tar4_ECvsWT_EC/enrichment.WikiPat
 
 import STRINGchart1 from "../../barCharts/DHS_DOHHvsTar4_EC/enrichment.NetworkNeighborAL.json";
 
+import EIf5avsWTenrich from "../../barCharts/testNetwork/eIF5AvsWT_EC.all.Reactome_enrich";
+console.log(EIf5avsWTenrich);
+const plotDataMapping = {
+  eIF5AvsWT_EC: {
+    KEGG: DHS_DOHHvsWT_EC_KEGG,
+    Reactome: EIf5avsWTenrich,
+  },
+};
 const chartDataMapping = {
   DHS_DOHHvsWT_EC: {
     KEGG: DHS_DOHHvsWT_EC_KEGG,
@@ -155,4 +163,5 @@ export {
   DEGdropdownLength,
   dropdownTerms,
   termsLength,
+  plotDataMapping,
 };

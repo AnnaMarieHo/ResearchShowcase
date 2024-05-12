@@ -13,8 +13,8 @@
   color: black;
   width: 180px;
   min-width: 115px;
-  min-height: 35px;
-  height: 40px;
+  /* min-height: 35px; */
+  min-height: 40px;
   font-size: 15px;
   /* margin-top: 15px; */
   border-radius: 2px;

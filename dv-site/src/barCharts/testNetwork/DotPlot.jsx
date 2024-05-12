@@ -2,9 +2,11 @@ import React, { useEffect, useRef } from "react";
 import Plotly from "plotly.js-dist-min";
 import Data from "./eIF5AvsWT_EC.all.Reactome_enrich.json";
 
-const DotPlot = () => {
+const DotPlot = ({ plot }) => {
   const plotContainerRef = useRef(null);
-  const data = Data;
+  const data = plot;
+  console.log(plot);
+
   useEffect(() => {
     const createDotPlot = () => {
       data.sort((a, b) => a.pvalue - b.pvalue);
@@ -25,12 +27,15 @@ const DotPlot = () => {
           `${desc}<br>Adjusted p-value: ${padjs[index]}<br>ReactomeID: ${reactomeID[index]} <br> Count:${count[index]}`
       );
 
+      const containerWidth = plotContainerRef.current.offsetWidth;
+      const markerScale = containerWidth / 1000; // Adjust this factor as needed
+
       const trace = {
         x: geneRatios,
         y: descriptions,
         mode: "markers",
         marker: {
-          size: bgRatios,
+          size: bgRatios.map((ratio) => ratio * markerScale), // Scale marker size dynamically
           color: padjs,
           colorscale: "Bluered",
           showscale: true,
@@ -41,12 +46,11 @@ const DotPlot = () => {
       };
 
       const layout = {
-        title:
-          "Top Significant Pathways by Calculated Gene Ratio and Adjusted P-Value",
+        title: "",
         autosize: true,
         margin: {
           t: 50,
-          l: 300,
+          l: 160,
           b: 100,
           r: 100,
         },
@@ -81,47 +85,65 @@ const DotPlot = () => {
       Plotly.newPlot(plotContainerRef.current, [trace], layout, {
         responsive: true,
       });
-      //   plotContainerRef.current.on("plotly_click", handleDotClick);
+
+      const resizeHandler = () => {
+        const newContainerWidth = plotContainerRef.current.offsetWidth;
+        const newMarkerScale = newContainerWidth / 1000; // Adjust this factor as needed
+        Plotly.restyle(plotContainerRef.current, "marker.size", [
+          bgRatios.map((ratio) => ratio * newMarkerScale),
+        ]);
+      };
+
+      const resizeObserver = new ResizeObserver(resizeHandler);
+
+      if (plotContainerRef.current) {
+        resizeObserver.observe(plotContainerRef.current);
+      }
+
+      return () => {
+        if (plotContainerRef.current) {
+          resizeObserver.unobserve(plotContainerRef.current);
+        }
+      };
     };
 
     createDotPlot(data);
-
-    const resizeObserver = new ResizeObserver(() => {
-      Plotly.relayout(plotContainerRef.current, {
-        autosize: true,
-      });
-    });
-
-    if (plotContainerRef.current) {
-      resizeObserver.observe(plotContainerRef.current);
-    }
-
-    return () => {
-      if (plotContainerRef.current) {
-        resizeObserver.unobserve(plotContainerRef.current);
-      }
-    };
   }, []);
+
   const shortenDescription = (description) => {
-    const maxLength = 30;
+    const maxLength = 20;
     if (description.length > maxLength) {
       return description.substring(0, maxLength - 3) + "...";
     } else {
       return description;
     }
   };
+
   return (
-    <div
-      ref={plotContainerRef}
-      style={{
-        width: "100%",
-        maxWidth: 1300,
-        minHeight: 800,
-        marginTop: 60,
-        marginBottom: 30,
-        height: "100%",
-      }}
-    ></div>
+    <>
+      <p
+        style={{
+          color: "black",
+          width: "400px",
+          fontSize: "20px",
+          textAlign: "center",
+          marginTop: 30,
+        }}
+      >
+        Top Significant Pathways by Calculated Gene Ratio and Adjusted P-Value
+      </p>
+      <div
+        ref={plotContainerRef}
+        style={{
+          width: "100%",
+          maxWidth: 1300,
+          minHeight: 800,
+          marginTop: 10,
+          marginBottom: 30,
+          height: "100%",
+        }}
+      ></div>
+    </>
   );
 };
 

@@ -1,6 +1,6 @@
 import "./DEGListDatasets.css";
 import React, { useState, useEffect } from "react";
-import PlotlyGraph from "../../graphs/PlotlyGraph";
+// import PlotlyGraph from "../../graphs/PlotlyGraph";
 import Dropdown from "../DropDown";
 import MultiStateToggle from "../MultiStateToggle";
 import DownArrow from "../../generalComponents/DownArrow";
@@ -12,16 +12,13 @@ import { AnimatePresence, useScroll } from "framer-motion";
 import RegulationInfo from "./RegulationInfo";
 import ToggleCharts from "./ToggleCharts";
 import DotPlot from "../../barCharts/testNetwork/DotPlot";
-import HeatMap from "../../barCharts/testNetwork/HeatMap";
-import ClusterPlot1 from "../../clusterCharts/ClusterPlot1";
-import ClusterPlot3 from "../../clusterCharts/ClusterPlot3";
-import ClusterPlot4 from "../../clusterCharts/ClusterPlot4";
 
 import {
   chartDataMapping,
   dropdownOptions,
   DEGdropdownLength,
   termsLength,
+  plotDataMapping,
 } from "./imports";
 
 export default function DEGListDatasets() {
@@ -29,6 +26,7 @@ export default function DEGListDatasets() {
   const [dataFromChild, setDataFromChild] = useState("All Genes");
   const [numTerms, setNumTerms] = useState(0);
   const [selectedChartData, setSelectedChartData] = useState(null);
+  const [selectedPlotData, setSelectedPlotData] = useState(null);
   // const [selectedPlot, setSelectedPlot] = useState(null);
   const [mainCategory, setMainCategory] = useState("DHS_DOHHvsWT_EC");
   const [subCategory, setSubCategory] = useState("KEGG");
@@ -38,10 +36,6 @@ export default function DEGListDatasets() {
   const [clickedPointData, setClickedPointData] = useState(null);
   const [graphModule, setGraphModule] = useState(null);
   const [barChartData, setBarChartData] = useState(null);
-
-  const [label, setLabel] = useState("");
-  const [label2, setLabel2] = useState("");
-  const [label3, setLabel3] = useState("");
 
   const handleDataFromChild = (data) => {
     if (data !== "KEGG" && data !== "Reactome" && data !== "STRING") {
@@ -63,45 +57,23 @@ export default function DEGListDatasets() {
     if (mainCategory) {
       const chartData = chartDataMapping[mainCategory]?.[subCategory];
       setSelectedChartData(chartData);
+
       getDataLength(chartData);
     } else {
       setSelectedChartData(null);
     }
   }, [selectedDropdown, subCategory]);
 
-  console.log("main category", mainCategory);
-  console.log("sub category", subCategory);
+  useEffect(() => {
+    const plotData = plotDataMapping[mainCategory]?.[subCategory];
+    setSelectedPlotData(plotData); // Update selectedPlotData based on mainCategory and subCategory
+  }, [selectedDropdown, subCategory, mainCategory, selectedPlotData]);
+
   // console.log(label, label2, label3);
   const getDataLength = (selectedChartData) => {
     if (selectedChartData != null) {
       const dataLength = selectedChartData.length;
       console.log(dataLength);
-
-      if (dataLength < 20 && dataLength > 10) {
-        console.log("less than 20");
-        setLabel(10);
-        setLabel2(dataLength);
-        setLabel3(null);
-        console.log(label2);
-        return;
-      } else if (dataLength <= 10) {
-        console.log("less than 10");
-        setLabel(dataLength);
-        setLabel2(null);
-        setLabel3(null);
-        return;
-      } else if (dataLength >= 20 && dataLength < 50) {
-        console.log("less than 50");
-        setLabel(10);
-        setLabel2(20);
-        setLabel3(dataLength);
-        return;
-      } else {
-        setLabel("10");
-        setLabel2("20");
-        setLabel3("50");
-        return;
-      }
     }
   };
 
@@ -229,27 +201,6 @@ export default function DEGListDatasets() {
       <MultiStateToggle sendDataToParent={handleDataFromChild} />
       {dataFromChild === "All Genes" && (
         <>
-          {/* <h3
-            style={{
-              margin: 60,
-              height: 80,
-              color: "black",
-              textAlign: "center",
-            }}
-          >
-            differentially expressed genes grouped <br />
-            by similar expression patterns
-          </h3>
-
-          <div className="cluster">
-            <HeatMap />
-            <div className="cluster-columns">
-              <ClusterPlot1 />
-              <ClusterPlot3 />
-              <ClusterPlot4 />
-              <ClusterPlot4 />
-            </div>
-          </div> */}
           <div className="all-genes-container">
             <div className="view-pathway">
               <h3 style={{ margin: 30 }}>
@@ -394,7 +345,7 @@ export default function DEGListDatasets() {
       {dataFromChild === "Reactome" && (
         <>
           <ToggleCharts subCategory={subCategory} currentPlot={null} />
-          <DotPlot />
+          {selectedPlotData ? <DotPlot plot={selectedPlotData} /> : <div></div>}
         </>
       )}
       {dataFromChild === "STRING" && (

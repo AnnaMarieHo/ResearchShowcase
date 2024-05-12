@@ -35,6 +35,11 @@ export default function About() {
         <div className="p2-container">
           <div className="p2-box">
             <h1 className="p2-large-font">Questions?</h1>
+            <h1 className="p2-small-font">
+              Please contact Dr. Justin Miller at <br /> <br />{" "}
+              justin.miller@uky.edu
+            </h1>
+            {/* <h1 className="p2-large-font"></h1> */}
             <h3 className="p2-small-font">
               <ul>
                 <m.div
@@ -47,7 +52,6 @@ export default function About() {
           </div>
         </div>
       </div>
-      <div></div>
     </>
   );
 }

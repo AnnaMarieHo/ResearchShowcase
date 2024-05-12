@@ -26,6 +26,7 @@ const PlotlyBarChart = ({ numTerms, chart, handleChartClick }) => {
       const yLabels = [];
       const xValues = [];
       const hoverText = [];
+      const termIds = [];
 
       enrichmentScores.forEach((items, score) => {
         items.forEach((item, index) => {
@@ -33,6 +34,7 @@ const PlotlyBarChart = ({ numTerms, chart, handleChartClick }) => {
           const uniqueDescriptor = `${baseDescription} (${score})`;
           yLabels.push(`${uniqueDescriptor}${index > 0 ? " " + index : ""}`); // Adjust label if there are duplicates
           xValues.push(parseFloat(score));
+          termIds.push(item["#term ID"]);
           hoverText.push(
             `${item["term description"]}<br>Enrichment Score: ${score}<extra></extra>`
           );
@@ -56,9 +58,9 @@ const PlotlyBarChart = ({ numTerms, chart, handleChartClick }) => {
         autosize: true,
         margin: {
           t: 25,
-          l: 300,
+          l: 210,
           b: 100,
-          r: 125,
+          r: 100,
         },
         plot_bgcolor: "white",
         xaxis: {
@@ -116,7 +118,7 @@ const PlotlyBarChart = ({ numTerms, chart, handleChartClick }) => {
   }, [numTerms, chart]);
 
   const shortenDescription = (description) => {
-    const maxLength = 30;
+    const maxLength = 20;
     if (description.length > maxLength) {
       return description.substring(0, maxLength - 3) + "...";
     } else {
