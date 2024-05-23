@@ -278,12 +278,12 @@ export default function DEGListDatasets() {
                   {selectedDropdown}
                 </p>
                 <AnimatePresence>
-                  {showGeneInfo && (
+                  {/* {showGeneInfo && (
                     <GeneInfoComponent
                       data={clickedPointData}
                       onClose={handleCloseClick} // Pass handleCloseClick correctly here
                     />
-                  )}
+                  )} */}
                 </AnimatePresence>
                 {graphModule ? (
                   <>

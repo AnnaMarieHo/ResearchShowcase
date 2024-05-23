@@ -112,14 +112,14 @@ export default function ToggleCharts({ subCategory, currentPlot }) {
           </span>
         </span>
       </div>
-      {showGeneInfo && (
+      {/* {showGeneInfo && (
         <AnimatePresence>
           <RegulationInfo
             barChartData={barChartData}
             onClose={handleCloseClick}
           />
         </AnimatePresence>
-      )}
+      )} */}
       {selectedChartData && (
         <PlotlyBarChart
           chart={selectedChartData}
