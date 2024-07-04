@@ -30,12 +30,13 @@ const GeneInfoComponent = ({ data, onClose }) => {
       </button>
 
       <p style={{ margin: "20px" }}>Gene Name: {data.geneName}</p>
-      {/* <p>Gene ID: {data.geneId}</p> */}
+      <p>Gene ID: {data.geneId}</p>
       <p>Gene Biotype: {data.geneBiotype}</p>
       <p>Gene Description: {data.geneDescription}</p>
-      <p style={{ marginTop: "70px", marginBottom: "80px" }}>
+
+      {/* <p style={{ marginTop: "70px", marginBottom: "80px" }}>
         More Details to Come.
-      </p>
+      </p> */}
     </m.div>
   );
 };

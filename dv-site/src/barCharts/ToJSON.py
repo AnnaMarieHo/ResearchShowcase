@@ -1,4 +1,55 @@
 import pandas as pd
+import numpy as np
+from scipy.stats import ks_2samp
+
+# Define functions for KS test and AFC p-value calculations
+def calculate_ks_pvalue(row, shef_columns):
+    expression_values = row[shef_columns].values
+    _, p_value = ks_2samp(expression_values, np.random.normal(size=len(expression_values)))
+    return p_value
+
+def calculate_afc_pvalue(fold_change):
+    average_fold_change = np.mean(fold_change)
+    p_value = 1 / (1 + np.abs(average_fold_change))
+    return p_value
+
+# Function to add KS and AFC p-values to the dataframe
+def add_statistical_tests(df, shef_columns):
+    df['pKS'] = df.apply(lambda row: calculate_ks_pvalue(row, shef_columns), axis=1)
+    df['pAFC'] = df['log2FoldChange'].apply(calculate_afc_pvalue)
+    return df
+
+# List of file paths
+file_paths = [
+    '../graphs/eIF5A_DDvsTar4_EC/eIF5A_DDvsTar4_EC.DEG.all.csv',
+    '../graphs/DHS_DOHHvsTar4_EC/DHS_DOHHvsTar4_EC.DEG.all.csv',
+    '../graphs/DHS_DOHHvsWT_EC/DHS_DOHHvsWT_EC.DEG.all.csv',
+    '../graphs/eIF5A_DDvsDHS_DOHH/eIF5A_DDvsDHS_DOHH.DEG.all.csv',
+    '../graphs/eIF5A_DDvseIF5A/eIF5A_DDvseIF5A.DEG.all.csv',
+    '../graphs/eIF5A_DDvsK50A_DD/eIF5A_DDvsK50A_DD.DEG.all.csv',
+    '../graphs/eIF5A_DDvsWT_EC/eIF5A_DDvsWT_EC.DEG.all.csv',
+    '../graphs/eIF5AvsTar4_EC/eIF5AvsTar4_EC.DEG.all.csv',
+    '../graphs/eIF5AvsWT_EC/eIF5AvsWT_EC.DEG.all.csv',
+    '../graphs/K50A_DDvsDHS_DOHH/K50A_DDvsDHS_DOHH.DEG.all.csv',
+    '../graphs/K50A_DDvsTar4_EC/K50A_DDvsTar4_EC.DEG.all.csv',
+    '../graphs/K50A_DDvsWT_EC/K50A_DDvsWT_EC.DEG.all.csv',
+    '../graphs/Tar4_ECvsWT_EC/Tar4_ECvsWT_EC.DEG.all.csv'
+]
+
+# Process each file
+for file_path in file_paths:
+    df = pd.read_csv(file_path)
+    
+    # Identify SHEF columns dynamically
+    shef_columns = [col for col in df.columns if col.startswith('SHEF') and not col.endswith(('readcount', 'fpkm'))]
+    
+    # Add KS and AFC p-values
+    df = add_statistical_tests(df, shef_columns)
+    
+    # Save the dataframe to JSON
+    json_path = file_path.replace('.csv', '.json')
+    df.to_json(json_path, orient='records', lines=False)
+
 
 
 df = pd.read_csv('DHS_DOHHvsTar4_EC/enrichment.KEGG.tsv', sep='\t')
@@ -55,10 +106,6 @@ df38 = pd.read_csv('Tar4_ECvsWT_EC/enrichment.WikiPathways.tsv', sep='\t')
 
 
 
-df39 = pd.read_csv('DHS_DOHHvsTar4_EC/enrichment.NetworkNeighborAL.tsv', sep='\t')
-df39.to_json('DHS_DOHHvsTar4_EC/enrichment.NetworkNeighborAL.json', orient='records', lines=False)
-
-
 
 def compute_ratio(value):
     parts = value.split('|')
@@ -77,12 +124,6 @@ def process_file(file_path, sep='\t', to_json_path=None, json_orient='records'):
     if to_json_path:
         df.to_json(to_json_path, orient=json_orient, lines=False)
     return df
-
-df39 = process_file('testNetwork/eIF5AvsWT_EC.all.Reactome_enrich.csv', sep=',')
-df39.to_json('testNetwork/eIF5AvsWT_EC.all.Reactome_enrich.json', orient='records', lines=False)
-
-df40 = process_file('testNetwork/eIF5AvsWT_EC.DEG.all.csv', sep=',')
-df40.to_json('testNetwork/eIF5AvsWT_EC.DEG.all.json', orient='records', lines=False)
 
 # from scipy.cluster.hierarchy import linkage, leaves_list
 # from scipy.spatial.distance import pdist
@@ -180,32 +221,32 @@ df38.to_json('Tar4_ECvsWT_EC/enrichment.WikiPathways.json', orient='records', li
 
 
 
-vp = pd.read_csv('../graphs/eIF5A_DDvsTar4_EC/eIF5A_DDvsTar4_EC.DEG.all.csv', sep=',')
-vp1 = pd.read_csv('../graphs/DHS_DOHHvsTar4_EC/DHS_DOHHvsTar4_EC.DEG.all.csv', sep=',')
-vp2 = pd.read_csv('../graphs/DHS_DOHHvsWT_EC/DHS_DOHHvsWT_EC.DEG.all.csv', sep=',')
-vp3 = pd.read_csv('../graphs/eIF5A_DDvsDHS_DOHH/eIF5A_DDvsDHS_DOHH.DEG.all.csv', sep=',')
-vp4 = pd.read_csv('../graphs/eIF5A_DDvseIF5A/eIF5A_DDvseIF5A.DEG.all.csv', sep=',')
-vp5 = pd.read_csv('../graphs/eIF5A_DDvsK50A_DD/eIF5A_DDvsK50A_DD.DEG.all.csv', sep=',')
-vp6 = pd.read_csv('../graphs/eIF5A_DDvsWT_EC/eIF5A_DDvsWT_EC.DEG.all.csv', sep=',')
-vp7 = pd.read_csv('../graphs/eIF5AvsTar4_EC/eIF5AvsTar4_EC.DEG.all.csv', sep=',')
-vp8 = pd.read_csv('../graphs/eIF5AvsWT_EC/eIF5AvsWT_EC.DEG.all.csv', sep=',')
-vp9 = pd.read_csv('../graphs/K50A_DDvsDHS_DOHH/K50A_DDvsDHS_DOHH.DEG.all.csv', sep=',')
-vp10 = pd.read_csv('../graphs/K50A_DDvsTar4_EC/K50A_DDvsTar4_EC.DEG.all.csv', sep=',')
-vp11 = pd.read_csv('../graphs/K50A_DDvsWT_EC/K50A_DDvsWT_EC.DEG.all.csv', sep=',')
-vp12 = pd.read_csv('../graphs/Tar4_ECvsWT_EC/Tar4_ECvsWT_EC.DEG.all.csv', sep=',')
+# vp = pd.read_csv('../graphs/eIF5A_DDvsTar4_EC/eIF5A_DDvsTar4_EC.DEG.all.csv', sep=',')
+# vp1 = pd.read_csv('../graphs/DHS_DOHHvsTar4_EC/DHS_DOHHvsTar4_EC.DEG.all.csv', sep=',')
+# vp2 = pd.read_csv('../graphs/DHS_DOHHvsWT_EC/DHS_DOHHvsWT_EC.DEG.all.csv', sep=',')
+# vp3 = pd.read_csv('../graphs/eIF5A_DDvsDHS_DOHH/eIF5A_DDvsDHS_DOHH.DEG.all.csv', sep=',')
+# vp4 = pd.read_csv('../graphs/eIF5A_DDvseIF5A/eIF5A_DDvseIF5A.DEG.all.csv', sep=',')
+# vp5 = pd.read_csv('../graphs/eIF5A_DDvsK50A_DD/eIF5A_DDvsK50A_DD.DEG.all.csv', sep=',')
+# vp6 = pd.read_csv('../graphs/eIF5A_DDvsWT_EC/eIF5A_DDvsWT_EC.DEG.all.csv', sep=',')
+# vp7 = pd.read_csv('../graphs/eIF5AvsTar4_EC/eIF5AvsTar4_EC.DEG.all.csv', sep=',')
+# vp8 = pd.read_csv('../graphs/eIF5AvsWT_EC/eIF5AvsWT_EC.DEG.all.csv', sep=',')
+# vp9 = pd.read_csv('../graphs/K50A_DDvsDHS_DOHH/K50A_DDvsDHS_DOHH.DEG.all.csv', sep=',')
+# vp10 = pd.read_csv('../graphs/K50A_DDvsTar4_EC/K50A_DDvsTar4_EC.DEG.all.csv', sep=',')
+# vp11 = pd.read_csv('../graphs/K50A_DDvsWT_EC/K50A_DDvsWT_EC.DEG.all.csv', sep=',')
+# vp12 = pd.read_csv('../graphs/Tar4_ECvsWT_EC/Tar4_ECvsWT_EC.DEG.all.csv', sep=',')
 
 
 
-vp.to_json('../graphs/eIF5A_DDvsTar4_EC/eIF5A_DDvsTar4_EC.DEG.all.csv.json', orient='records', lines=False)
-vp1.to_json('../graphs/DHS_DOHHvsTar4_EC/DHS_DOHHvsTar4_EC.DEG.all.json', orient='records', lines=False)
-vp2.to_json('../graphs/DHS_DOHHvsWT_EC/DHS_DOHHvsWT_EC.DEG.all.json', orient='records', lines=False)
-vp3.to_json('../graphs/eIF5A_DDvsDHS_DOHH/eIF5A_DDvsDHS_DOHH.DEG.all.json',orient='records', lines=False)
-vp4.to_json('../graphs/eIF5A_DDvseIF5A/eIF5A_DDvseIF5A.DEG.all.json', orient='records', lines=False)
-vp5.to_json('../graphs/eIF5A_DDvsK50A_DD/eIF5A_DDvsK50A_DD.DEG.all.json', orient='records', lines=False)
-vp6.to_json('../graphs/eIF5A_DDvsWT_EC/eIF5A_DDvsWT_EC.DEG.all.json', orient='records', lines=False)
-vp7.to_json('../graphs/eIF5AvsTar4_EC/eIF5AvsTar4_EC.DEG.all.json', orient='records', lines=False)
-vp8.to_json('../graphs/eIF5AvsWT_EC/eIF5AvsWT_EC.DEG.all.json', orient='records', lines=False)
-vp9.to_json('../graphs/K50A_DDvsDHS_DOHH/K50A_DDvsDHS_DOHH.DEG.all.json', orient='records', lines=False)
-vp10.to_json('../graphs/K50A_DDvsTar4_EC/K50A_DDvsTar4_EC.DEG.all.json', orient='records', lines=False)
-vp11.to_json('../graphs/K50A_DDvsWT_EC/K50A_DDvsWT_EC.DEG.all.json', orient='records', lines=False)
-vp12.to_json('../graphs/Tar4_ECvsWT_EC/Tar4_ECvsWT_EC.DEG.all.json', orient='records', lines=False)
+# vp.to_json('../graphs/eIF5A_DDvsTar4_EC/eIF5A_DDvsTar4_EC.DEG.all.csv.json', orient='records', lines=False)
+# vp1.to_json('../graphs/DHS_DOHHvsTar4_EC/DHS_DOHHvsTar4_EC.DEG.all.json', orient='records', lines=False)
+# vp2.to_json('../graphs/DHS_DOHHvsWT_EC/DHS_DOHHvsWT_EC.DEG.all.json', orient='records', lines=False)
+# vp3.to_json('../graphs/eIF5A_DDvsDHS_DOHH/eIF5A_DDvsDHS_DOHH.DEG.all.json',orient='records', lines=False)
+# vp4.to_json('../graphs/eIF5A_DDvseIF5A/eIF5A_DDvseIF5A.DEG.all.json', orient='records', lines=False)
+# vp5.to_json('../graphs/eIF5A_DDvsK50A_DD/eIF5A_DDvsK50A_DD.DEG.all.json', orient='records', lines=False)
+# vp6.to_json('../graphs/eIF5A_DDvsWT_EC/eIF5A_DDvsWT_EC.DEG.all.json', orient='records', lines=False)
+# vp7.to_json('../graphs/eIF5AvsTar4_EC/eIF5AvsTar4_EC.DEG.all.json', orient='records', lines=False)
+# vp8.to_json('../graphs/eIF5AvsWT_EC/eIF5AvsWT_EC.DEG.all.json', orient='records', lines=False)
+# vp9.to_json('../graphs/K50A_DDvsDHS_DOHH/K50A_DDvsDHS_DOHH.DEG.all.json', orient='records', lines=False)
+# vp10.to_json('../graphs/K50A_DDvsTar4_EC/K50A_DDvsTar4_EC.DEG.all.json', orient='records', lines=False)
+# vp11.to_json('../graphs/K50A_DDvsWT_EC/K50A_DDvsWT_EC.DEG.all.json', orient='records', lines=False)
+# vp12.to_json('../graphs/Tar4_ECvsWT_EC/Tar4_ECvsWT_EC.DEG.all.json', orient='records', lines=False)

@@ -29,13 +29,15 @@ const RegulationInfo = ({ barChartData, onClose }) => {
         Close
       </button>
 
-      <p style={{ margin: "20px" }}>Label: {barChartData.barLabel}</p>
-      <p>Score: {barChartData.enrichmentScore}</p>
-      <p>X Value: {barChartData.xVal}</p>
-      {/* <p>Y Value: {barChartData.yVal}</p> */}
-      <p style={{ marginTop: "70px", marginBottom: "80px" }}>
-        More Details to Come.
+      <p style={{ margin: "20px" }}>
+        Description: {barChartData.enrichmentScore}
       </p>
+      {/* <p>Score: {barChartData.enrichmentScore}</p> */}
+      <p>Enrichment Score: {barChartData.xVal}</p>
+      {/* <p>Y Value: {barChartData.yVal}</p> */}
+      {/* <p style={{ marginTop: "70px", marginBottom: "80px" }}>
+        More Details to Come.
+      </p> */}
     </m.div>
   );
 };

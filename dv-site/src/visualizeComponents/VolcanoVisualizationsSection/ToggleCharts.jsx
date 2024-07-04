@@ -60,7 +60,7 @@ export default function ToggleCharts({ subCategory, currentPlot }) {
       barLabel: clickedPoint.label,
       xVal: clickedPoint.x,
       yVal: clickedPoint.y,
-      enrichmentScore: clickedPoint.enrichmentScore,
+      enrichmentScore: clickedPoint.x,
     });
     setShowGeneInfo(true);
   };
@@ -105,21 +105,21 @@ export default function ToggleCharts({ subCategory, currentPlot }) {
         <span className="tooltip">
           ?
           <span className="tooltip-text">
-            Select the groups that you would like to view Enriched Pathways for.
-            Then select the top regulations in groups of 10, 20, or 50. If the
-            dataset has fewer results than these - then all data will be
+            Select pairwise comparisons that you would like to view enriched
+            pathways for. Then select the top pathways in groups of 10, 20, or
+            50. If the dataset has fewer results than 50 then all data will be
             displayed
           </span>
         </span>
       </div>
-      {/* {showGeneInfo && (
+      {showGeneInfo && (
         <AnimatePresence>
           <RegulationInfo
             barChartData={barChartData}
             onClose={handleCloseClick}
           />
         </AnimatePresence>
-      )} */}
+      )}
       {selectedChartData && (
         <PlotlyBarChart
           chart={selectedChartData}

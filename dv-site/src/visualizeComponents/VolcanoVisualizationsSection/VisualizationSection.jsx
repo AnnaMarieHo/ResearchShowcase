@@ -12,6 +12,7 @@ import { AnimatePresence, useScroll } from "framer-motion";
 import RegulationInfo from "./RegulationInfo";
 import ToggleCharts from "./ToggleCharts";
 import DotPlot from "../../barCharts/testNetwork/DotPlot";
+import Toggle from "../ToggleGraphComponent";
 
 import {
   chartDataMapping,
@@ -24,18 +25,22 @@ import {
 export default function DEGListDatasets() {
   const [selectedDropdown, setSelectedDropdown] = useState("-- choose --");
   const [dataFromChild, setDataFromChild] = useState("All Genes");
-  const [numTerms, setNumTerms] = useState(0);
+  // const [numTerms, setNumTerms] = useState(0);
   const [selectedChartData, setSelectedChartData] = useState(null);
   const [selectedPlotData, setSelectedPlotData] = useState(null);
   // const [selectedPlot, setSelectedPlot] = useState(null);
   const [mainCategory, setMainCategory] = useState("DHS_DOHHvsWT_EC");
   const [subCategory, setSubCategory] = useState("KEGG");
-  const [pValueThreshold, setpValThreshold] = useState("0.05");
-  const [tempThreshold, setTempThreshold] = useState("");
-  const [showGeneInfo, setShowGeneInfo] = useState(null);
-  const [clickedPointData, setClickedPointData] = useState(null);
+  const [pValueThreshold, setpValThreshold] = useState("0.005");
+  const [tempThreshold, setTempThreshold] = useState("0.005");
+  // const [showGeneInfo, setShowGeneInfo] = useState(null);
+  // const [clickedPointData, setClickedPointData] = useState(null);
   const [graphModule, setGraphModule] = useState(null);
-  const [barChartData, setBarChartData] = useState(null);
+  // const [barChartData, setBarChartData] = useState(null);
+  const [method, setMethod] = useState(false);
+  const [disableInput, setDisableInput] = useState(false);
+  const [log2FoldThreshold, setLog2FoldThreshold] = useState("1");
+  const [tempLog2Fold, setTempLog2Fold] = useState("0.005");
 
   const handleDataFromChild = (data) => {
     if (data !== "KEGG" && data !== "Reactome" && data !== "STRING") {
@@ -45,7 +50,7 @@ export default function DEGListDatasets() {
     }
     setDataFromChild(data);
     if (data === "All Genes") {
-      setpValThreshold(0.05);
+      setpValThreshold(0.005);
     } else {
       setSelectedDropdown("DHS_DOHHvsWT_EC");
     }
@@ -58,7 +63,7 @@ export default function DEGListDatasets() {
       const chartData = chartDataMapping[mainCategory]?.[subCategory];
       setSelectedChartData(chartData);
 
-      getDataLength(chartData);
+      // getDataLength(chartData);
     } else {
       setSelectedChartData(null);
     }
@@ -70,18 +75,17 @@ export default function DEGListDatasets() {
   }, [selectedDropdown, subCategory, mainCategory, selectedPlotData]);
 
   // console.log(label, label2, label3);
-  const getDataLength = (selectedChartData) => {
-    if (selectedChartData != null) {
-      const dataLength = selectedChartData.length;
-      console.log(dataLength);
-    }
-  };
+  // const getDataLength = (selectedChartData) => {
+  //   if (selectedChartData != null) {
+  //     const dataLength = selectedChartData.length;
+  //     console.log(dataLength);
+  //   }
+  // };
 
   const handleMainCategoryChange = (e) => {
     const value = e.target.value;
     setSelectedDropdown(value);
     setMainCategory(value);
-    // setNumTerms(10);
   };
 
   const handleThresholdChange = (e) => {
@@ -90,25 +94,49 @@ export default function DEGListDatasets() {
 
   const handleSubmitThreshold = () => {
     setpValThreshold(tempThreshold);
+    setLog2FoldThreshold(tempLog2Fold);
   };
 
-  const handlePlotlyClick = (data) => {
-    const { points } = data;
-    const clickedPoint = points[0];
-    setClickedPointData({
-      geneName: clickedPoint.customdata[0],
-      geneId: clickedPoint.customdata[1],
-      geneBiotype: clickedPoint.customdata[2],
-      geneDescription: clickedPoint.customdata[3],
-      log2FoldChange: clickedPoint.x,
-      log10pValue: clickedPoint.y,
-    });
-    setShowGeneInfo(true);
+  // const [log2FoldThreshold, setLog2FoldThreshold] = useState("1");
+  // const [tempLog2Fold, setTempLog2Fold] = useState("");
+
+  const handleLogChange = (e) => {
+    setTempLog2Fold(e.target.value);
   };
-  const handleCloseClick = () => {
-    setShowGeneInfo(false);
-    console.log(showGeneInfo);
-  };
+
+  // const handlePlotlyClick = (data) => {
+  //   const { points } = data;
+  //   const clickedPoint = points[0];
+  //   setClickedPointData({
+  //     geneName: clickedPoint.customdata[0],
+  //     geneId: clickedPoint.customdata[1],
+  //     geneBiotype: clickedPoint.customdata[2],
+  //     geneDescription: clickedPoint.customdata[3],
+  //     log2FoldChange: clickedPoint.x,
+  //     log10pValue: clickedPoint.y,
+  //   });
+  //   setShowGeneInfo(true);
+  // };
+  // const handleCloseClick = () => {
+  //   setShowGeneInfo(false);
+  //   console.log(showGeneInfo);
+  // };
+
+  useEffect(() => {
+    if (method === false) {
+      setDisableInput(false);
+      setLog2FoldThreshold(1);
+      setTempLog2Fold(1);
+      setTempThreshold("0.005"); // Reset the temporary threshold input
+      setpValThreshold("0.005"); // Reset the p-value threshold to default
+    } else {
+      setDisableInput(true);
+      setLog2FoldThreshold(0);
+      setTempLog2Fold(0);
+      setTempThreshold("0.05"); // Reset the temporary threshold input
+      setpValThreshold("0.05");
+    }
+  }, [method]);
 
   useEffect(() => {
     async function loadGraphData() {
@@ -192,10 +220,6 @@ export default function DEGListDatasets() {
     loadGraphData();
   }, [dataFromChild, selectedDropdown, graphModule]);
 
-  useEffect(() => {
-    console.log("graphModule after state update:", graphModule);
-  }, [graphModule]);
-
   return (
     <div className="DEG-container-expanded">
       <MultiStateToggle sendDataToParent={handleDataFromChild} />
@@ -204,51 +228,100 @@ export default function DEGListDatasets() {
           <div className="all-genes-container">
             <div className="view-pathway">
               <h3 style={{ margin: 30 }}>
-                Explore the group by group comparisons
-                <br />
-                of differentially Expressed Genes
+                explore five in vivo mouse models and compare <br />
+                gene expression values with and without eIF5A hypusination
               </h3>
             </div>
           </div>
-          <DownArrow />
 
           <div className="DEG-box">
-            <Dropdown
-              className={DEGdropdownLength}
-              selectedDropdown={selectedDropdown}
-              onChange={handleMainCategoryChange}
-              options={dropdownOptions}
-            />
-
+            <div className="droptown-tooltip-container">
+              <Dropdown
+                className={DEGdropdownLength}
+                selectedDropdown={selectedDropdown}
+                onChange={handleMainCategoryChange}
+                options={dropdownOptions}
+              />
+              <span className="tooltip">
+                ?
+                <span className="tooltip-text">
+                  Enter a statistical threshold and toggle between DESeq2 and
+                  edgeR to apply statistical methods based on experimental setup
+                  criteria. DESeq2 uses an adjusted P-value threshold {"<"} 0.05
+                  to control the False Discovery Rate {"(FDR)"}. edgeR employs a
+                  corrected P-value threshold {"<"} 0.005 and fold change
+                  criterion {"<"} 1 to identify genes that exhibit substantial
+                  expression changes despite the absence of replicates.
+                </span>
+              </span>
+            </div>
             {selectedChartData && (
               <>
                 <div className="chart-container">
                   <div className="sub-chart-container">
-                    <h3
-                      style={{
-                        color: "black",
-                        minWidth: 150,
-                        height: 50,
-                        textAlign: "center",
-                        marginTop: 0,
-                      }}
-                    >
-                      Enter the significance level. Typically set at 0.05.{" "}
-                    </h3>
+                    <Toggle
+                      toggleState={method}
+                      onToggle={() => setMethod(!method)}
+                    />
                     <div className="threshold-input-container">
-                      <input
-                        type="number"
-                        value={tempThreshold}
-                        onChange={handleThresholdChange}
-                        placeholder="0.05"
-                        id="alphaThreshold"
-                        name="alphaThreshold"
-                        defaultValue="0.05"
-                        min="-2"
-                        max="2"
-                        step="0.01"
-                        className="threshold-input-style"
-                      />
+                      <div
+                        style={{
+                          textAlign: "center",
+                          alignItems: "center",
+                          justifyContent: "center",
+                        }}
+                      >
+                        <input
+                          // type="number"
+                          default={pValueThreshold}
+                          value={tempThreshold}
+                          onChange={handleThresholdChange}
+                          id="alphaThreshold"
+                          name="alphaThreshold"
+                          className="threshold-input-style"
+                        />
+                        <p
+                          style={{
+                            color: "black",
+                            fontSize: "large",
+                            marginRight: "10px",
+                          }}
+                        >
+                          P-value
+                        </p>
+                      </div>
+
+                      {!disableInput ? (
+                        <div
+                          style={{
+                            textAlign: "center",
+                            alignItems: "center",
+                            justifyContent: "center",
+                          }}
+                        >
+                          <input
+                            // type="number"
+                            default={log2FoldThreshold}
+                            value={tempLog2Fold}
+                            onChange={handleLogChange}
+                            placeholder={log2FoldThreshold}
+                            id="logThreshold"
+                            name="logThreshold"
+                            className="threshold-input-style"
+                          />
+                          <p
+                            style={{
+                              color: "black",
+                              fontSize: "large",
+                              marginRight: "10px",
+                            }}
+                          >
+                            log2FC
+                          </p>
+                        </div>
+                      ) : (
+                        <div></div>
+                      )}
 
                       <button
                         className="threshold-submit-button"
@@ -256,14 +329,6 @@ export default function DEGListDatasets() {
                       >
                         Submit
                       </button>
-                      <span className="tooltip">
-                        ?
-                        <span className="tooltip-text">
-                          This is the global significance level (alpha) for all
-                          tests before applying the Bonferroni correction. It
-                          will be adjusted to account for multiple comparisons.
-                        </span>
-                      </span>
                     </div>
                   </div>
                 </div>
@@ -271,8 +336,7 @@ export default function DEGListDatasets() {
                   style={{
                     color: "black",
                     textAlign: "center",
-                    marginTop: "30px",
-                    // marginBottom: "10px",
+                    marginTop: "10px",
                   }}
                 >
                   {selectedDropdown}
@@ -281,7 +345,7 @@ export default function DEGListDatasets() {
                   {/* {showGeneInfo && (
                     <GeneInfoComponent
                       data={clickedPointData}
-                      onClose={handleCloseClick} // Pass handleCloseClick correctly here
+                      // onClose={handleCloseClick} // Pass handleCloseClick correctly here
                     />
                   )} */}
                 </AnimatePresence>
@@ -290,26 +354,10 @@ export default function DEGListDatasets() {
                     <PlotlyJSPlot
                       data={graphModule}
                       threshold={pValueThreshold}
-                      handlePlotlyClick={handlePlotlyClick}
+                      foldChange={log2FoldThreshold}
+                      // handlePlotlyClick={handlePlotlyClick}
+                      method={method}
                     />
-
-                    {/* <h3
-                      style={{
-                        textAlign: "center",
-                        color: "black",
-                        fontSize: "19px",
-                        width: "250px",
-                        height: "80px",
-                        marginTop: "30px",
-                      }}
-                    >
-                      {" "}
-                      STRING analysis results
-                    </h3>
-                    <ToggleCharts
-                      subCategory="AllGenes"
-                      currentPlot={mainCategory}
-                    /> */}
                   </>
                 ) : (
                   <div
