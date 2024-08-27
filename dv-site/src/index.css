@@ -28,6 +28,9 @@ a {
   color: #f1f1f1;
   text-decoration: inherit;
 }
+button {
+  color: white;
+}
 a:hover {
   color: #ffffff;
 }

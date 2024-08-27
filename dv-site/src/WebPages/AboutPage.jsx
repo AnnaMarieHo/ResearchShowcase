@@ -1,6 +1,5 @@
 import "./AboutPage.css";
 import "../homeComponents/HomeDescription.css";
-import CustomDropDown from "../CustomDropDown";
 import { motion as m } from "framer-motion";
 import DotPlot from "../barCharts/testNetwork/DotPlot.jsx";
 export default function About() {

@@ -3,12 +3,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  width: 99vw;
   padding-top: 0%;
   margin-top: 15px;
   min-width: 500px;
   margin-bottom: 50px;
   /* overflow: hidden; */
+  transition: 0s;
 }
 
 .DEG-container {
@@ -19,7 +20,7 @@
   width: auto;
   /* height: 10vw; */
   background-color: rgb(255, 255, 255);
-  transition: 0.6s;
+  transition: 0s;
 }
 
 .DEG-container-expanded {
@@ -32,11 +33,11 @@
   height: auto;
   min-height: 500px;
   background-color: rgb(255, 255, 255);
-  transition: height 0.5s;
+  /* transition: height 0.5s; */
   /* height: 60vw; */
   /* max-height: 50vw; */
   /* min-height: 700px; */
-  transition: 0.6s;
+  transition: 0;
 }
 
 .drop-down-container {
@@ -62,6 +63,24 @@
   /* box-shadow: 0px 10px 15px 0px rgba(39, 39, 39, 0.2); */
   transition: 0.07s;
 }
+.general-button {
+  /* display: flex; */
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(131, 131, 131);
+  border-radius: 4px;
+  /* padding: 10px; */
+  margin-top: 20px;
+  margin-left: 1px;
+  border: solid;
+  border-width: 1px;
+  font-size: medium;
+  border-color: rgb(114, 114, 114);
+  color: white !important;
+  /* box-shadow: 0px 10px 15px 0px rgba(39, 39, 39, 0.2); */
+  transition: 0.07s;
+}
 .threshold-submit-button:hover {
   background-color: rgb(97, 97, 97);
   transition: 0.07s;
@@ -73,7 +92,17 @@
   color: gray;
   transition: 0.07s;
 }
-
+.general-button:hover {
+  background-color: rgb(97, 97, 97);
+  transition: 0.07s;
+}
+.general-button:active {
+  background-color: rgb(58, 58, 58);
+  border-color: black;
+  /* box-shadow: 0px 0px 0px 0px rgba(39, 39, 39, 0.2); */
+  color: gray;
+  transition: 0.07s;
+}
 @media only screen and (max-width: 500px) {
   .DEG-box {
     width: 100%; /* Make the plots take full width */
@@ -209,12 +238,7 @@
   text-align: center;
   /* box-shadow: 0px 10px 15px 0px rgba(39, 39, 39, 0.15); */
 }
-.cluster-plots {
-  /* width: 100%; */
-  height: 20%;
-  /* display: flex;
-  flex-direction: row; */
-}
+
 .cluster-columns {
   width: 30%;
   /* height: 40%; */
@@ -241,5 +265,167 @@
     margin: 10px;
     display: flex;
     flex-direction: column;
+  }
+}
+
+/* Modal overlay styles */
+
+.testing {
+  /* position: fixed; */
+  /* top: 0;
+  left: 0; */
+  width: 40%;
+  /* height: 100%; */
+  margin: 30px;
+  /* background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0s;
+}
+
+/* Modal content styles */
+.modal-content {
+  color: black;
+  min-width: 450px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  max-width: 700px;
+  max-height: 90vh;
+  border: solid 1px gray;
+  text-align: center;
+  border-radius: 7px;
+  /* margin: 30px; */
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0px 10px 15px 0px rgba(39, 39, 39, 0.15);
+  background-color: white; /* White background for the modal card */
+  overflow: hidden;
+  position: relative;
+  z-index: 1001; /* Ensure it is above the overlay */
+  transition: 0s;
+}
+
+/* Scrollable content styles */
+.scrollable-content {
+  margin-top: 10px;
+  width: 100%;
+  padding: 8px;
+  overflow-y: auto; /* Enable vertical scrolling if needed */
+  max-height: 80vh; /* Ensure sections do not exceed the maximum height */
+  transition: 0s;
+}
+
+/* WebKit browsers */
+.scrollable-content::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+.scrollable-content::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners for the scrollbar thumb */
+}
+
+.scrollable-content::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Color of the scrollbar thumb on hover */
+}
+
+.scrollable-content::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Color of the scrollbar track */
+}
+
+/* Firefox */
+.scrollable-content {
+  scrollbar-width: thin; /* Make the scrollbar thinner */
+  scrollbar-color: #888 #f1f1f1; /* Color of the scrollbar thumb and track */
+}
+
+.info-w-plot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 900px) {
+  .info-w-plot {
+    width: 100%;
+
+    flex-direction: column;
+    /* width: 500px; */
+  }
+}
+.columns-container {
+  display: flex;
+  padding: 0 30px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 100%;
+}
+
+.more-testing {
+  width: 96%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  transition: 0s;
+
+  /* style={{ width: "100%", display: "flex", flexDirection: "row" }} */
+}
+@media only screen and (max-width: 1500px) {
+  .more-testing {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .testing {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure it is on top of other content */
+  }
+  .modal-content {
+    color: black;
+    min-width: 470px;
+    width: 85%;
+    display: flex;
+    align-items: center;
+
+    max-height: 80vh;
+    border: solid 1px gray;
+    text-align: center;
+    border-radius: 7px;
+    /* margin: 30px; */
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0px 10px 15px 0px rgba(39, 39, 39, 0.15);
+    background-color: white; /* White background for the modal card */
+    overflow: hidden;
+    position: relative;
+    z-index: 1001; /* Ensure it is above the overlay */
   }
 }

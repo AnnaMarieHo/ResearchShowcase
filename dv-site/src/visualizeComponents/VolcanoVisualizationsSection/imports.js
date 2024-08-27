@@ -40,7 +40,7 @@ import K501_WikiPathways from "../../barCharts/K50A_DDvsDHS_DOHH/enrichment.Wiki
 
 import K502_KEGG from "../../barCharts/K50A_DDvsTar4_EC/enrichment.KEGG.json";
 import K502_RCTM from "../../barCharts/K50A_DDvsTar4_EC/enrichment.RCTM.json";
-import K502_WikiPathways from "../../barCharts/K50A_DDvsTar4_EC/enrichment.WikiPathways.json";
+// import K502_WikiPathways from "../../barCharts/K50A_DDvsTar4_EC/enrichment.WikiPathways.json";
 
 import K503_KEGG from "../../barCharts/K50A_DDvsWT_EC/enrichment.KEGG.json";
 import K503_RCTM from "../../barCharts/K50A_DDvsWT_EC/enrichment.RCTM.json";
@@ -48,9 +48,9 @@ import K503_WikiPathways from "../../barCharts/K50A_DDvsWT_EC/enrichment.WikiPat
 
 import Tar4_KEGG from "../../barCharts/Tar4_ECvsWT_EC/enrichment.KEGG.json";
 import Tar4_RCTM from "../../barCharts/Tar4_ECvsWT_EC/enrichment.RCTM.json";
-import Tar4_WikiPathways from "../../barCharts/Tar4_ECvsWT_EC/enrichment.WikiPathways.json";
+// import Tar4_WikiPathways from "../../barCharts/Tar4_ECvsWT_EC/enrichment.WikiPathways.json";
 
-import STRINGchart1 from "../../barCharts/DHS_DOHHvsTar4_EC/enrichment.NetworkNeighborAL.json";
+// import STRINGchart1 from "../../barCharts/DHS_DOHHvsTar4_EC/enrichment.NetworkNeighborAL.json";
 
 import EIf5avsWTenrich from "../../barCharts/testNetwork/eIF5AvsWT_EC.all.Reactome_enrich";
 console.log(EIf5avsWTenrich);
@@ -70,7 +70,7 @@ const chartDataMapping = {
     KEGG: DHS_DOHHvsTar4_EC_KEGG,
     Reactome: DHS_DOHHvsTar4_EC_RCTM,
     WikiPathways: DHS_DOHHvsTar4_EC_WikiPathways,
-    AllGenes: STRINGchart1,
+    // AllGenes: STRINGchart1,
   },
   eIF5A_DDvsDHS_DOHH: {
     KEGG: EIf5A1_KEGG,
@@ -100,6 +100,7 @@ const chartDataMapping = {
   eIF5AvsTar4_EC: {
     KEGG: EIf5A6_KEGG,
     Reactome: EIF5A6_RCTM,
+    // Reactome: null,
     WikiPathways: EIF5A6_WikiPathways,
   },
   eIF5AvsWT_EC: {
@@ -115,17 +116,20 @@ const chartDataMapping = {
   K50A_DDvsTar4_EC: {
     KEGG: K502_KEGG,
     Reactome: K502_RCTM,
-    WikiPathways: K502_WikiPathways,
+    // WikiPathways: K502_WikiPathways,
+    WikiPathways: null,
   },
   K50A_DDvsWT_EC: {
     KEGG: K503_KEGG,
     Reactome: K503_RCTM,
+    // WikiPathways: null,
     WikiPathways: K503_WikiPathways,
   },
   Tar4_ECvsWT_EC: {
     KEGG: Tar4_KEGG,
     Reactome: Tar4_RCTM,
-    WikiPathways: Tar4_WikiPathways,
+    // WikiPathways: Tar4_WikiPathways,
+    WikiPathways: null,
   },
 };
 

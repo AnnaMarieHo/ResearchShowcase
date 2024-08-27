@@ -2,7 +2,6 @@ import "./App.css";
 import Navbar from "./NavBar";
 import About from "./WebPages/AboutPage";
 import HomePage from "./WebPages/HomePage";
-import Publications from "./WebPages/Publications";
 import Visualize from "./WebPages/Visualize";
 import HomeFooter from "./homeComponents/HomeFooter";
 import { Route, Routes, useLocation } from "react-router-dom";
@@ -20,7 +19,6 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<About />} />
-          <Route path="/studies" element={<Publications />} />
           <Route path="/visualize" element={<Visualize />} />
         </Routes>
       </div>

@@ -2,8 +2,9 @@ import React, { useState, useEffect } from "react";
 import "./DEGListDatasets.css";
 import Dropdown from "../DropDown";
 import PlotlyBarChart from "../../barCharts/PlotlyJSGraph";
-import { AnimatePresence } from "framer-motion";
+// import { AnimatePresence } from "framer-motion";
 import RegulationInfo from "./RegulationInfo";
+import Plot from "./RegulationPlot";
 import {
   chartDataMapping,
   dropdownOptions,
@@ -52,18 +53,56 @@ export default function ToggleCharts({ subCategory, currentPlot }) {
   const handleCloseClick = () => {
     setShowGeneInfo(false);
   };
-
   const handleChartClick = (eventData) => {
     const clickedPoint = eventData.points[0];
-    console.log(clickedPoint);
+    const {
+      termId,
+      termDescription,
+      genesMapped,
+      enrichmentScore,
+      direction,
+      falseDiscoveryRate,
+      method,
+      matchingProteinsIds,
+      matchingProteinsLabels,
+    } = clickedPoint.customdata;
+
+    console.log("Term ID:", termId);
+    console.log("Term Description:", termDescription);
+    console.log("Genes Mapped:", genesMapped);
+    console.log("Enrichment Score:", enrichmentScore);
+    console.log("Direction:", direction);
+    console.log("False Discovery Rate:", falseDiscoveryRate);
+    console.log("Method:", method);
+    console.log("Matching Proteins IDs:", matchingProteinsIds);
+    console.log("Matching Proteins Labels:", matchingProteinsLabels);
+
     setBarChartData({
-      barLabel: clickedPoint.label,
-      xVal: clickedPoint.x,
-      yVal: clickedPoint.y,
-      enrichmentScore: clickedPoint.x,
+      termId,
+      termDescription,
+      genesMapped,
+      enrichmentScore,
+      direction,
+      falseDiscoveryRate,
+      method,
+      matchingProteinsIds,
+      matchingProteinsLabels,
     });
     setShowGeneInfo(true);
   };
+  console.log(barChartData);
+
+  // const handleChartClick = (eventData) => {
+  //   const clickedPoint = eventData.points[0];
+  //   console.log(clickedPoint);
+  //   setBarChartData({
+  //     barLabel: clickedPoint.label,
+  //     xVal: clickedPoint.x,
+  //     yVal: clickedPoint.y,
+  //     enrichmentScore: clickedPoint.x,
+  //   });
+  //   setShowGeneInfo(true);
+  // };
 
   const renderDropdownOptions = () => {
     if (dataLength < 50) {
@@ -86,49 +125,68 @@ export default function ToggleCharts({ subCategory, currentPlot }) {
   return (
     <>
       {showDropdowns && (
-        <Dropdown
-          className={DEGdropdownLength}
-          selectedDropdown={selectedDropdown}
-          onChange={handleMainCategoryChange}
-          options={dropdownOptions}
-        />
-      )}
-      <div
-        style={{ display: "flex", flexDirection: "row", alignItems: "center" }}
-      >
-        <Dropdown
-          className={termsLength}
-          selectedDropdown={numTerms.toString()}
-          onChange={(e) => setNumTerms(parseInt(e.target.value))}
-          options={renderDropdownOptions()}
-        />
-        <span className="tooltip">
-          ?
-          <span className="tooltip-text">
-            Select pairwise comparisons that you would like to view enriched
-            pathways for. Then select the top pathways in groups of 10, 20, or
-            50. If the dataset has fewer results than 50 then all data will be
-            displayed
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            alignItems: "center",
+          }}
+        >
+          <Dropdown
+            className={DEGdropdownLength}
+            selectedDropdown={selectedDropdown}
+            onChange={handleMainCategoryChange}
+            options={dropdownOptions}
+          />
+          <span className="tooltip">
+            ?
+            <span className="tooltip-text">
+              Select a pairwise comparison. Then select the top number pathways
+              in groups of 10, 20, or 50. If the dataset has fewer than 50
+              pathways then all data will be displayed. Click a specific pathway
+              for additional information
+            </span>
           </span>
-        </span>
-      </div>
-      {showGeneInfo && (
-        <AnimatePresence>
+        </div>
+      )}
+      {/* <Dropdown
+        className={termsLength}
+        selectedDropdown={numTerms.toString()}
+        onChange={(e) => setNumTerms(parseInt(e.target.value))}
+        options={renderDropdownOptions()}
+      /> */}
+      <div className="more-testing">
+        <div
+          style={{
+            width: "100%",
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          {selectedChartData && (
+            <>
+              <PlotlyBarChart
+                chart={selectedChartData}
+                numTerms={numTerms}
+                mainCategory={mainCategory}
+                subCategory={subCategory}
+                handleChartClick={handleChartClick}
+              />
+            </>
+          )}
+        </div>
+        {showGeneInfo && (
+          // <AnimatePresence>
           <RegulationInfo
             barChartData={barChartData}
             onClose={handleCloseClick}
+            selectedDropdown={selectedDropdown}
           />
-        </AnimatePresence>
-      )}
-      {selectedChartData && (
-        <PlotlyBarChart
-          chart={selectedChartData}
-          numTerms={numTerms}
-          mainCategory={mainCategory}
-          subCategory={subCategory}
-          handleChartClick={handleChartClick}
-        />
-      )}
+          // </AnimatePresence>
+        )}
+      </div>
     </>
   );
 }
