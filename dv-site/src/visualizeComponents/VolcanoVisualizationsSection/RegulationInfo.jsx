@@ -138,7 +138,7 @@ const RegulationInfo = ({ barChartData, onClose, selectedDropdown }) => {
               onClick={() => setIsExpanded(!isExpanded)} // Toggle expansion
               className="general-button"
             >
-              Matching Proteins {isExpanded ? "▲" : "▼"}
+              Matching Genes {isExpanded ? "▲" : "▼"}
             </button>
             {isExpanded && (
               <div

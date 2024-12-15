@@ -104,23 +104,23 @@ export default function ToggleCharts({ subCategory, currentPlot }) {
   //   setShowGeneInfo(true);
   // };
 
-  const renderDropdownOptions = () => {
-    if (dataLength < 50) {
-      const options = [{ label: "-- choose --", value: "-- choose --" }];
-      if (dataLength >= 10) options.push({ label: "10", value: 10 });
-      if (dataLength >= 20) options.push({ label: "20", value: 20 });
-      if (dataLength >= 50) options.push({ label: "50", value: 50 });
-      options.push({ label: dataLength, value: dataLength });
-      return options;
-    } else {
-      return [
-        { label: "-- choose --", value: "-- choose --" },
-        { label: "10", value: 10 },
-        { label: "20", value: 20 },
-        { label: "50", value: 50 },
-      ];
-    }
-  };
+  // const renderDropdownOptions = () => {
+  //   if (dataLength < 50) {
+  //     const options = [{ label: "-- choose --", value: "-- choose --" }];
+  //     if (dataLength >= 10) options.push({ label: "10", value: 10 });
+  //     if (dataLength >= 20) options.push({ label: "20", value: 20 });
+  //     if (dataLength >= 50) options.push({ label: "50", value: 50 });
+  //     options.push({ label: dataLength, value: dataLength });
+  //     return options;
+  //   } else {
+  //     return [
+  //       { label: "-- choose --", value: "-- choose --" },
+  //       { label: "10", value: 10 },
+  //       { label: "20", value: 20 },
+  //       { label: "50", value: 50 },
+  //     ];
+  //   }
+  // };
 
   return (
     <>
