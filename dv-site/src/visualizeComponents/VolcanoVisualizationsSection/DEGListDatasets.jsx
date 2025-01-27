@@ -1,7 +1,7 @@
 import "./DEGListDatasets.css";
 import React, { useState, useEffect } from "react";
 import VisualizeButton from "../../generalComponents/ExpandComponentButton";
-import PlotlyGraph from "../../graphs/PlotlyGraph";
+// import PlotlyGraph from "../../graphs/PlotlyGraph";
 import Dropdown from "../DropDown";
 import DownArrow from "../../generalComponents/DownArrow";
 import ToggleSwitch from "../ToggleGraphComponent";

@@ -1,193 +1,200 @@
 import "./DEGListDatasets.css";
 import React, { useState, useEffect } from "react";
-import PlotlyGraph from "../../graphs/PlotlyGraph";
+// import PlotlyGraph from "../../graphs/PlotlyGraph";
 import Dropdown from "../DropDown";
 import MultiStateToggle from "../MultiStateToggle";
-import DownArrow from "../../generalComponents/DownArrow";
-import PlotlyBarChart from "../../barCharts/PlotlyJS";
-import DHS_DOHHvsTar4_EC_KEGG from "../../barCharts/DHS_DOHHvsTar4_EC/enrichment.KEGG.json";
-import DHS_DOHHvsTar4_EC_RCTM from "../../barCharts/DHS_DOHHvsTar4_EC/enrichment.RCTM.json";
-import DHS_DOHHvsTar4_EC_WikiPathways from "../../barCharts/DHS_DOHHvsTar4_EC/enrichment.WikiPathways.json";
-import DHS_DOHHvsWT_EC_KEGG from "../../barCharts/DHS_DOHHvsWT_EC/enrichment.KEGG.json";
-import DHS_DOHHvsWT_EC_RCTM from "../../barCharts/DHS_DOHHvsWT_EC/enrichment.RCTM.json";
-import DHS_DOHHvsWT_EC_WikiPathways from "../../barCharts/DHS_DOHHvsWT_EC/enrichment.WikiPathways.json";
+import "../../graphs/PlotlyGraph.css";
+import ToggleCharts from "./ToggleCharts";
+import DotPlot from "../../barCharts/testNetwork/DotPlot";
+import Toggle from "../ToggleGraphComponent";
+import Scatter from "./ScatterPlot";
+
+import {
+  chartDataMapping,
+  dropdownOptions,
+  DEGdropdownLength,
+  plotDataMapping,
+} from "./imports";
 
 export default function DEGListDatasets() {
   const [selectedDropdown, setSelectedDropdown] = useState("-- choose --");
   const [dataFromChild, setDataFromChild] = useState("All Genes");
-  const [numTerms, setNumTerms] = useState(0);
   const [selectedChartData, setSelectedChartData] = useState(null);
+  const [selectedPlotData, setSelectedPlotData] = useState(null);
   const [mainCategory, setMainCategory] = useState("DHS_DOHHvsWT_EC");
   const [subCategory, setSubCategory] = useState("KEGG");
+  const [pValueThreshold, setpValThreshold] = useState("0.05");
+  const [tempThreshold, setTempThreshold] = useState("0.05");
+
+  const [method, setMethod] = useState(false);
+  const [disableInput, setDisableInput] = useState(false);
+  const [log2FoldThreshold, setLog2FoldThreshold] = useState("0");
+  const [tempLog2Fold, setTempLog2Fold] = useState("1");
 
   const handleDataFromChild = (data) => {
-    console.log("Data Received From Child:", data);
-    setDataFromChild(data);
-    setSelectedDropdown("-- choose --");
-    setSubCategory(data);
-  };
-  useEffect(() => {
-    if (selectedDropdown !== "-- choose --") {
-      setNumTerms(parseInt(selectedDropdown, 10));
+    if (data !== "KEGG" && data !== "Reactome" && data !== "STRING") {
+      setSubCategory("WikiPathways");
+    } else {
+      setSubCategory(data);
     }
-  }, [selectedDropdown]);
-
-  useEffect(() => {
-    const chartData = chartDataMapping[mainCategory]?.[subCategory];
-    setSelectedChartData(chartData);
-  }, [mainCategory, subCategory]);
-
-  const DEGdropdownLength = "drop-down";
-
-  const dropdownTerms = [
-    { label: "-- choose --", value: "-- choose --" },
-    { label: "10", value: 10 },
-    { label: "20", value: 20 },
-    { label: "50", value: 50 },
-  ];
-  const termsLength = "terms";
-
-  const chartDataMapping = {
-    DHS_DOHHvsWT_EC: {
-      KEGG: DHS_DOHHvsWT_EC_KEGG,
-      RCTM: DHS_DOHHvsWT_EC_RCTM,
-      WikiPathways: DHS_DOHHvsWT_EC_WikiPathways,
-    },
+    setDataFromChild(data);
+    if (data === "All Genes") {
+      setpValThreshold(0.05);
+    } else {
+      setSelectedDropdown("DHS_DOHHvsWT_EC");
+    }
   };
 
-  const dropdownOptions = [
-    { label: "-- choose --" },
-    { label: "DHS_DOHHvsWT_EC" },
-    { label: "DHS_DOHHvsTar4_EC" },
-    { label: "eIF5A_DDvsDHS_DOHH" },
-    { label: "eIF5A_DDvseIF5A" },
-    { label: "eIF5A_DDvsK50A_DD" },
-    { label: "eIF5A_DDvsTar4_EC" },
-    { label: "eIF5A_DDvsWT_EC" },
-    { label: "eIF5AvsTar4_EC" },
-    { label: "eIF5AvsWT_EC" },
-    { label: "K50A_DDvsDHS_DOHH" },
-    { label: "K50A_DDvsTar4_EC" },
-    { label: "K50A_DDvsWT_EC" },
-    { label: "Tar4_ECvsWT_EC" },
-  ];
+  useEffect(() => {
+    const mainCategory =
+      selectedDropdown !== "-- choose --" ? selectedDropdown : null;
+    if (mainCategory) {
+      const chartData = chartDataMapping[mainCategory]?.[subCategory];
+      setSelectedChartData(chartData);
+    } else {
+      setSelectedChartData(null);
+    }
+  }, [selectedDropdown, subCategory]);
+
+  useEffect(() => {
+    const plotData = plotDataMapping[mainCategory]?.[subCategory];
+    setSelectedPlotData(plotData); // Update selectedPlotData based on mainCategory and subCategory
+  }, [selectedDropdown, subCategory, mainCategory, selectedPlotData]);
+
+  const handleMainCategoryChange = (e) => {
+    const value = e.target.value;
+    setSelectedDropdown(value);
+    setMainCategory(value);
+  };
+
+  useEffect(() => {
+    if (method === false) {
+      setDisableInput(false);
+      setLog2FoldThreshold(0);
+      setTempLog2Fold(0);
+      setTempThreshold("0.05"); // Reset the temporary threshold input
+      setpValThreshold("0.05"); // Reset the p-value threshold to default
+    } else {
+      setDisableInput(true);
+      setLog2FoldThreshold(0);
+      setTempLog2Fold(0);
+      setTempThreshold("0.05"); // Reset the temporary threshold input
+      setpValThreshold("0.05");
+    }
+  }, [method]);
 
   return (
     <div className="DEG-container-expanded">
       <MultiStateToggle sendDataToParent={handleDataFromChild} />
       {dataFromChild === "All Genes" && (
         <>
-          <div
-            style={{
-              color: "black",
-              width: "100%",
-              height: 100,
-              textAlign: "center",
-              marginTop: 15,
-              display: "flex",
-              alignItems: "center",
-              flexDirection: "column",
-            }}
-          >
-            <div
-              style={{
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                flexDirection: "column",
-              }}
-            >
-              <h3 style={{ margin: 30 }}>View a Pathway</h3>
-              <DownArrow />
+          <div className="all-genes-container">
+            <div className="view-pathway">
+              <h3 style={{ margin: 30 }}>
+                explore five in vivo mouse models and compare <br />
+                gene expression values with and without eIF5A hypusination
+              </h3>
             </div>
           </div>
 
           <div className="DEG-box">
-            <Dropdown
-              className={DEGdropdownLength}
-              selectedDropdown={selectedDropdown}
-              onChange={(e) => setSelectedDropdown(e.target.value)}
-              options={dropdownOptions}
-            />
-
-            {selectedDropdown === "-- choose --" ? (
+            <div className="droptown-tooltip-container">
+              <Dropdown
+                className={DEGdropdownLength}
+                selectedDropdown={selectedDropdown}
+                onChange={handleMainCategoryChange}
+                options={dropdownOptions}
+              />
+              <span className="tooltip">
+                ?
+                <span className="tooltip-text">
+                  Enter a statistical threshold and toggle between DESeq2 and
+                  edgeR to apply statistical methods based on experimental setup
+                  criteria. DESeq2 uses an adjusted P-value threshold {"<"} 0.05
+                  to control the False Discovery Rate {"(FDR)"}. edgeR employs a
+                  corrected P-value threshold {"<"} 0.05 and fold change
+                  criterion {"<"} 1 to identify genes that exhibit substantial
+                  expression changes despite the absence of replicates.
+                </span>
+              </span>
+            </div>
+            {selectedChartData && (
               <>
-                <div style={{ width: 30, height: 30, margin: 10 }}></div>
+                <Scatter currentDropdown={selectedDropdown} />
               </>
-            ) : (
-              dropdownOptions.map(
-                (option, index) =>
-                  selectedDropdown === option.label && (
-                    <div key={index}>
-                      <div className="graph-container">
-                        <PlotlyGraph
-                          file={`${option.label}/${option.label}.DEG.all`}
-                        />
-                      </div>
-                    </div>
-                  )
-              )
             )}
           </div>
-
-          <iframe
-            src="https://version-12-0.string-db.org/cgi/globalenrichment?networkId=bBmGA3kwle9n"
-            title="Embedded Page"
-            width="100%"
-            height="1150px"
-            frameBorder="0"
-            scrolling="auto"
-          ></iframe>
         </>
       )}
       {dataFromChild === "KEGG" && (
         <>
-          <Dropdown
-            className={termsLength}
-            selectedDropdown={selectedDropdown}
-            onChange={(e) => setSelectedDropdown(e.target.value)}
-            options={dropdownTerms}
-          />
-          {selectedDropdown !== "-- choose --" && (
-            <PlotlyBarChart
-              numTerms={numTerms}
-              chart={DHS_DOHHvsTar4_EC_KEGG}
-            />
-          )}
-          {/* <PlotlyBarChart numTerms={selectedDropdown} /> */}
+          <div className="all-genes-container">
+            <div className="view-pathway">
+              <h3 style={{ margin: 30 }}>
+                Explore regulatory interactions between eIF5A hypusination
+                <br /> and pathways found in the KEGG database
+              </h3>
+            </div>
+          </div>
+          <ToggleCharts subCategory={subCategory} />
         </>
       )}
       {dataFromChild === "Wiki\nPathways" && (
         <>
-          <Dropdown
-            className={termsLength}
-            selectedDropdown={selectedDropdown}
-            onChange={(e) => setSelectedDropdown(e.target.value)}
-            options={dropdownTerms}
-          />
-          {selectedDropdown !== "-- choose --" && (
-            <PlotlyBarChart
-              numTerms={numTerms}
-              chart={DHS_DOHHvsTar4_EC_WikiPathways}
-            />
-          )}
+          <div className="all-genes-container">
+            <div className="view-pathway">
+              <h3 style={{ margin: 30 }}>
+                Explore regulatory interactions between eIF5A hypusination
+                <br /> and pathways found in the WikiPathways database
+              </h3>
+            </div>
+          </div>
+          <ToggleCharts subCategory={subCategory} currentPlot={null} />
         </>
       )}
       {dataFromChild === "Reactome" && (
         <>
-          <Dropdown
-            className={DEGdropdownLength}
-            selectedDropdown={selectedDropdown}
-            onChange={(e) => setSelectedDropdown(e.target.value)}
-            options={dropdownOptions}
-          />
-          <Dropdown
-            className={termsLength}
-            selectedDropdown={selectedDropdown}
-            onChange={(e) => setSelectedDropdown(e.target.value)}
-            options={dropdownTerms}
-          />
-          {selectedChartData && <PlotlyBarChart chart={selectedChartData} />}
+          <div className="all-genes-container">
+            <div className="view-pathway">
+              <h3 style={{ margin: 30 }}>
+                Explore regulatory interactions between eIF5A hypusination
+                <br /> and pathways found in the Reactome database
+              </h3>
+            </div>
+          </div>
+          <ToggleCharts subCategory={subCategory} currentPlot={null} />
+          {/* {selectedPlotData ? <DotPlot plot={selectedPlotData} /> : <div></div>} */}
+        </>
+      )}
+      {dataFromChild === "STRING" && (
+        <>
+          <div className="all-genes-container">
+            <div className="view-pathway">
+              <h3 style={{ margin: 30 }}>
+                View our original STRING analysis
+                <br />
+              </h3>
+            </div>
+          </div>
+          <div
+            style={{
+              height: "1250px",
+              width: "100%",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              margin: "30px",
+            }}
+          >
+            <iframe
+              src="https://version-12-0.string-db.org/cgi/globalenrichment?networkId=bBmGA3kwle9n"
+              title="Embedded Page"
+              width="95%"
+              height="1250px"
+              frameBorder="0"
+              scrolling="auto"
+            ></iframe>
+          </div>
         </>
       )}
     </div>

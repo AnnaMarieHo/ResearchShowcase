@@ -13,22 +13,22 @@ export default function ContactSection() {
           <p style={{ fontSize: 27 }}>CONTACT</p>
         </div>
         <div className="form-inner-container">
-          <div className="form-content">
-            <div className="form-wrapper">
-              <div className="left-content">
-                <LeftContent content={"1(205)-628-7519"} icon={PhoneIcon} />
-                <LeftContent content={"somemail@gmail.com"} icon={EmailIcon} />
-                <LeftContent
-                  content={"University of Kentucky"}
-                  icon={LocationIcon}
-                />
-              </div>
-
-              <div className="right-content">
-                <ContactForm />
-              </div>
-            </div>
+          {/* <div className="form-content"> */}
+          {/* <div className="form-wrapper"> */}
+          <div className="left-content">
+            <LeftContent content={"1(859)-562-0333"} icon={PhoneIcon} />
+            <LeftContent content={"justin.miller@uky.edu"} icon={EmailIcon} />
+            <LeftContent
+              content={"University of Kentucky"}
+              icon={LocationIcon}
+            />
           </div>
+
+          {/* <div className="right-content">
+                <ContactForm />
+              </div> */}
+          {/* </div> */}
+          {/* </div> */}
         </div>
       </div>
     </div>

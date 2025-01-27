@@ -1,0 +1,5202 @@
+[
+  {
+    "ReactomeID": "R-MMU-1474244",
+    "Description": "Extracellular matrix organization",
+    "GeneRatio_Calculated": 0.0680272109,
+    "BgRatio_Calculated": 0.0304946077,
+    "pvalue": 0.000632631,
+    "padj": 0.393165255
+  },
+  {
+    "ReactomeID": "R-MMU-198933",
+    "Description": "Immunoregulatory interactions between a Lymphoid and a non-Lymphoid cell",
+    "GeneRatio_Calculated": 0.0340136054,
+    "BgRatio_Calculated": 0.0112805256,
+    "pvalue": 0.001672574,
+    "padj": 0.393165255
+  },
+  {
+    "ReactomeID": "R-MMU-3000157",
+    "Description": "Laminin interactions",
+    "GeneRatio_Calculated": 0.0170068027,
+    "BgRatio_Calculated": 0.0032230073,
+    "pvalue": 0.002175929,
+    "padj": 0.393165255
+  },
+  {
+    "ReactomeID": "R-MMU-216083",
+    "Description": "Integrin cell surface interactions",
+    "GeneRatio_Calculated": 0.0272108844,
+    "BgRatio_Calculated": 0.0086773274,
+    "pvalue": 0.003750273,
+    "padj": 0.393165255
+  },
+  {
+    "ReactomeID": "R-MMU-8957275",
+    "Description": "Post-translational protein phosphorylation",
+    "GeneRatio_Calculated": 0.0340136054,
+    "BgRatio_Calculated": 0.0128920293,
+    "pvalue": 0.004487257,
+    "padj": 0.393165255
+  },
+  {
+    "ReactomeID": "R-MMU-1799339",
+    "Description": "SRP-dependent cotranslational protein targeting to membrane",
+    "GeneRatio_Calculated": 0.0306122449,
+    "BgRatio_Calculated": 0.0109086401,
+    "pvalue": 0.004591164,
+    "padj": 0.393165255
+  },
+  {
+    "ReactomeID": "R-MMU-430116",
+    "Description": "GP1b-IX-V activation signalling",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0012396182,
+    "pvalue": 0.004751631,
+    "padj": 0.393165255
+  },
+  {
+    "ReactomeID": "R-MMU-975956",
+    "Description": "Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)",
+    "GeneRatio_Calculated": 0.0306122449,
+    "BgRatio_Calculated": 0.0111565638,
+    "pvalue": 0.005328054,
+    "padj": 0.393165255
+  },
+  {
+    "ReactomeID": "R-MMU-202733",
+    "Description": "Cell surface interactions at the vascular wall",
+    "GeneRatio_Calculated": 0.0340136054,
+    "BgRatio_Calculated": 0.0132639147,
+    "pvalue": 0.005491038,
+    "padj": 0.393165255
+  },
+  {
+    "ReactomeID": "R-MMU-416572",
+    "Description": "Sema4D induced cell migration and growth-cone collapse",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.00136358,
+    "pvalue": 0.006358884,
+    "padj": 0.393165255
+  },
+  {
+    "ReactomeID": "R-MMU-381426",
+    "Description": "Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs)",
+    "GeneRatio_Calculated": 0.0340136054,
+    "BgRatio_Calculated": 0.0136358002,
+    "pvalue": 0.006662568,
+    "padj": 0.393165255
+  },
+  {
+    "ReactomeID": "R-MMU-2129379",
+    "Description": "Molecules associated with elastic fibres",
+    "GeneRatio_Calculated": 0.0170068027,
+    "BgRatio_Calculated": 0.0042147019,
+    "pvalue": 0.007258435,
+    "padj": 0.393165255
+  },
+  {
+    "ReactomeID": "R-MMU-72689",
+    "Description": "Formation of a pool of free 40S subunits",
+    "GeneRatio_Calculated": 0.0306122449,
+    "BgRatio_Calculated": 0.0120242965,
+    "pvalue": 0.008648229,
+    "padj": 0.401688867
+  },
+  {
+    "ReactomeID": "R-MMU-9006934",
+    "Description": "Signaling by Receptor Tyrosine Kinases",
+    "GeneRatio_Calculated": 0.0816326531,
+    "BgRatio_Calculated": 0.048840957,
+    "pvalue": 0.009140565,
+    "padj": 0.401688867
+  },
+  {
+    "ReactomeID": "R-MMU-8875878",
+    "Description": "MET promotes cell motility",
+    "GeneRatio_Calculated": 0.0170068027,
+    "BgRatio_Calculated": 0.0044626255,
+    "pvalue": 0.009269743,
+    "padj": 0.401688867
+  },
+  {
+    "ReactomeID": "R-MMU-1963642",
+    "Description": "PI3K events in ERBB2 signaling",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0017354655,
+    "pvalue": 0.012937161,
+    "padj": 0.461421223
+  },
+  {
+    "ReactomeID": "R-MMU-400685",
+    "Description": "Sema4D in semaphorin signaling",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0017354655,
+    "pvalue": 0.012937161,
+    "padj": 0.461421223
+  },
+  {
+    "ReactomeID": "R-MMU-8874081",
+    "Description": "MET activates PTK2 signaling",
+    "GeneRatio_Calculated": 0.0136054422,
+    "BgRatio_Calculated": 0.0032230073,
+    "pvalue": 0.01371487,
+    "padj": 0.461421223
+  },
+  {
+    "ReactomeID": "R-MMU-156827",
+    "Description": "L13a-mediated translational silencing of Ceruloplasmin expression",
+    "GeneRatio_Calculated": 0.0306122449,
+    "BgRatio_Calculated": 0.0132639147,
+    "pvalue": 0.015853138,
+    "padj": 0.461421223
+  },
+  {
+    "ReactomeID": "R-MMU-1566948",
+    "Description": "Elastic fibre formation",
+    "GeneRatio_Calculated": 0.0170068027,
+    "BgRatio_Calculated": 0.0050824346,
+    "pvalue": 0.015904413,
+    "padj": 0.461421223
+  },
+  {
+    "ReactomeID": "R-MMU-6806834",
+    "Description": "Signaling by MET",
+    "GeneRatio_Calculated": 0.0238095238,
+    "BgRatio_Calculated": 0.0090492128,
+    "pvalue": 0.016604966,
+    "padj": 0.461421223
+  },
+  {
+    "ReactomeID": "R-MMU-72706",
+    "Description": "GTP hydrolysis and joining of the 60S ribosomal subunit",
+    "GeneRatio_Calculated": 0.0306122449,
+    "BgRatio_Calculated": 0.0133878765,
+    "pvalue": 0.01676142,
+    "padj": 0.461421223
+  },
+  {
+    "ReactomeID": "R-MMU-927802",
+    "Description": "Nonsense-Mediated Decay (NMD)",
+    "GeneRatio_Calculated": 0.0306122449,
+    "BgRatio_Calculated": 0.0135118384,
+    "pvalue": 0.017707238,
+    "padj": 0.461421223
+  },
+  {
+    "ReactomeID": "R-MMU-975957",
+    "Description": "Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)",
+    "GeneRatio_Calculated": 0.0306122449,
+    "BgRatio_Calculated": 0.0135118384,
+    "pvalue": 0.017707238,
+    "padj": 0.461421223
+  },
+  {
+    "ReactomeID": "R-MMU-8964043",
+    "Description": "Plasma lipoprotein clearance",
+    "GeneRatio_Calculated": 0.0136054422,
+    "BgRatio_Calculated": 0.003470931,
+    "pvalue": 0.01774697,
+    "padj": 0.461421223
+  },
+  {
+    "ReactomeID": "R-MMU-2173782",
+    "Description": "Binding and Uptake of Ligands by Scavenger Receptors",
+    "GeneRatio_Calculated": 0.0136054422,
+    "BgRatio_Calculated": 0.0035948928,
+    "pvalue": 0.020011644,
+    "padj": 0.500291092
+  },
+  {
+    "ReactomeID": "R-MMU-72613",
+    "Description": "Eukaryotic Translation Initiation",
+    "GeneRatio_Calculated": 0.0306122449,
+    "BgRatio_Calculated": 0.0142556093,
+    "pvalue": 0.024215805,
+    "padj": 0.562152619
+  },
+  {
+    "ReactomeID": "R-MMU-72737",
+    "Description": "Cap-dependent Translation Initiation",
+    "GeneRatio_Calculated": 0.0306122449,
+    "BgRatio_Calculated": 0.0142556093,
+    "pvalue": 0.024215805,
+    "padj": 0.562152619
+  },
+  {
+    "ReactomeID": "R-MMU-5683826",
+    "Description": "Surfactant metabolism",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0022313128,
+    "pvalue": 0.026053545,
+    "padj": 0.57264981
+  },
+  {
+    "ReactomeID": "R-MMU-8848021",
+    "Description": "Signaling by PTK6",
+    "GeneRatio_Calculated": 0.0170068027,
+    "BgRatio_Calculated": 0.0058262055,
+    "pvalue": 0.027310991,
+    "padj": 0.57264981
+  },
+  {
+    "ReactomeID": "R-MMU-9006927",
+    "Description": "Signaling by Non-Receptor Tyrosine Kinases",
+    "GeneRatio_Calculated": 0.0170068027,
+    "BgRatio_Calculated": 0.0058262055,
+    "pvalue": 0.027310991,
+    "padj": 0.57264981
+  },
+  {
+    "ReactomeID": "R-MMU-373755",
+    "Description": "Semaphorin interactions",
+    "GeneRatio_Calculated": 0.0170068027,
+    "BgRatio_Calculated": 0.0059501673,
+    "pvalue": 0.029610495,
+    "padj": 0.599359089
+  },
+  {
+    "ReactomeID": "R-MMU-446728",
+    "Description": "Cell junction organization",
+    "GeneRatio_Calculated": 0.0204081633,
+    "BgRatio_Calculated": 0.0080575183,
+    "pvalue": 0.030429,
+    "padj": 0.599359089
+  },
+  {
+    "ReactomeID": "R-MMU-109582",
+    "Description": "Hemostasis",
+    "GeneRatio_Calculated": 0.0884353741,
+    "BgRatio_Calculated": 0.0608652535,
+    "pvalue": 0.034471117,
+    "padj": 0.641955216
+  },
+  {
+    "ReactomeID": "R-MMU-977443",
+    "Description": "GABA receptor activation",
+    "GeneRatio_Calculated": 0.0170068027,
+    "BgRatio_Calculated": 0.006198091,
+    "pvalue": 0.034566819,
+    "padj": 0.641955216
+  },
+  {
+    "ReactomeID": "R-MMU-72695",
+    "Description": "Formation of the ternary complex, and subsequently, the 43S complex",
+    "GeneRatio_Calculated": 0.0170068027,
+    "BgRatio_Calculated": 0.0063220528,
+    "pvalue": 0.037226259,
+    "padj": 0.672140789
+  },
+  {
+    "ReactomeID": "R-MMU-190828",
+    "Description": "Gap junction trafficking",
+    "GeneRatio_Calculated": 0.0136054422,
+    "BgRatio_Calculated": 0.0044626255,
+    "pvalue": 0.040751768,
+    "padj": 0.684753306
+  },
+  {
+    "ReactomeID": "R-MMU-5576893",
+    "Description": "Phase 2 - plateau phase",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.00272716,
+    "pvalue": 0.044208798,
+    "padj": 0.684753306
+  },
+  {
+    "ReactomeID": "R-MMU-1474228",
+    "Description": "Degradation of the extracellular matrix",
+    "GeneRatio_Calculated": 0.0272108844,
+    "BgRatio_Calculated": 0.0135118384,
+    "pvalue": 0.045092177,
+    "padj": 0.684753306
+  },
+  {
+    "ReactomeID": "R-MMU-6791226",
+    "Description": "Major pathway of rRNA processing in the nucleolus and cytosol",
+    "GeneRatio_Calculated": 0.037414966,
+    "BgRatio_Calculated": 0.0211974712,
+    "pvalue": 0.047767469,
+    "padj": 0.684753306
+  },
+  {
+    "ReactomeID": "R-MMU-72312",
+    "Description": "rRNA processing",
+    "GeneRatio_Calculated": 0.037414966,
+    "BgRatio_Calculated": 0.0211974712,
+    "pvalue": 0.047767469,
+    "padj": 0.684753306
+  },
+  {
+    "ReactomeID": "R-MMU-8868773",
+    "Description": "rRNA processing in the nucleus and cytosol",
+    "GeneRatio_Calculated": 0.037414966,
+    "BgRatio_Calculated": 0.0211974712,
+    "pvalue": 0.047767469,
+    "padj": 0.684753306
+  },
+  {
+    "ReactomeID": "R-MMU-157858",
+    "Description": "Gap junction trafficking and regulation",
+    "GeneRatio_Calculated": 0.0136054422,
+    "BgRatio_Calculated": 0.0047105492,
+    "pvalue": 0.048288171,
+    "padj": 0.684753306
+  },
+  {
+    "ReactomeID": "R-MMU-2022090",
+    "Description": "Assembly of collagen fibrils and other multimeric structures",
+    "GeneRatio_Calculated": 0.0170068027,
+    "BgRatio_Calculated": 0.0068179001,
+    "pvalue": 0.049094625,
+    "padj": 0.684753306
+  },
+  {
+    "ReactomeID": "R-MMU-4641265",
+    "Description": "Repression of WNT target genes",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0012396182,
+    "pvalue": 0.049099717,
+    "padj": 0.684753306
+  },
+  {
+    "ReactomeID": "R-MMU-8866427",
+    "Description": "VLDLR internalisation and degradation",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0012396182,
+    "pvalue": 0.049099717,
+    "padj": 0.684753306
+  },
+  {
+    "ReactomeID": "R-MMU-210991",
+    "Description": "Basigin interactions",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0028511219,
+    "pvalue": 0.049512931,
+    "padj": 0.684753306
+  },
+  {
+    "ReactomeID": "R-MMU-3000171",
+    "Description": "Non-integrin membrane-ECM interactions",
+    "GeneRatio_Calculated": 0.0136054422,
+    "BgRatio_Calculated": 0.004834511,
+    "pvalue": 0.052325771,
+    "padj": 0.688326854
+  },
+  {
+    "ReactomeID": "R-MMU-174824",
+    "Description": "Plasma lipoprotein assembly, remodeling, and clearance",
+    "GeneRatio_Calculated": 0.0170068027,
+    "BgRatio_Calculated": 0.0069418619,
+    "pvalue": 0.052372304,
+    "padj": 0.688326854
+  },
+  {
+    "ReactomeID": "R-MMU-114608",
+    "Description": "Platelet degranulation ",
+    "GeneRatio_Calculated": 0.0272108844,
+    "BgRatio_Calculated": 0.0142556093,
+    "pvalue": 0.058443239,
+    "padj": 0.688326854
+  },
+  {
+    "ReactomeID": "R-MMU-1963640",
+    "Description": "GRB2 events in ERBB2 signaling",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.00136358,
+    "pvalue": 0.05859768,
+    "padj": 0.688326854
+  },
+  {
+    "ReactomeID": "R-MMU-417957",
+    "Description": "P2Y receptors",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.00136358,
+    "pvalue": 0.05859768,
+    "padj": 0.688326854
+  },
+  {
+    "ReactomeID": "R-MMU-73621",
+    "Description": "Pyrimidine catabolism",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.00136358,
+    "pvalue": 0.05859768,
+    "padj": 0.688326854
+  },
+  {
+    "ReactomeID": "R-MMU-8847993",
+    "Description": "ERBB2 Activates PTK6 Signaling",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.00136358,
+    "pvalue": 0.05859768,
+    "padj": 0.688326854
+  },
+  {
+    "ReactomeID": "R-MMU-72649",
+    "Description": "Translation initiation complex formation",
+    "GeneRatio_Calculated": 0.0170068027,
+    "BgRatio_Calculated": 0.0071897855,
+    "pvalue": 0.059302006,
+    "padj": 0.688326854
+  },
+  {
+    "ReactomeID": "R-MMU-72702",
+    "Description": "Ribosomal scanning and start codon recognition",
+    "GeneRatio_Calculated": 0.0170068027,
+    "BgRatio_Calculated": 0.0071897855,
+    "pvalue": 0.059302006,
+    "padj": 0.688326854
+  },
+  {
+    "ReactomeID": "R-MMU-72662",
+    "Description": "Activation of the mRNA upon binding of the cap-binding complex and eIFs, and subsequent binding to 43S",
+    "GeneRatio_Calculated": 0.0170068027,
+    "BgRatio_Calculated": 0.0073137474,
+    "pvalue": 0.062953809,
+    "padj": 0.70846643
+  },
+  {
+    "ReactomeID": "R-MMU-1358803",
+    "Description": "Downregulation of ERBB2:ERBB3 signaling",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0014875418,
+    "pvalue": 0.068666746,
+    "padj": 0.70846643
+  },
+  {
+    "ReactomeID": "R-MMU-1614558",
+    "Description": "Degradation of cysteine and homocysteine",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0014875418,
+    "pvalue": 0.068666746,
+    "padj": 0.70846643
+  },
+  {
+    "ReactomeID": "R-MMU-170670",
+    "Description": "Adenylate cyclase inhibitory pathway",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0014875418,
+    "pvalue": 0.068666746,
+    "padj": 0.70846643
+  },
+  {
+    "ReactomeID": "R-MMU-2160916",
+    "Description": "Hyaluronan uptake and degradation",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0014875418,
+    "pvalue": 0.068666746,
+    "padj": 0.70846643
+  },
+  {
+    "ReactomeID": "R-MMU-75205",
+    "Description": "Dissolution of Fibrin Clot",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0014875418,
+    "pvalue": 0.068666746,
+    "padj": 0.70846643
+  },
+  {
+    "ReactomeID": "R-MMU-8963691",
+    "Description": "Phenylalanine and tyrosine metabolism",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0014875418,
+    "pvalue": 0.068666746,
+    "padj": 0.70846643
+  },
+  {
+    "ReactomeID": "R-MMU-76005",
+    "Description": "Response to elevated platelet cytosolic Ca2+",
+    "GeneRatio_Calculated": 0.0272108844,
+    "BgRatio_Calculated": 0.0148754184,
+    "pvalue": 0.071300161,
+    "padj": 0.724142264
+  },
+  {
+    "ReactomeID": "R-MMU-1442490",
+    "Description": "Collagen degradation",
+    "GeneRatio_Calculated": 0.0136054422,
+    "BgRatio_Calculated": 0.0054543201,
+    "pvalue": 0.075160174,
+    "padj": 0.751601739
+  },
+  {
+    "ReactomeID": "R-MMU-1500931",
+    "Description": "Cell-Cell communication",
+    "GeneRatio_Calculated": 0.0204081633,
+    "BgRatio_Calculated": 0.0101648692,
+    "pvalue": 0.077984321,
+    "padj": 0.768027409
+  },
+  {
+    "ReactomeID": "R-MMU-6785631",
+    "Description": "ERBB2 Regulates Cell Motility",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0016115037,
+    "pvalue": 0.079252988,
+    "padj": 0.768872275
+  },
+  {
+    "ReactomeID": "R-MMU-74751",
+    "Description": "Insulin receptor signalling cascade",
+    "GeneRatio_Calculated": 0.0136054422,
+    "BgRatio_Calculated": 0.0057022437,
+    "pvalue": 0.085491975,
+    "padj": 0.817202704
+  },
+  {
+    "ReactomeID": "R-MMU-2214320",
+    "Description": "Anchoring fibril formation",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0017354655,
+    "pvalue": 0.090305626,
+    "padj": 0.826741648
+  },
+  {
+    "ReactomeID": "R-MMU-418038",
+    "Description": "Nucleotide-like (purinergic) receptors",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0017354655,
+    "pvalue": 0.090305626,
+    "padj": 0.826741648
+  },
+  {
+    "ReactomeID": "R-MMU-877300",
+    "Description": "Interferon gamma signaling",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0017354655,
+    "pvalue": 0.090305626,
+    "padj": 0.826741648
+  },
+  {
+    "ReactomeID": "R-MMU-76002",
+    "Description": "Platelet activation, signaling and aggregation",
+    "GeneRatio_Calculated": 0.0442176871,
+    "BgRatio_Calculated": 0.0293789513,
+    "pvalue": 0.092276712,
+    "padj": 0.829797721
+  },
+  {
+    "ReactomeID": "R-MMU-420092",
+    "Description": "Glucagon-type ligand receptors",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0037188546,
+    "pvalue": 0.094469279,
+    "padj": 0.829797721
+  },
+  {
+    "ReactomeID": "R-MMU-68962",
+    "Description": "Activation of the pre-replicative complex",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0037188546,
+    "pvalue": 0.094469279,
+    "padj": 0.829797721
+  },
+  {
+    "ReactomeID": "R-MMU-375276",
+    "Description": "Peptide ligand-binding receptors",
+    "GeneRatio_Calculated": 0.0340136054,
+    "BgRatio_Calculated": 0.0214453948,
+    "pvalue": 0.10021101,
+    "padj": 0.834375244
+  },
+  {
+    "ReactomeID": "R-MMU-1250196",
+    "Description": "SHC1 events in ERBB2 signaling",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0018594273,
+    "pvalue": 0.101776873,
+    "padj": 0.834375244
+  },
+  {
+    "ReactomeID": "R-MMU-159418",
+    "Description": "Recycling of bile acids and salts",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0018594273,
+    "pvalue": 0.101776873,
+    "padj": 0.834375244
+  },
+  {
+    "ReactomeID": "R-MMU-5654710",
+    "Description": "PI-3K cascade:FGFR3",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0018594273,
+    "pvalue": 0.101776873,
+    "padj": 0.834375244
+  },
+  {
+    "ReactomeID": "R-MMU-70221",
+    "Description": "Glycogen breakdown (glycogenolysis)",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0018594273,
+    "pvalue": 0.101776873,
+    "padj": 0.834375244
+  },
+  {
+    "ReactomeID": "R-MMU-1266738",
+    "Description": "Developmental Biology",
+    "GeneRatio_Calculated": 0.0646258503,
+    "BgRatio_Calculated": 0.0477253006,
+    "pvalue": 0.109530815,
+    "padj": 0.834375244
+  },
+  {
+    "ReactomeID": "R-MMU-418990",
+    "Description": "Adherens junctions interactions",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0039667782,
+    "pvalue": 0.10956895,
+    "padj": 0.834375244
+  },
+  {
+    "ReactomeID": "R-MMU-500792",
+    "Description": "GPCR ligand binding",
+    "GeneRatio_Calculated": 0.0578231293,
+    "BgRatio_Calculated": 0.0418990951,
+    "pvalue": 0.110633339,
+    "padj": 0.834375244
+  },
+  {
+    "ReactomeID": "R-MMU-2168880",
+    "Description": "Scavenging of heme from plasma",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0019833891,
+    "pvalue": 0.113621783,
+    "padj": 0.834375244
+  },
+  {
+    "ReactomeID": "R-MMU-3000170",
+    "Description": "Syndecan interactions",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0019833891,
+    "pvalue": 0.113621783,
+    "padj": 0.834375244
+  },
+  {
+    "ReactomeID": "R-MMU-442660",
+    "Description": "Na+/Cl- dependent neurotransmitter transporters",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0019833891,
+    "pvalue": 0.113621783,
+    "padj": 0.834375244
+  },
+  {
+    "ReactomeID": "R-MMU-8963898",
+    "Description": "Plasma lipoprotein assembly",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0019833891,
+    "pvalue": 0.113621783,
+    "padj": 0.834375244
+  },
+  {
+    "ReactomeID": "R-MMU-8964038",
+    "Description": "LDL clearance",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0019833891,
+    "pvalue": 0.113621783,
+    "padj": 0.834375244
+  },
+  {
+    "ReactomeID": "R-MMU-373076",
+    "Description": "Class A/1 (Rhodopsin-like receptors)",
+    "GeneRatio_Calculated": 0.0476190476,
+    "BgRatio_Calculated": 0.0334696913,
+    "pvalue": 0.116318421,
+    "padj": 0.834375244
+  },
+  {
+    "ReactomeID": "R-MMU-76009",
+    "Description": "Platelet Aggregation (Plug Formation)",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0040907401,
+    "pvalue": 0.117446117,
+    "padj": 0.834375244
+  },
+  {
+    "ReactomeID": "R-MMU-5578775",
+    "Description": "Ion homeostasis",
+    "GeneRatio_Calculated": 0.0136054422,
+    "BgRatio_Calculated": 0.0064460146,
+    "pvalue": 0.120293009,
+    "padj": 0.834375244
+  },
+  {
+    "ReactomeID": "R-MMU-114604",
+    "Description": "GPVI-mediated activation cascade",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0042147019,
+    "pvalue": 0.125527762,
+    "padj": 0.834375244
+  },
+  {
+    "ReactomeID": "R-MMU-1236394",
+    "Description": "Signaling by ERBB4",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0042147019,
+    "pvalue": 0.125527762,
+    "padj": 0.834375244
+  },
+  {
+    "ReactomeID": "R-MMU-977444",
+    "Description": "GABA B receptor activation",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0042147019,
+    "pvalue": 0.125527762,
+    "padj": 0.834375244
+  },
+  {
+    "ReactomeID": "R-MMU-991365",
+    "Description": "Activation of GABAB receptors",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0042147019,
+    "pvalue": 0.125527762,
+    "padj": 0.834375244
+  },
+  {
+    "ReactomeID": "R-MMU-2142845",
+    "Description": "Hyaluronan metabolism",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0021073509,
+    "pvalue": 0.125798114,
+    "padj": 0.834375244
+  },
+  {
+    "ReactomeID": "R-MMU-446353",
+    "Description": "Cell-extracellular matrix interactions",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0021073509,
+    "pvalue": 0.125798114,
+    "padj": 0.834375244
+  },
+  {
+    "ReactomeID": "R-MMU-5654689",
+    "Description": "PI-3K cascade:FGFR1",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0021073509,
+    "pvalue": 0.125798114,
+    "padj": 0.834375244
+  },
+  {
+    "ReactomeID": "R-MMU-5654720",
+    "Description": "PI-3K cascade:FGFR4",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0021073509,
+    "pvalue": 0.125798114,
+    "padj": 0.834375244
+  },
+  {
+    "ReactomeID": "R-MMU-6811558",
+    "Description": "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling",
+    "GeneRatio_Calculated": 0.0204081633,
+    "BgRatio_Calculated": 0.0117763729,
+    "pvalue": 0.132477705,
+    "padj": 0.855933525
+  },
+  {
+    "ReactomeID": "R-MMU-936837",
+    "Description": "Ion transport by P-type ATPases",
+    "GeneRatio_Calculated": 0.0136054422,
+    "BgRatio_Calculated": 0.0066939383,
+    "pvalue": 0.133063208,
+    "padj": 0.855933525
+  },
+  {
+    "ReactomeID": "R-MMU-3928665",
+    "Description": "EPH-ephrin mediated repulsion of cells",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0043386637,
+    "pvalue": 0.133803449,
+    "padj": 0.855933525
+  },
+  {
+    "ReactomeID": "R-MMU-114452",
+    "Description": "Activation of BH3-only proteins",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0022313128,
+    "pvalue": 0.138266185,
+    "padj": 0.855933525
+  },
+  {
+    "ReactomeID": "R-MMU-1236977",
+    "Description": "Endosomal/Vacuolar pathway",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0022313128,
+    "pvalue": 0.138266185,
+    "padj": 0.855933525
+  },
+  {
+    "ReactomeID": "R-MMU-2243919",
+    "Description": "Crosslinking of collagen fibrils",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0022313128,
+    "pvalue": 0.138266185,
+    "padj": 0.855933525
+  },
+  {
+    "ReactomeID": "R-MMU-3928663",
+    "Description": "EPHA-mediated growth cone collapse",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0022313128,
+    "pvalue": 0.138266185,
+    "padj": 0.855933525
+  },
+  {
+    "ReactomeID": "R-MMU-425393",
+    "Description": "Transport of inorganic cations/anions and amino acids/oligopeptides",
+    "GeneRatio_Calculated": 0.0204081633,
+    "BgRatio_Calculated": 0.0120242965,
+    "pvalue": 0.142158146,
+    "padj": 0.871724481
+  },
+  {
+    "ReactomeID": "R-MMU-194138",
+    "Description": "Signaling by VEGF",
+    "GeneRatio_Calculated": 0.0204081633,
+    "BgRatio_Calculated": 0.0121482583,
+    "pvalue": 0.147118057,
+    "padj": 0.892206255
+  },
+  {
+    "ReactomeID": "R-MMU-112043",
+    "Description": "PLC beta mediated events",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0045865873,
+    "pvalue": 0.150894991,
+    "padj": 0.892206255
+  },
+  {
+    "ReactomeID": "R-MMU-422475",
+    "Description": "Axon guidance",
+    "GeneRatio_Calculated": 0.0442176871,
+    "BgRatio_Calculated": 0.0321061113,
+    "pvalue": 0.150962182,
+    "padj": 0.892206255
+  },
+  {
+    "ReactomeID": "R-MMU-5654695",
+    "Description": "PI-3K cascade:FGFR2",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0023552746,
+    "pvalue": 0.150988751,
+    "padj": 0.892206255
+  },
+  {
+    "ReactomeID": "R-MMU-109704",
+    "Description": "PI3K Cascade",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0047105492,
+    "pvalue": 0.159689861,
+    "padj": 0.898475121
+  },
+  {
+    "ReactomeID": "R-MMU-112040",
+    "Description": "G-protein mediated events",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0047105492,
+    "pvalue": 0.159689861,
+    "padj": 0.898475121
+  },
+  {
+    "ReactomeID": "R-MMU-977606",
+    "Description": "Regulation of Complement cascade",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0047105492,
+    "pvalue": 0.159689861,
+    "padj": 0.898475121
+  },
+  {
+    "ReactomeID": "R-MMU-1474290",
+    "Description": "Collagen formation",
+    "GeneRatio_Calculated": 0.0170068027,
+    "BgRatio_Calculated": 0.0097929838,
+    "pvalue": 0.160537658,
+    "padj": 0.898475121
+  },
+  {
+    "ReactomeID": "R-MMU-5576891",
+    "Description": "Cardiac conduction",
+    "GeneRatio_Calculated": 0.0238095238,
+    "BgRatio_Calculated": 0.0152473038,
+    "pvalue": 0.161583031,
+    "padj": 0.898475121
+  },
+  {
+    "ReactomeID": "R-MMU-8982491",
+    "Description": "Glycogen metabolism",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0024792364,
+    "pvalue": 0.163930878,
+    "padj": 0.898475121
+  },
+  {
+    "ReactomeID": "R-MMU-9012852",
+    "Description": "Signaling by NOTCH3",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0024792364,
+    "pvalue": 0.163930878,
+    "padj": 0.898475121
+  },
+  {
+    "ReactomeID": "R-MMU-9013507",
+    "Description": "NOTCH3 Activation and Transmission of Signal to the Nucleus",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0024792364,
+    "pvalue": 0.163930878,
+    "padj": 0.898475121
+  },
+  {
+    "ReactomeID": "R-MMU-199418",
+    "Description": "Negative regulation of the PI3K/AKT network",
+    "GeneRatio_Calculated": 0.0204081633,
+    "BgRatio_Calculated": 0.0126441056,
+    "pvalue": 0.167719367,
+    "padj": 0.898475121
+  },
+  {
+    "ReactomeID": "R-MMU-112399",
+    "Description": "IRS-mediated signalling",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.004834511,
+    "pvalue": 0.168636869,
+    "padj": 0.898475121
+  },
+  {
+    "ReactomeID": "R-MMU-5362517",
+    "Description": "Signaling by Retinoic Acid",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.004834511,
+    "pvalue": 0.168636869,
+    "padj": 0.898475121
+  },
+  {
+    "ReactomeID": "R-MMU-8948216",
+    "Description": "Collagen chain trimerization",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.004834511,
+    "pvalue": 0.168636869,
+    "padj": 0.898475121
+  },
+  {
+    "ReactomeID": "R-MMU-72766",
+    "Description": "Translation",
+    "GeneRatio_Calculated": 0.037414966,
+    "BgRatio_Calculated": 0.0271476385,
+    "pvalue": 0.175714262,
+    "padj": 0.909619497
+  },
+  {
+    "ReactomeID": "R-MMU-112409",
+    "Description": "RAF-independent MAPK1/3 activation",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0026031982,
+    "pvalue": 0.177059823,
+    "padj": 0.909619497
+  },
+  {
+    "ReactomeID": "R-MMU-2029485",
+    "Description": "Role of phospholipids in phagocytosis",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0026031982,
+    "pvalue": 0.177059823,
+    "padj": 0.909619497
+  },
+  {
+    "ReactomeID": "R-MMU-5654708",
+    "Description": "Downstream signaling of activated FGFR3",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0026031982,
+    "pvalue": 0.177059823,
+    "padj": 0.909619497
+  },
+  {
+    "ReactomeID": "R-MMU-421270",
+    "Description": "Cell-cell junction organization",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0049584728,
+    "pvalue": 0.177725656,
+    "padj": 0.909619497
+  },
+  {
+    "ReactomeID": "R-MMU-194840",
+    "Description": "Rho GTPase cycle",
+    "GeneRatio_Calculated": 0.0238095238,
+    "BgRatio_Calculated": 0.0158671129,
+    "pvalue": 0.185764753,
+    "padj": 0.937313667
+  },
+  {
+    "ReactomeID": "R-MMU-112315",
+    "Description": "Transmission across Chemical Synapses",
+    "GeneRatio_Calculated": 0.0340136054,
+    "BgRatio_Calculated": 0.0245444403,
+    "pvalue": 0.186020712,
+    "padj": 0.937313667
+  },
+  {
+    "ReactomeID": "R-MMU-3371571",
+    "Description": "HSF1-dependent transactivation",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.00272716,
+    "pvalue": 0.190344925,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-69190",
+    "Description": "DNA strand elongation",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.00272716,
+    "pvalue": 0.190344925,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-397014",
+    "Description": "Muscle contraction",
+    "GeneRatio_Calculated": 0.0306122449,
+    "BgRatio_Calculated": 0.0218172803,
+    "pvalue": 0.192770551,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-157118",
+    "Description": "Signaling by NOTCH",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0052063964,
+    "pvalue": 0.196287666,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-2424491",
+    "Description": "DAP12 signaling",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0052063964,
+    "pvalue": 0.196287666,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-5576892",
+    "Description": "Phase 0 - rapid depolarisation",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0052063964,
+    "pvalue": 0.196287666,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-5223345",
+    "Description": "Miscellaneous transport and binding events",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0028511219,
+    "pvalue": 0.203757496,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-5654716",
+    "Description": "Downstream signaling of activated FGFR4",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0028511219,
+    "pvalue": 0.203757496,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-2428928",
+    "Description": "IRS-related events triggered by IGF1R",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0053303582,
+    "pvalue": 0.205740768,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-2428924",
+    "Description": "IGF1R signaling cascade",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0054543201,
+    "pvalue": 0.215295445,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-3000178",
+    "Description": "ECM proteoglycans",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0054543201,
+    "pvalue": 0.215295445,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-111933",
+    "Description": "Calmodulin induced events",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0029750837,
+    "pvalue": 0.217270717,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-111997",
+    "Description": "CaM pathway",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0029750837,
+    "pvalue": 0.217270717,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-1614635",
+    "Description": "Sulfur amino acid metabolism",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0029750837,
+    "pvalue": 0.217270717,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-202040",
+    "Description": "G-protein activation",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0029750837,
+    "pvalue": 0.217270717,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-8955332",
+    "Description": "Carboxyterminal post-translational modifications of tubulin",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0029750837,
+    "pvalue": 0.217270717,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-8963899",
+    "Description": "Plasma lipoprotein remodeling",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0029750837,
+    "pvalue": 0.217270717,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-111885",
+    "Description": "Opioid Signalling",
+    "GeneRatio_Calculated": 0.0136054422,
+    "BgRatio_Calculated": 0.0081814801,
+    "pvalue": 0.219485774,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-112314",
+    "Description": "Neurotransmitter receptors and postsynaptic signal transmission",
+    "GeneRatio_Calculated": 0.0238095238,
+    "BgRatio_Calculated": 0.0167348457,
+    "pvalue": 0.22191951,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-2404192",
+    "Description": "Signaling by Type 1 Insulin-like Growth Factor 1 Receptor (IGF1R)",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0055782819,
+    "pvalue": 0.22494205,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-5683057",
+    "Description": "MAPK family signaling cascades",
+    "GeneRatio_Calculated": 0.0408163265,
+    "BgRatio_Calculated": 0.0318581877,
+    "pvalue": 0.227829386,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-4420097",
+    "Description": "VEGFA-VEGFR2 Pathway",
+    "GeneRatio_Calculated": 0.0170068027,
+    "BgRatio_Calculated": 0.0111565638,
+    "pvalue": 0.230523481,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-1482839",
+    "Description": "Acyl chain remodelling of PE",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0030990455,
+    "pvalue": 0.230859544,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-1489509",
+    "Description": "DAG and IP3 signaling",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0030990455,
+    "pvalue": 0.230859544,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-4090294",
+    "Description": "SUMOylation of intracellular receptors",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0030990455,
+    "pvalue": 0.230859544,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-5654696",
+    "Description": "Downstream signaling of activated FGFR2",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0030990455,
+    "pvalue": 0.230859544,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-1227986",
+    "Description": "Signaling by ERBB2",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0057022437,
+    "pvalue": 0.234671125,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-166520",
+    "Description": "Signaling by NTRKs",
+    "GeneRatio_Calculated": 0.0136054422,
+    "BgRatio_Calculated": 0.0085533656,
+    "pvalue": 0.243101066,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-74752",
+    "Description": "Signaling by Insulin receptor",
+    "GeneRatio_Calculated": 0.0136054422,
+    "BgRatio_Calculated": 0.0085533656,
+    "pvalue": 0.243101066,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-111996",
+    "Description": "Ca-dependent events",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0032230073,
+    "pvalue": 0.244500612,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-1592230",
+    "Description": "Mitochondrial biogenesis",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0032230073,
+    "pvalue": 0.244500612,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-2022854",
+    "Description": "Keratan sulfate biosynthesis",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0032230073,
+    "pvalue": 0.244500612,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-399719",
+    "Description": "Trafficking of AMPA receptors",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0032230073,
+    "pvalue": 0.244500612,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-399721",
+    "Description": "Glutamate binding, activation of AMPA receptors and synaptic plasticity",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0032230073,
+    "pvalue": 0.244500612,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-5654687",
+    "Description": "Downstream signaling of activated FGFR1",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0032230073,
+    "pvalue": 0.244500612,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-416482",
+    "Description": "G alpha (12/13) signalling events",
+    "GeneRatio_Calculated": 0.0136054422,
+    "BgRatio_Calculated": 0.0086773274,
+    "pvalue": 0.251099138,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-1236974",
+    "Description": "ER-Phagosome pathway",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0033469691,
+    "pvalue": 0.258172147,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-186763",
+    "Description": "Downstream signal transduction",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0033469691,
+    "pvalue": 0.258172147,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-8863795",
+    "Description": "Downregulation of ERBB2 signaling",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0033469691,
+    "pvalue": 0.258172147,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-166658",
+    "Description": "Complement cascade",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0060741292,
+    "pvalue": 0.264261733,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-190861",
+    "Description": "Gap junction assembly",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.003470931,
+    "pvalue": 0.271853886,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-9607240",
+    "Description": "FLT3 Signaling",
+    "GeneRatio_Calculated": 0.037414966,
+    "BgRatio_Calculated": 0.0301227222,
+    "pvalue": 0.272422147,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-2172127",
+    "Description": "DAP12 interactions",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.006198091,
+    "pvalue": 0.27423036,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-418594",
+    "Description": "G alpha (i) signalling events",
+    "GeneRatio_Calculated": 0.0476190476,
+    "BgRatio_Calculated": 0.0397917441,
+    "pvalue": 0.281729859,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-373080",
+    "Description": "Class B/2 (Secretin family receptors)",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0063220528,
+    "pvalue": 0.28423743,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-1592389",
+    "Description": "Activation of Matrix Metalloproteinases",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0035948928,
+    "pvalue": 0.285526988,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-352230",
+    "Description": "Amino acid transport across the plasma membrane",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0035948928,
+    "pvalue": 0.285526988,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-392518",
+    "Description": "Signal amplification",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0035948928,
+    "pvalue": 0.285526988,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-2022928",
+    "Description": "HS-GAG biosynthesis",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0037188546,
+    "pvalue": 0.299173967,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-3769402",
+    "Description": "Deactivation of the beta-catenin transactivating complex",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0037188546,
+    "pvalue": 0.299173967,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-2132295",
+    "Description": "MHC class II antigen presentation",
+    "GeneRatio_Calculated": 0.0170068027,
+    "BgRatio_Calculated": 0.0125201438,
+    "pvalue": 0.307481026,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-112308",
+    "Description": "Presynaptic depolarization and calcium channel opening",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0012396182,
+    "pvalue": 0.310277485,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-190239",
+    "Description": "FGFR3 ligand binding and activation",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0012396182,
+    "pvalue": 0.310277485,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-190372",
+    "Description": "FGFR3c ligand binding and activation",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0012396182,
+    "pvalue": 0.310277485,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-190375",
+    "Description": "FGFR2c ligand binding and activation",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0012396182,
+    "pvalue": 0.310277485,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-2122948",
+    "Description": "Activated NOTCH1 Transmits Signal to the Nucleus",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0012396182,
+    "pvalue": 0.310277485,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-390471",
+    "Description": "Association of TriC/CCT with target proteins during biosynthesis",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0012396182,
+    "pvalue": 0.310277485,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-399955",
+    "Description": "SEMA3A-Plexin repulsion signaling by inhibiting Integrin adhesion",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0012396182,
+    "pvalue": 0.310277485,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-418457",
+    "Description": "cGMP effects",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0012396182,
+    "pvalue": 0.310277485,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-446107",
+    "Description": "Type I hemidesmosome assembly",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0012396182,
+    "pvalue": 0.310277485,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-5140745",
+    "Description": "WNT5A-dependent internalization of FZD2, FZD5 and ROR2",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0012396182,
+    "pvalue": 0.310277485,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-5654227",
+    "Description": "Phospholipase C-mediated cascade; FGFR3",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0012396182,
+    "pvalue": 0.310277485,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-5658623",
+    "Description": "FGFRL1 modulation of FGFR1 signaling",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0012396182,
+    "pvalue": 0.310277485,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-70635",
+    "Description": "Urea cycle",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0012396182,
+    "pvalue": 0.310277485,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-71384",
+    "Description": "Ethanol oxidation",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0012396182,
+    "pvalue": 0.310277485,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-73614",
+    "Description": "Pyrimidine salvage",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0012396182,
+    "pvalue": 0.310277485,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-109606",
+    "Description": "Intrinsic Pathway for Apoptosis",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0038428164,
+    "pvalue": 0.312778613,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-196807",
+    "Description": "Nicotinate metabolism",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0038428164,
+    "pvalue": 0.312778613,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-186797",
+    "Description": "Signaling by PDGF",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0066939383,
+    "pvalue": 0.314409545,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-5673001",
+    "Description": "RAF/MAP kinase cascade",
+    "GeneRatio_Calculated": 0.0340136054,
+    "BgRatio_Calculated": 0.0283872567,
+    "pvalue": 0.324200821,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-1638074",
+    "Description": "Keratan sulfate/keratin metabolism",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0039667782,
+    "pvalue": 0.326325924,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-437239",
+    "Description": "Recycling pathway of L1",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0039667782,
+    "pvalue": 0.326325924,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-75105",
+    "Description": "Fatty acyl-CoA biosynthesis",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0039667782,
+    "pvalue": 0.326325924,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-6798695",
+    "Description": "Neutrophil degranulation",
+    "GeneRatio_Calculated": 0.0646258503,
+    "BgRatio_Calculated": 0.0576422462,
+    "pvalue": 0.335366069,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-1250347",
+    "Description": "SHC1 events in ERBB4 signaling",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.00136358,
+    "pvalue": 0.335445466,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-1461973",
+    "Description": "Defensins",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.00136358,
+    "pvalue": 0.335445466,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-190242",
+    "Description": "FGFR1 ligand binding and activation",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.00136358,
+    "pvalue": 0.335445466,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-190322",
+    "Description": "FGFR4 ligand binding and activation",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.00136358,
+    "pvalue": 0.335445466,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-193692",
+    "Description": "Regulated proteolysis of p75NTR",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.00136358,
+    "pvalue": 0.335445466,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-390666",
+    "Description": "Serotonin receptors",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.00136358,
+    "pvalue": 0.335445466,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-418885",
+    "Description": "DCC mediated attractive signaling",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.00136358,
+    "pvalue": 0.335445466,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-6785807",
+    "Description": "Interleukin-4 and Interleukin-13 signaling",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.00136358,
+    "pvalue": 0.335445466,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-74749",
+    "Description": "Signal attenuation",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.00136358,
+    "pvalue": 0.335445466,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-879518",
+    "Description": "Transport of organic anions",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.00136358,
+    "pvalue": 0.335445466,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-8854691",
+    "Description": "Interleukin-20 family signaling",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.00136358,
+    "pvalue": 0.335445466,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-6791312",
+    "Description": "TP53 Regulates Transcription of Cell Cycle Genes",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0040907401,
+    "pvalue": 0.339802041,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-187037",
+    "Description": "Signaling by NTRK1 (TRKA)",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0070658237,
+    "pvalue": 0.344651083,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-2980736",
+    "Description": "Peptide hormone metabolism",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0070658237,
+    "pvalue": 0.344651083,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-983170",
+    "Description": "Antigen Presentation: Folding, assembly and peptide loading of class I MHC",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0042147019,
+    "pvalue": 0.353194183,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-5684996",
+    "Description": "MAPK1/MAPK3 signaling",
+    "GeneRatio_Calculated": 0.0340136054,
+    "BgRatio_Calculated": 0.0291310276,
+    "pvalue": 0.353400804,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-1251985",
+    "Description": "Nuclear signaling by ERBB4",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0014875418,
+    "pvalue": 0.359698077,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-1475029",
+    "Description": "Reversible hydration of carbon dioxide",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0014875418,
+    "pvalue": 0.359698077,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-1679131",
+    "Description": "Trafficking and processing of endosomal TLR",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0014875418,
+    "pvalue": 0.359698077,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-196108",
+    "Description": "Pregnenolone biosynthesis",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0014875418,
+    "pvalue": 0.359698077,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-2024101",
+    "Description": "CS/DS degradation",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0014875418,
+    "pvalue": 0.359698077,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-210990",
+    "Description": "PECAM1 interactions",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0014875418,
+    "pvalue": 0.359698077,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-2162123",
+    "Description": "Synthesis of Prostaglandins (PG) and Thromboxanes (TX)",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0014875418,
+    "pvalue": 0.359698077,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-2995383",
+    "Description": "Initiation of Nuclear Envelope Reformation",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0014875418,
+    "pvalue": 0.359698077,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-2995410",
+    "Description": "Nuclear Envelope Reassembly",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0014875418,
+    "pvalue": 0.359698077,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-3134975",
+    "Description": "Regulation of innate immune responses to cytosolic DNA",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0014875418,
+    "pvalue": 0.359698077,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-425561",
+    "Description": "Sodium/Calcium exchangers",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0014875418,
+    "pvalue": 0.359698077,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-5218921",
+    "Description": "VEGFR2 mediated cell proliferation",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0014875418,
+    "pvalue": 0.359698077,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-5654219",
+    "Description": "Phospholipase C-mediated cascade: FGFR1",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0014875418,
+    "pvalue": 0.359698077,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-5654228",
+    "Description": "Phospholipase C-mediated cascade; FGFR4",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0014875418,
+    "pvalue": 0.359698077,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-68884",
+    "Description": "Mitotic Telophase/Cytokinesis",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0014875418,
+    "pvalue": 0.359698077,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-69166",
+    "Description": "Removal of the Flap Intermediate",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0014875418,
+    "pvalue": 0.359698077,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-73817",
+    "Description": "Purine ribonucleoside monophosphate biosynthesis",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0014875418,
+    "pvalue": 0.359698077,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-9027276",
+    "Description": "Erythropoietin activates Phosphoinositide-3-kinase (PI3K)",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0014875418,
+    "pvalue": 0.359698077,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-909733",
+    "Description": "Interferon alpha/beta signaling",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0014875418,
+    "pvalue": 0.359698077,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-1650814",
+    "Description": "Collagen biosynthesis and modifying enzymes",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0073137474,
+    "pvalue": 0.364758659,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-8978868",
+    "Description": "Fatty acid metabolism",
+    "GeneRatio_Calculated": 0.0238095238,
+    "BgRatio_Calculated": 0.019957853,
+    "pvalue": 0.371741326,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-112316",
+    "Description": "Neuronal System",
+    "GeneRatio_Calculated": 0.0442176871,
+    "BgRatio_Calculated": 0.0395438205,
+    "pvalue": 0.379538641,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-5654741",
+    "Description": "Signaling by FGFR3",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0044626255,
+    "pvalue": 0.379680468,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-193048",
+    "Description": "Androgen biosynthesis",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0016115037,
+    "pvalue": 0.383068501,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-194002",
+    "Description": "Glucocorticoid biosynthesis",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0016115037,
+    "pvalue": 0.383068501,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-2022857",
+    "Description": "Keratan sulfate degradation",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0016115037,
+    "pvalue": 0.383068501,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-202670",
+    "Description": "ERKs are inactivated",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0016115037,
+    "pvalue": 0.383068501,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-2029481",
+    "Description": "FCGR activation",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0016115037,
+    "pvalue": 0.383068501,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-392154",
+    "Description": "Nitric oxide stimulates guanylate cyclase",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0016115037,
+    "pvalue": 0.383068501,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-5099900",
+    "Description": "WNT5A-dependent internalization of FZD4",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0016115037,
+    "pvalue": 0.383068501,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-69183",
+    "Description": "Processive synthesis on the lagging strand",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0016115037,
+    "pvalue": 0.383068501,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-8849471",
+    "Description": "PTK6 Regulates RHO GTPases, RAS GTPase and MAP kinases",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0016115037,
+    "pvalue": 0.383068501,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-8935690",
+    "Description": "Digestion",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0016115037,
+    "pvalue": 0.383068501,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-8964539",
+    "Description": "Glutamate and glutamine metabolism",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0016115037,
+    "pvalue": 0.383068501,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-5654743",
+    "Description": "Signaling by FGFR4",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0045865873,
+    "pvalue": 0.392753923,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-8853659",
+    "Description": "RET signaling",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0045865873,
+    "pvalue": 0.392753923,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-8956319",
+    "Description": "Nucleobase catabolism",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0045865873,
+    "pvalue": 0.392753923,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-2187338",
+    "Description": "Visual phototransduction",
+    "GeneRatio_Calculated": 0.0136054422,
+    "BgRatio_Calculated": 0.0109086401,
+    "pvalue": 0.400119854,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-140342",
+    "Description": "Apoptosis induced DNA fragmentation",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0017354655,
+    "pvalue": 0.405588722,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-156581",
+    "Description": "Methylation",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0017354655,
+    "pvalue": 0.405588722,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-166786",
+    "Description": "Creation of C4 and C2 activators",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0017354655,
+    "pvalue": 0.405588722,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-174411",
+    "Description": "Polymerase switching on the C-strand of the telomere",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0017354655,
+    "pvalue": 0.405588722,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-200425",
+    "Description": "Import of palmitoyl-CoA into the mitochondrial matrix",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0017354655,
+    "pvalue": 0.405588722,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-2730905",
+    "Description": "Role of LAT2/NTAL/LAB on calcium mobilization",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0017354655,
+    "pvalue": 0.405588722,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-416993",
+    "Description": "Trafficking of GluR2-containing AMPA receptors",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0017354655,
+    "pvalue": 0.405588722,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-418359",
+    "Description": "Reduction of cytosolic Ca++ levels",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0017354655,
+    "pvalue": 0.405588722,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-4419969",
+    "Description": "Depolymerisation of the Nuclear Lamina",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0017354655,
+    "pvalue": 0.405588722,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-5654221",
+    "Description": "Phospholipase C-mediated cascade; FGFR2",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0017354655,
+    "pvalue": 0.405588722,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-5654704",
+    "Description": "SHC-mediated cascade:FGFR3",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0017354655,
+    "pvalue": 0.405588722,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-6804759",
+    "Description": "Regulation of TP53 Activity through Association with Co-factors",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0017354655,
+    "pvalue": 0.405588722,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-69091",
+    "Description": "Polymerase switching",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0017354655,
+    "pvalue": 0.405588722,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-69109",
+    "Description": "Leading Strand Synthesis",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0017354655,
+    "pvalue": 0.405588722,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-196071",
+    "Description": "Metabolism of steroid hormones",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0047105492,
+    "pvalue": 0.405701927,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-416476",
+    "Description": "G alpha (q) signalling events",
+    "GeneRatio_Calculated": 0.0272108844,
+    "BgRatio_Calculated": 0.0239246312,
+    "pvalue": 0.406394298,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-425407",
+    "Description": "SLC-mediated transmembrane transport",
+    "GeneRatio_Calculated": 0.0306122449,
+    "BgRatio_Calculated": 0.0272716003,
+    "pvalue": 0.40992983,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-71291",
+    "Description": "Metabolism of amino acids and derivatives",
+    "GeneRatio_Calculated": 0.0340136054,
+    "BgRatio_Calculated": 0.0307425313,
+    "pvalue": 0.417711755,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-5675221",
+    "Description": "Negative regulation of MAPK pathway",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.004834511,
+    "pvalue": 0.418516254,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-9009391",
+    "Description": "Extra-nuclear estrogen signaling",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0080575183,
+    "pvalue": 0.424295519,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-111931",
+    "Description": "PKA-mediated phosphorylation of CREB",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0018594273,
+    "pvalue": 0.427289568,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-1482922",
+    "Description": "Acyl chain remodelling of PI",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0018594273,
+    "pvalue": 0.427289568,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-163615",
+    "Description": "PKA activation",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0018594273,
+    "pvalue": 0.427289568,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-190241",
+    "Description": "FGFR2 ligand binding and activation",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0018594273,
+    "pvalue": 0.427289568,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-190872",
+    "Description": "Transport of connexons to the plasma membrane",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0018594273,
+    "pvalue": 0.427289568,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-2022377",
+    "Description": "Metabolism of Angiotensinogen to Angiotensins",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0018594273,
+    "pvalue": 0.427289568,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-205043",
+    "Description": "NRIF signals cell death from the nucleus",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0018594273,
+    "pvalue": 0.427289568,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-354194",
+    "Description": "GRB2:SOS provides linkage to MAPK signaling for Integrins ",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0018594273,
+    "pvalue": 0.427289568,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-372708",
+    "Description": "p130Cas linkage to MAPK signaling for integrins",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0018594273,
+    "pvalue": 0.427289568,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-399956",
+    "Description": "CRMPs in Sema3A signaling",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0018594273,
+    "pvalue": 0.427289568,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-450385",
+    "Description": "Butyrate Response Factor 1 (BRF1) binds and destabilizes mRNA",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0018594273,
+    "pvalue": 0.427289568,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-450513",
+    "Description": "Tristetraprolin (TTP, ZFP36) binds and destabilizes mRNA",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0018594273,
+    "pvalue": 0.427289568,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-8956320",
+    "Description": "Nucleobase biosynthesis",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0018594273,
+    "pvalue": 0.427289568,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-9037629",
+    "Description": "Lewis blood group biosynthesis",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0018594273,
+    "pvalue": 0.427289568,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-390466",
+    "Description": "Chaperonin-mediated protein folding",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0049584728,
+    "pvalue": 0.431189444,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-391251",
+    "Description": "Protein folding",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0049584728,
+    "pvalue": 0.431189444,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-1630316",
+    "Description": "Glycosaminoglycan metabolism",
+    "GeneRatio_Calculated": 0.0170068027,
+    "BgRatio_Calculated": 0.0147514566,
+    "pvalue": 0.438323168,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-425397",
+    "Description": "Transport of vitamins, nucleosides, and related molecules",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0050824346,
+    "pvalue": 0.44371475,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-2682334",
+    "Description": "EPH-Ephrin signaling",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0083054419,
+    "pvalue": 0.443740186,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-1369062",
+    "Description": "ABC transporters in lipid homeostasis",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0019833891,
+    "pvalue": 0.448200754,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-1482925",
+    "Description": "Acyl chain remodelling of PG",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0019833891,
+    "pvalue": 0.448200754,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-1538133",
+    "Description": "G0 and Early G1",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0019833891,
+    "pvalue": 0.448200754,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-162710",
+    "Description": "Synthesis of glycosylphosphatidylinositol (GPI)",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0019833891,
+    "pvalue": 0.448200754,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-180292",
+    "Description": "GAB1 signalosome",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0019833891,
+    "pvalue": 0.448200754,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-211935",
+    "Description": "Fatty acids",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0019833891,
+    "pvalue": 0.448200754,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-422085",
+    "Description": "Synthesis, secretion, and deacylation of Ghrelin",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0019833891,
+    "pvalue": 0.448200754,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-5654688",
+    "Description": "SHC-mediated cascade:FGFR1",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0019833891,
+    "pvalue": 0.448200754,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-5654706",
+    "Description": "FRS-mediated FGFR3 signaling",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0019833891,
+    "pvalue": 0.448200754,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-5654719",
+    "Description": "SHC-mediated cascade:FGFR4",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0019833891,
+    "pvalue": 0.448200754,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-5676594",
+    "Description": "TNF receptor superfamily (TNFSF) members mediating non-canonical NF-kB pathway",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0019833891,
+    "pvalue": 0.448200754,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-8963743",
+    "Description": "Digestion and absorption",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0019833891,
+    "pvalue": 0.448200754,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-9033658",
+    "Description": "Blood group systems biosynthesis",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0019833891,
+    "pvalue": 0.448200754,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-204998",
+    "Description": "Cell death signalling via NRAGE, NRIF and NADE",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0084294037,
+    "pvalue": 0.453366829,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-8856825",
+    "Description": "Cargo recognition for clathrin-mediated endocytosis",
+    "GeneRatio_Calculated": 0.0136054422,
+    "BgRatio_Calculated": 0.0117763729,
+    "pvalue": 0.457613418,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-8957322",
+    "Description": "Metabolism of steroids",
+    "GeneRatio_Calculated": 0.0170068027,
+    "BgRatio_Calculated": 0.015123342,
+    "pvalue": 0.459849179,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-211945",
+    "Description": "Phase I - Functionalization of compounds",
+    "GeneRatio_Calculated": 0.0136054422,
+    "BgRatio_Calculated": 0.0119003347,
+    "pvalue": 0.4656883,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-196757",
+    "Description": "Metabolism of folate and pterines",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0021073509,
+    "pvalue": 0.468350919,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-210993",
+    "Description": "Tie2 Signaling",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0021073509,
+    "pvalue": 0.468350919,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-2559584",
+    "Description": "Formation of Senescence-Associated Heterochromatin Foci (SAHF)",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0021073509,
+    "pvalue": 0.468350919,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-432142",
+    "Description": "Platelet sensitization by LDL",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0021073509,
+    "pvalue": 0.468350919,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-449836",
+    "Description": "Other interleukin signaling",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0021073509,
+    "pvalue": 0.468350919,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-5686938",
+    "Description": "Regulation of TLR by endogenous ligand",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0021073509,
+    "pvalue": 0.468350919,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-6804115",
+    "Description": "TP53 regulates transcription of additional cell cycle genes whose exact role in the p53 pathway remain uncertain",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0021073509,
+    "pvalue": 0.468350919,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-8949215",
+    "Description": "Mitochondrial calcium ion transport",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0021073509,
+    "pvalue": 0.468350919,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-9006335",
+    "Description": "Signaling by Erythropoietin",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0021073509,
+    "pvalue": 0.468350919,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-936964",
+    "Description": "Activation of IRF3/IRF7 mediated by TBK1/IKK epsilon",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0021073509,
+    "pvalue": 0.468350919,
+    "padj": 0.942501849
+  },
+  {
+    "ReactomeID": "R-MMU-109581",
+    "Description": "Apoptosis",
+    "GeneRatio_Calculated": 0.0136054422,
+    "BgRatio_Calculated": 0.0120242965,
+    "pvalue": 0.473720406,
+    "padj": 0.943598167
+  },
+  {
+    "ReactomeID": "R-MMU-194068",
+    "Description": "Bile acid and bile salt metabolism",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0054543201,
+    "pvalue": 0.480345816,
+    "padj": 0.943598167
+  },
+  {
+    "ReactomeID": "R-MMU-5654736",
+    "Description": "Signaling by FGFR1",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0054543201,
+    "pvalue": 0.480345816,
+    "padj": 0.943598167
+  },
+  {
+    "ReactomeID": "R-MMU-975634",
+    "Description": "Retinoid metabolism and transport",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0054543201,
+    "pvalue": 0.480345816,
+    "padj": 0.943598167
+  },
+  {
+    "ReactomeID": "R-MMU-140837",
+    "Description": "Intrinsic Pathway of Fibrin Clot Formation",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0022313128,
+    "pvalue": 0.487767668,
+    "padj": 0.943598167
+  },
+  {
+    "ReactomeID": "R-MMU-163210",
+    "Description": "Formation of ATP by chemiosmotic coupling",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0022313128,
+    "pvalue": 0.487767668,
+    "padj": 0.943598167
+  },
+  {
+    "ReactomeID": "R-MMU-202433",
+    "Description": "Generation of second messenger molecules",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0022313128,
+    "pvalue": 0.487767668,
+    "padj": 0.943598167
+  },
+  {
+    "ReactomeID": "R-MMU-5654693",
+    "Description": "FRS-mediated FGFR1 signaling",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0022313128,
+    "pvalue": 0.487767668,
+    "padj": 0.943598167
+  },
+  {
+    "ReactomeID": "R-MMU-5654699",
+    "Description": "SHC-mediated cascade:FGFR2",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0022313128,
+    "pvalue": 0.487767668,
+    "padj": 0.943598167
+  },
+  {
+    "ReactomeID": "R-MMU-5654712",
+    "Description": "FRS-mediated FGFR4 signaling",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0022313128,
+    "pvalue": 0.487767668,
+    "padj": 0.943598167
+  },
+  {
+    "ReactomeID": "R-MMU-69186",
+    "Description": "Lagging Strand Synthesis",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0022313128,
+    "pvalue": 0.487767668,
+    "padj": 0.943598167
+  },
+  {
+    "ReactomeID": "R-MMU-888590",
+    "Description": "GABA synthesis, release, reuptake and degradation",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0022313128,
+    "pvalue": 0.487767668,
+    "padj": 0.943598167
+  },
+  {
+    "ReactomeID": "R-MMU-8949613",
+    "Description": "Cristae formation",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0022313128,
+    "pvalue": 0.487767668,
+    "padj": 0.943598167
+  },
+  {
+    "ReactomeID": "R-MMU-418346",
+    "Description": "Platelet homeostasis",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.008925251,
+    "pvalue": 0.49114623,
+    "padj": 0.947314687
+  },
+  {
+    "ReactomeID": "R-MMU-197264",
+    "Description": "Nicotinamide salvaging",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0023552746,
+    "pvalue": 0.506477608,
+    "padj": 0.95752707
+  },
+  {
+    "ReactomeID": "R-MMU-1980143",
+    "Description": "Signaling by NOTCH1",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0023552746,
+    "pvalue": 0.506477608,
+    "padj": 0.95752707
+  },
+  {
+    "ReactomeID": "R-MMU-198753",
+    "Description": "ERK/MAPK targets",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0023552746,
+    "pvalue": 0.506477608,
+    "padj": 0.95752707
+  },
+  {
+    "ReactomeID": "R-MMU-392170",
+    "Description": "ADP signalling through P2Y purinoceptor 12",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0023552746,
+    "pvalue": 0.506477608,
+    "padj": 0.95752707
+  },
+  {
+    "ReactomeID": "R-MMU-74259",
+    "Description": "Purine catabolism",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0023552746,
+    "pvalue": 0.506477608,
+    "padj": 0.95752707
+  },
+  {
+    "ReactomeID": "R-MMU-912526",
+    "Description": "Interleukin receptor SHC signaling",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0023552746,
+    "pvalue": 0.506477608,
+    "padj": 0.95752707
+  },
+  {
+    "ReactomeID": "R-MMU-380108",
+    "Description": "Chemokine receptors bind chemokines",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0058262055,
+    "pvalue": 0.515463554,
+    "padj": 0.95752707
+  },
+  {
+    "ReactomeID": "R-MMU-140875",
+    "Description": "Common Pathway of Fibrin Clot Formation",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0024792364,
+    "pvalue": 0.524506383,
+    "padj": 0.95752707
+  },
+  {
+    "ReactomeID": "R-MMU-1482801",
+    "Description": "Acyl chain remodelling of PS",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0024792364,
+    "pvalue": 0.524506383,
+    "padj": 0.95752707
+  },
+  {
+    "ReactomeID": "R-MMU-166663",
+    "Description": "Initial triggering of complement",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0024792364,
+    "pvalue": 0.524506383,
+    "padj": 0.95752707
+  },
+  {
+    "ReactomeID": "R-MMU-2028269",
+    "Description": "Signaling by Hippo",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0024792364,
+    "pvalue": 0.524506383,
+    "padj": 0.95752707
+  },
+  {
+    "ReactomeID": "R-MMU-400042",
+    "Description": "Adrenaline,noradrenaline inhibits insulin secretion",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0024792364,
+    "pvalue": 0.524506383,
+    "padj": 0.95752707
+  },
+  {
+    "ReactomeID": "R-MMU-5654700",
+    "Description": "FRS-mediated FGFR2 signaling",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0024792364,
+    "pvalue": 0.524506383,
+    "padj": 0.95752707
+  },
+  {
+    "ReactomeID": "R-MMU-112310",
+    "Description": "Neurotransmitter release cycle",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0059501673,
+    "pvalue": 0.526816756,
+    "padj": 0.95752707
+  },
+  {
+    "ReactomeID": "R-MMU-1793185",
+    "Description": "Chondroitin sulfate/dermatan sulfate metabolism",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0059501673,
+    "pvalue": 0.526816756,
+    "padj": 0.95752707
+  },
+  {
+    "ReactomeID": "R-MMU-6806667",
+    "Description": "Metabolism of fat-soluble vitamins",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0059501673,
+    "pvalue": 0.526816756,
+    "padj": 0.95752707
+  },
+  {
+    "ReactomeID": "R-MMU-5357801",
+    "Description": "Programmed Cell Death",
+    "GeneRatio_Calculated": 0.0136054422,
+    "BgRatio_Calculated": 0.0128920293,
+    "pvalue": 0.52855252,
+    "padj": 0.95752707
+  },
+  {
+    "ReactomeID": "R-MMU-168898",
+    "Description": "Toll-like Receptor Cascades",
+    "GeneRatio_Calculated": 0.0170068027,
+    "BgRatio_Calculated": 0.016486922,
+    "pvalue": 0.536375183,
+    "padj": 0.95752707
+  },
+  {
+    "ReactomeID": "R-MMU-6805567",
+    "Description": "Keratinization",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0095450601,
+    "pvalue": 0.536494336,
+    "padj": 0.95752707
+  },
+  {
+    "ReactomeID": "R-MMU-193648",
+    "Description": "NRAGE signals death through JNK",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0060741292,
+    "pvalue": 0.537989311,
+    "padj": 0.95752707
+  },
+  {
+    "ReactomeID": "R-MMU-383280",
+    "Description": "Nuclear Receptor transcription pathway",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0060741292,
+    "pvalue": 0.537989311,
+    "padj": 0.95752707
+  },
+  {
+    "ReactomeID": "R-MMU-983189",
+    "Description": "Kinesins",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0060741292,
+    "pvalue": 0.537989311,
+    "padj": 0.95752707
+  },
+  {
+    "ReactomeID": "R-MMU-2024096",
+    "Description": "HS-GAG degradation",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0026031982,
+    "pvalue": 0.541878711,
+    "padj": 0.95752707
+  },
+  {
+    "ReactomeID": "R-MMU-211981",
+    "Description": "Xenobiotics",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0026031982,
+    "pvalue": 0.541878711,
+    "padj": 0.95752707
+  },
+  {
+    "ReactomeID": "R-MMU-428930",
+    "Description": "Thromboxane signalling through TP receptor",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0026031982,
+    "pvalue": 0.541878711,
+    "padj": 0.95752707
+  },
+  {
+    "ReactomeID": "R-MMU-6783589",
+    "Description": "Interleukin-6 family signaling",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0026031982,
+    "pvalue": 0.541878711,
+    "padj": 0.95752707
+  },
+  {
+    "ReactomeID": "R-MMU-71403",
+    "Description": "Citric acid cycle (TCA cycle)",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0026031982,
+    "pvalue": 0.541878711,
+    "padj": 0.95752707
+  },
+  {
+    "ReactomeID": "R-MMU-912631",
+    "Description": "Regulation of signaling by CBL",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0026031982,
+    "pvalue": 0.541878711,
+    "padj": 0.95752707
+  },
+  {
+    "ReactomeID": "R-MMU-9613829",
+    "Description": "Chaperone Mediated Autophagy",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0026031982,
+    "pvalue": 0.541878711,
+    "padj": 0.95752707
+  },
+  {
+    "ReactomeID": "R-MMU-2029480",
+    "Description": "Fcgamma receptor (FCGR) dependent phagocytosis",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0096690219,
+    "pvalue": 0.545287158,
+    "padj": 0.95752707
+  },
+  {
+    "ReactomeID": "R-MMU-2142753",
+    "Description": "Arachidonic acid metabolism",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.006198091,
+    "pvalue": 0.548979267,
+    "padj": 0.95752707
+  },
+  {
+    "ReactomeID": "R-MMU-75153",
+    "Description": "Apoptotic execution phase",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.006198091,
+    "pvalue": 0.548979267,
+    "padj": 0.95752707
+  },
+  {
+    "ReactomeID": "R-MMU-1266695",
+    "Description": "Interleukin-7 signaling",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.00272716,
+    "pvalue": 0.558618415,
+    "padj": 0.95752707
+  },
+  {
+    "ReactomeID": "R-MMU-1296041",
+    "Description": "Activation of G protein gated Potassium channels",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.00272716,
+    "pvalue": 0.558618415,
+    "padj": 0.95752707
+  },
+  {
+    "ReactomeID": "R-MMU-1296059",
+    "Description": "G protein gated Potassium channels",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.00272716,
+    "pvalue": 0.558618415,
+    "padj": 0.95752707
+  },
+  {
+    "ReactomeID": "R-MMU-174417",
+    "Description": "Telomere C-strand (Lagging Strand) Synthesis",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.00272716,
+    "pvalue": 0.558618415,
+    "padj": 0.95752707
+  },
+  {
+    "ReactomeID": "R-MMU-198725",
+    "Description": "Nuclear Events (kinase and transcription factor activation)",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.00272716,
+    "pvalue": 0.558618415,
+    "padj": 0.95752707
+  },
+  {
+    "ReactomeID": "R-MMU-350054",
+    "Description": "Notch-HLH transcription pathway",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.00272716,
+    "pvalue": 0.558618415,
+    "padj": 0.95752707
+  },
+  {
+    "ReactomeID": "R-MMU-389357",
+    "Description": "CD28 dependent PI3K/Akt signaling",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.00272716,
+    "pvalue": 0.558618415,
+    "padj": 0.95752707
+  },
+  {
+    "ReactomeID": "R-MMU-69273",
+    "Description": "Cyclin A/B1/B2 associated events during G2/M transition",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.00272716,
+    "pvalue": 0.558618415,
+    "padj": 0.95752707
+  },
+  {
+    "ReactomeID": "R-MMU-997272",
+    "Description": "Inhibition  of voltage gated Ca2+ channels via Gbeta/gamma subunits",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.00272716,
+    "pvalue": 0.558618415,
+    "padj": 0.95752707
+  },
+  {
+    "ReactomeID": "R-MMU-913531",
+    "Description": "Interferon Signaling",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0063220528,
+    "pvalue": 0.559785056,
+    "padj": 0.95752707
+  },
+  {
+    "ReactomeID": "R-MMU-913709",
+    "Description": "O-linked glycosylation of mucins",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0063220528,
+    "pvalue": 0.559785056,
+    "padj": 0.95752707
+  },
+  {
+    "ReactomeID": "R-MMU-196849",
+    "Description": "Metabolism of water-soluble vitamins and cofactors",
+    "GeneRatio_Calculated": 0.0136054422,
+    "BgRatio_Calculated": 0.0135118384,
+    "pvalue": 0.565968136,
+    "padj": 0.965562437
+  },
+  {
+    "ReactomeID": "R-MMU-1638091",
+    "Description": "Heparan sulfate/heparin (HS-GAG) metabolism",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0064460146,
+    "pvalue": 0.570405465,
+    "padj": 0.970354537
+  },
+  {
+    "ReactomeID": "R-MMU-3238698",
+    "Description": "WNT ligand biogenesis and trafficking",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0028511219,
+    "pvalue": 0.574748457,
+    "padj": 0.970354537
+  },
+  {
+    "ReactomeID": "R-MMU-8956321",
+    "Description": "Nucleotide salvage",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0028511219,
+    "pvalue": 0.574748457,
+    "padj": 0.970354537
+  },
+  {
+    "ReactomeID": "R-MMU-983695",
+    "Description": "Antigen activates B Cell Receptor (BCR) leading to generation of second messengers",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0028511219,
+    "pvalue": 0.574748457,
+    "padj": 0.970354537
+  },
+  {
+    "ReactomeID": "R-MMU-69002",
+    "Description": "DNA Replication Pre-Initiation",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0101648692,
+    "pvalue": 0.579467786,
+    "padj": 0.975787722
+  },
+  {
+    "ReactomeID": "R-MMU-193704",
+    "Description": "p75 NTR receptor-mediated signalling",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.010288831,
+    "pvalue": 0.587757311,
+    "padj": 0.976832664
+  },
+  {
+    "ReactomeID": "R-MMU-180786",
+    "Description": "Extension of Telomeres",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0029750837,
+    "pvalue": 0.590290967,
+    "padj": 0.976832664
+  },
+  {
+    "ReactomeID": "R-MMU-210500",
+    "Description": "Glutamate Neurotransmitter Release Cycle",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0029750837,
+    "pvalue": 0.590290967,
+    "padj": 0.976832664
+  },
+  {
+    "ReactomeID": "R-MMU-373752",
+    "Description": "Netrin-1 signaling",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0029750837,
+    "pvalue": 0.590290967,
+    "padj": 0.976832664
+  },
+  {
+    "ReactomeID": "R-MMU-438066",
+    "Description": "Unblocking of NMDA receptors, glutamate binding and activation",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0029750837,
+    "pvalue": 0.590290967,
+    "padj": 0.976832664
+  },
+  {
+    "ReactomeID": "R-MMU-525793",
+    "Description": "Myogenesis",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0029750837,
+    "pvalue": 0.590290967,
+    "padj": 0.976832664
+  },
+  {
+    "ReactomeID": "R-MMU-983712",
+    "Description": "Ion channel transport",
+    "GeneRatio_Calculated": 0.0204081633,
+    "BgRatio_Calculated": 0.0210735094,
+    "pvalue": 0.590608057,
+    "padj": 0.976832664
+  },
+  {
+    "ReactomeID": "R-MMU-196854",
+    "Description": "Metabolism of vitamins and cofactors",
+    "GeneRatio_Calculated": 0.0204081633,
+    "BgRatio_Calculated": 0.0211974712,
+    "pvalue": 0.596378112,
+    "padj": 0.98387252
+  },
+  {
+    "ReactomeID": "R-MMU-1236975",
+    "Description": "Antigen processing-Cross presentation",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0105367547,
+    "pvalue": 0.604020529,
+    "padj": 0.986024385
+  },
+  {
+    "ReactomeID": "R-MMU-1482788",
+    "Description": "Acyl chain remodelling of PC",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0030990455,
+    "pvalue": 0.605267276,
+    "padj": 0.986024385
+  },
+  {
+    "ReactomeID": "R-MMU-1971475",
+    "Description": "A tetrasaccharide linker sequence is required for GAG synthesis",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0030990455,
+    "pvalue": 0.605267276,
+    "padj": 0.986024385
+  },
+  {
+    "ReactomeID": "R-MMU-418360",
+    "Description": "Platelet calcium homeostasis",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0030990455,
+    "pvalue": 0.605267276,
+    "padj": 0.986024385
+  },
+  {
+    "ReactomeID": "R-MMU-429947",
+    "Description": "Deadenylation of mRNA",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0030990455,
+    "pvalue": 0.605267276,
+    "padj": 0.986024385
+  },
+  {
+    "ReactomeID": "R-MMU-69239",
+    "Description": "Synthesis of DNA",
+    "GeneRatio_Calculated": 0.0136054422,
+    "BgRatio_Calculated": 0.0142556093,
+    "pvalue": 0.608633659,
+    "padj": 0.989029696
+  },
+  {
+    "ReactomeID": "R-MMU-422356",
+    "Description": "Regulation of insulin secretion",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0069418619,
+    "pvalue": 0.611020164,
+    "padj": 0.990431687
+  },
+  {
+    "ReactomeID": "R-MMU-211976",
+    "Description": "Endogenous sterols",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0032230073,
+    "pvalue": 0.619697943,
+    "padj": 0.993741632
+  },
+  {
+    "ReactomeID": "R-MMU-2514859",
+    "Description": "Inactivation, recovery and regulation of the phototransduction cascade",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0032230073,
+    "pvalue": 0.619697943,
+    "padj": 0.993741632
+  },
+  {
+    "ReactomeID": "R-MMU-5654732",
+    "Description": "Negative regulation of FGFR3 signaling",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0032230073,
+    "pvalue": 0.619697943,
+    "padj": 0.993741632
+  },
+  {
+    "ReactomeID": "R-MMU-77387",
+    "Description": "Insulin receptor recycling",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0032230073,
+    "pvalue": 0.619697943,
+    "padj": 0.993741632
+  },
+  {
+    "ReactomeID": "R-MMU-8873719",
+    "Description": "RAB geranylgeranylation",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0070658237,
+    "pvalue": 0.620706312,
+    "padj": 0.993741632
+  },
+  {
+    "ReactomeID": "R-MMU-71387",
+    "Description": "Metabolism of carbohydrates",
+    "GeneRatio_Calculated": 0.0306122449,
+    "BgRatio_Calculated": 0.0326019586,
+    "pvalue": 0.625335709,
+    "padj": 0.994209403
+  },
+  {
+    "ReactomeID": "R-MMU-2029482",
+    "Description": "Regulation of actin dynamics for phagocytic cup formation",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0071897855,
+    "pvalue": 0.630206019,
+    "padj": 0.994209403
+  },
+  {
+    "ReactomeID": "R-MMU-1855204",
+    "Description": "Synthesis of IP3 and IP4 in the cytosol",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0033469691,
+    "pvalue": 0.633602781,
+    "padj": 0.994209403
+  },
+  {
+    "ReactomeID": "R-MMU-2514856",
+    "Description": "The phototransduction cascade",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0033469691,
+    "pvalue": 0.633602781,
+    "padj": 0.994209403
+  },
+  {
+    "ReactomeID": "R-MMU-354192",
+    "Description": "Integrin alphaIIb beta3 signaling",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0033469691,
+    "pvalue": 0.633602781,
+    "padj": 0.994209403
+  },
+  {
+    "ReactomeID": "R-MMU-9006921",
+    "Description": "Integrin signaling",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0033469691,
+    "pvalue": 0.633602781,
+    "padj": 0.994209403
+  },
+  {
+    "ReactomeID": "R-MMU-351202",
+    "Description": "Metabolism of polyamines",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0073137474,
+    "pvalue": 0.639519961,
+    "padj": 0.994209403
+  },
+  {
+    "ReactomeID": "R-MMU-1280215",
+    "Description": "Cytokine Signaling in Immune system",
+    "GeneRatio_Calculated": 0.0578231293,
+    "BgRatio_Calculated": 0.0614850626,
+    "pvalue": 0.640891678,
+    "padj": 0.994209403
+  },
+  {
+    "ReactomeID": "R-MMU-1296065",
+    "Description": "Inwardly rectifying K+ channels",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.003470931,
+    "pvalue": 0.647000889,
+    "padj": 0.994209403
+  },
+  {
+    "ReactomeID": "R-MMU-176408",
+    "Description": "Regulation of APC/C activators between G1/S and early anaphase",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.003470931,
+    "pvalue": 0.647000889,
+    "padj": 0.994209403
+  },
+  {
+    "ReactomeID": "R-MMU-390918",
+    "Description": "Peroxisomal lipid metabolism",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.003470931,
+    "pvalue": 0.647000889,
+    "padj": 0.994209403
+  },
+  {
+    "ReactomeID": "R-MMU-418597",
+    "Description": "G alpha (z) signalling events",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.003470931,
+    "pvalue": 0.647000889,
+    "padj": 0.994209403
+  },
+  {
+    "ReactomeID": "R-MMU-445355",
+    "Description": "Smooth Muscle Contraction",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.003470931,
+    "pvalue": 0.647000889,
+    "padj": 0.994209403
+  },
+  {
+    "ReactomeID": "R-MMU-450282",
+    "Description": "MAPK targets/ Nuclear events mediated by MAP kinases",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.003470931,
+    "pvalue": 0.647000889,
+    "padj": 0.994209403
+  },
+  {
+    "ReactomeID": "R-MMU-5218920",
+    "Description": "VEGFR2 mediated vascular permeability",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.003470931,
+    "pvalue": 0.647000889,
+    "padj": 0.994209403
+  },
+  {
+    "ReactomeID": "R-MMU-5654726",
+    "Description": "Negative regulation of FGFR1 signaling",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.003470931,
+    "pvalue": 0.647000889,
+    "padj": 0.994209403
+  },
+  {
+    "ReactomeID": "R-MMU-5654733",
+    "Description": "Negative regulation of FGFR4 signaling",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.003470931,
+    "pvalue": 0.647000889,
+    "padj": 0.994209403
+  },
+  {
+    "ReactomeID": "R-MMU-373760",
+    "Description": "L1CAM interactions",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0074377092,
+    "pvalue": 0.648649014,
+    "padj": 0.994391177
+  },
+  {
+    "ReactomeID": "R-MMU-211859",
+    "Description": "Biological oxidations",
+    "GeneRatio_Calculated": 0.0204081633,
+    "BgRatio_Calculated": 0.0225610512,
+    "pvalue": 0.65687208,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-211897",
+    "Description": "Cytochrome P450 - arranged by substrate type",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.007561671,
+    "pvalue": 0.657594235,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-1834949",
+    "Description": "Cytosolic sensors of pathogen-associated DNA ",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0035948928,
+    "pvalue": 0.659910671,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-73863",
+    "Description": "RNA Polymerase I Transcription Termination",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0035948928,
+    "pvalue": 0.659910671,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-69306",
+    "Description": "DNA Replication",
+    "GeneRatio_Calculated": 0.0136054422,
+    "BgRatio_Calculated": 0.0152473038,
+    "pvalue": 0.661368346,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-156590",
+    "Description": "Glutathione conjugation",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0037188546,
+    "pvalue": 0.672349867,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-456926",
+    "Description": "Thrombin signalling through proteinase activated receptors (PARs)",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0037188546,
+    "pvalue": 0.672349867,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-5654727",
+    "Description": "Negative regulation of FGFR2 signaling",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0037188546,
+    "pvalue": 0.672349867,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-917977",
+    "Description": "Transferrin endocytosis and recycling",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0037188546,
+    "pvalue": 0.672349867,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-5173105",
+    "Description": "O-linked glycosylation",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0117763729,
+    "pvalue": 0.678826332,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-453279",
+    "Description": "Mitotic G1-G1/S phases",
+    "GeneRatio_Calculated": 0.0136054422,
+    "BgRatio_Calculated": 0.0156191893,
+    "pvalue": 0.679861479,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-69563",
+    "Description": "p53-Dependent G1 DNA Damage Response",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0079335565,
+    "pvalue": 0.683339921,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-69580",
+    "Description": "p53-Dependent G1/S DNA damage checkpoint",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0079335565,
+    "pvalue": 0.683339921,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-3299685",
+    "Description": "Detoxification of Reactive Oxygen Species",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0038428164,
+    "pvalue": 0.684335576,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-375280",
+    "Description": "Amine ligand-binding receptors",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0038428164,
+    "pvalue": 0.684335576,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-5673000",
+    "Description": "RAF activation",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0038428164,
+    "pvalue": 0.684335576,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-15869",
+    "Description": "Metabolism of nucleotides",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0119003347,
+    "pvalue": 0.685701752,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-73886",
+    "Description": "Chromosome Maintenance",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0119003347,
+    "pvalue": 0.685701752,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-5654738",
+    "Description": "Signaling by FGFR2",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0080575183,
+    "pvalue": 0.691563553,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-606279",
+    "Description": "Deposition of new CENPA-containing nucleosomes at the centromere",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0080575183,
+    "pvalue": 0.691563553,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-774815",
+    "Description": "Nucleosome assembly",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0080575183,
+    "pvalue": 0.691563553,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-389356",
+    "Description": "CD28 co-stimulation",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0039667782,
+    "pvalue": 0.695884274,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-451927",
+    "Description": "Interleukin-2 family signaling",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0039667782,
+    "pvalue": 0.695884274,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-9615710",
+    "Description": "Microautophagy",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0039667782,
+    "pvalue": 0.695884274,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-1234176",
+    "Description": "Oxygen-dependent proline hydroxylation of Hypoxia-inducible Factor Alpha",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0081814801,
+    "pvalue": 0.699610903,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-6809371",
+    "Description": "Formation of the cornified envelope",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0081814801,
+    "pvalue": 0.699610903,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-69615",
+    "Description": "G1/S DNA Damage Checkpoints",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0081814801,
+    "pvalue": 0.699610903,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-9006925",
+    "Description": "Intracellular signaling by second messengers",
+    "GeneRatio_Calculated": 0.0272108844,
+    "BgRatio_Calculated": 0.0311144168,
+    "pvalue": 0.701464504,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-163841",
+    "Description": "Gamma carboxylation, hypusine formation and arylsulfatase activation",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0040907401,
+    "pvalue": 0.707011844,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-390522",
+    "Description": "Striated Muscle Contraction",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0040907401,
+    "pvalue": 0.707011844,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-6794361",
+    "Description": "Neurexins and neuroligins",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0040907401,
+    "pvalue": 0.707011844,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-382556",
+    "Description": "ABC-family proteins mediated transport",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.012396182,
+    "pvalue": 0.71210592,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-140877",
+    "Description": "Formation of Fibrin Clot (Clotting Cascade)",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0042147019,
+    "pvalue": 0.717733591,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-176187",
+    "Description": "Activation of ATR in response to replication stress",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0042147019,
+    "pvalue": 0.717733591,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-5173214",
+    "Description": "O-glycosylation of TSR domain-containing proteins",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0042147019,
+    "pvalue": 0.717733591,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-5694530",
+    "Description": "Cargo concentration in the ER",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0042147019,
+    "pvalue": 0.717733591,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-5696394",
+    "Description": "DNA Damage Recognition in GG-NER",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0042147019,
+    "pvalue": 0.717733591,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-70263",
+    "Description": "Gluconeogenesis",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0042147019,
+    "pvalue": 0.717733591,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-8856828",
+    "Description": "Clathrin-mediated endocytosis",
+    "GeneRatio_Calculated": 0.0136054422,
+    "BgRatio_Calculated": 0.016486922,
+    "pvalue": 0.720236799,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-1483166",
+    "Description": "Synthesis of PA",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0043386637,
+    "pvalue": 0.728064268,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-6804757",
+    "Description": "Regulation of TP53 Degradation",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0043386637,
+    "pvalue": 0.728064268,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-6806003",
+    "Description": "Regulation of TP53 Expression and Degradation",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0043386637,
+    "pvalue": 0.728064268,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-8939243",
+    "Description": "RUNX1 interacts with co-factors whose precise effect on RUNX1 targets is not known",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0043386637,
+    "pvalue": 0.728064268,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-1234174",
+    "Description": "Cellular response to hypoxia",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0086773274,
+    "pvalue": 0.730076438,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-68949",
+    "Description": "Orc1 removal from chromatin",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0086773274,
+    "pvalue": 0.730076438,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-69206",
+    "Description": "G1/S Transition",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0127680674,
+    "pvalue": 0.730768168,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-418555",
+    "Description": "G alpha (s) signalling events",
+    "GeneRatio_Calculated": 0.0170068027,
+    "BgRatio_Calculated": 0.0207016239,
+    "pvalue": 0.734177668,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-166016",
+    "Description": "Toll Like Receptor 4 (TLR4) Cascade",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0128920293,
+    "pvalue": 0.736774573,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-111465",
+    "Description": "Apoptotic cleavage of cellular proteins",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0044626255,
+    "pvalue": 0.738018091,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-77289",
+    "Description": "Mitochondrial Fatty Acid Beta-Oxidation",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0044626255,
+    "pvalue": 0.738018091,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-425366",
+    "Description": "Transport of bile salts and organic acids, metal ions and amine compounds",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.008925251,
+    "pvalue": 0.744304525,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-5687128",
+    "Description": "MAPK6/MAPK4 signaling",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.008925251,
+    "pvalue": 0.744304525,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-3899300",
+    "Description": "SUMOylation of transcription cofactors",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0045865873,
+    "pvalue": 0.747608762,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-201722",
+    "Description": "Formation of the beta-catenin:TCF transactivating complex",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0090492128,
+    "pvalue": 0.751175292,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-5625740",
+    "Description": "RHO GTPases activate PKNs",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0090492128,
+    "pvalue": 0.751175292,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-1433557",
+    "Description": "Signaling by SCF-KIT",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0047105492,
+    "pvalue": 0.756849487,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-442755",
+    "Description": "Activation of NMDA receptors and postsynaptic events",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0047105492,
+    "pvalue": 0.756849487,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-69231",
+    "Description": "Cyclin D associated events in G1",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0047105492,
+    "pvalue": 0.756849487,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-69236",
+    "Description": "G1 Phase",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0047105492,
+    "pvalue": 0.756849487,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-2559586",
+    "Description": "DNA Damage/Telomere Stress Induced Senescence",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0091731747,
+    "pvalue": 0.75788703,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-163685",
+    "Description": "Integration of energy metabolism",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0092971365,
+    "pvalue": 0.764442157,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-512988",
+    "Description": "Interleukin-3, Interleukin-5 and GM-CSF signaling",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.004834511,
+    "pvalue": 0.765752993,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-5674135",
+    "Description": "MAP2K and MAPK activation",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.004834511,
+    "pvalue": 0.765752993,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-6814122",
+    "Description": "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.004834511,
+    "pvalue": 0.765752993,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-69242",
+    "Description": "S Phase",
+    "GeneRatio_Calculated": 0.0136054422,
+    "BgRatio_Calculated": 0.0176025784,
+    "pvalue": 0.766470689,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-1296072",
+    "Description": "Voltage gated Potassium channels",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0049584728,
+    "pvalue": 0.774331546,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-983231",
+    "Description": "Factors involved in megakaryocyte development and platelet production",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.013759762,
+    "pvalue": 0.775896353,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-190236",
+    "Description": "Signaling by FGFR",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0095450601,
+    "pvalue": 0.77709243,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-1483206",
+    "Description": "Glycerophospholipid biosynthesis",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0138837238,
+    "pvalue": 0.781078264,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-1660661",
+    "Description": "Sphingolipid de novo biosynthesis",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0050824346,
+    "pvalue": 0.782596966,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-195253",
+    "Description": "Degradation of beta-catenin by the destruction complex",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0096690219,
+    "pvalue": 0.783192569,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-8878159",
+    "Description": "Transcriptional regulation by RUNX3",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0096690219,
+    "pvalue": 0.783192569,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-4086398",
+    "Description": "Ca2+ pathway",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0052063964,
+    "pvalue": 0.790560645,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-6803157",
+    "Description": "Antimicrobial peptides",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0052063964,
+    "pvalue": 0.790560645,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-6811440",
+    "Description": "Retrograde transport at the Trans-Golgi-Network",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0052063964,
+    "pvalue": 0.790560645,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-73762",
+    "Description": "RNA Polymerase I Transcription Initiation",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0053303582,
+    "pvalue": 0.798233564,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-9006931",
+    "Description": "Signaling by Nuclear Receptors",
+    "GeneRatio_Calculated": 0.0204081633,
+    "BgRatio_Calculated": 0.0266517912,
+    "pvalue": 0.802041093,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-449147",
+    "Description": "Signaling by Interleukins",
+    "GeneRatio_Calculated": 0.0238095238,
+    "BgRatio_Calculated": 0.0306185695,
+    "pvalue": 0.80266209,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-177929",
+    "Description": "Signaling by EGFR",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0054543201,
+    "pvalue": 0.805626302,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-156580",
+    "Description": "Phase II - Conjugation of compounds",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0101648692,
+    "pvalue": 0.806152246,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-3371556",
+    "Description": "Cellular response to heat stress",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0101648692,
+    "pvalue": 0.806152246,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-5389840",
+    "Description": "Mitochondrial translation elongation",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0101648692,
+    "pvalue": 0.806152246,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-5632684",
+    "Description": "Hedgehog 'on' state",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0101648692,
+    "pvalue": 0.806152246,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-5419276",
+    "Description": "Mitochondrial translation termination",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0104127929,
+    "pvalue": 0.816803318,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-1483249",
+    "Description": "Inositol phosphate metabolism",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0057022437,
+    "pvalue": 0.819611658,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-450531",
+    "Description": "Regulation of mRNA stability by proteins that bind AU-rich elements",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0105367547,
+    "pvalue": 0.821930614,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-5368287",
+    "Description": "Mitochondrial translation",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0105367547,
+    "pvalue": 0.821930614,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-8876198",
+    "Description": "RAB GEFs exchange GTP for GDP on RABs",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0105367547,
+    "pvalue": 0.821930614,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-5628897",
+    "Description": "TP53 Regulates Metabolic Genes",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0058262055,
+    "pvalue": 0.826223573,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-8866654",
+    "Description": "E3 ubiquitin ligases ubiquitinate target proteins",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0058262055,
+    "pvalue": 0.826223573,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-2565942",
+    "Description": "Regulation of PLK1 Activity at G2/M Transition",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0106607165,
+    "pvalue": 0.826929148,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-1660499",
+    "Description": "Synthesis of PIPs at the plasma membrane",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0059501673,
+    "pvalue": 0.832593931,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-2980766",
+    "Description": "Nuclear Envelope Breakdown",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0059501673,
+    "pvalue": 0.832593931,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-71406",
+    "Description": "Pyruvate metabolism and Citric Acid (TCA) cycle",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0059501673,
+    "pvalue": 0.832593931,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-73887",
+    "Description": "Death Receptor Signalling",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0153712657,
+    "pvalue": 0.835873775,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-1257604",
+    "Description": "PIP3 activates AKT signaling",
+    "GeneRatio_Calculated": 0.0204081633,
+    "BgRatio_Calculated": 0.0280153713,
+    "pvalue": 0.838278833,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-1236978",
+    "Description": "Cross-presentation of soluble exogenous antigens (endosomes)",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0060741292,
+    "pvalue": 0.838731527,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-166166",
+    "Description": "MyD88-independent TLR4 cascade ",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.011032602,
+    "pvalue": 0.841177469,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-6811434",
+    "Description": "COPI-dependent Golgi-to-ER retrograde traffic",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.011032602,
+    "pvalue": 0.841177469,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-69052",
+    "Description": "Switching of origins to a post-replicative state",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.011032602,
+    "pvalue": 0.841177469,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-937061",
+    "Description": "TRIF(TICAM1)-mediated TLR4 signaling ",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.011032602,
+    "pvalue": 0.841177469,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-1632852",
+    "Description": "Macroautophagy",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0111565638,
+    "pvalue": 0.845686171,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-1296071",
+    "Description": "Potassium Channels",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0112805256,
+    "pvalue": 0.850078636,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-350562",
+    "Description": "Regulation of ornithine decarboxylase (ODC)",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0063220528,
+    "pvalue": 0.850342034,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-6781823",
+    "Description": "Formation of TC-NER Pre-Incision Complex",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0063220528,
+    "pvalue": 0.850342034,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-427359",
+    "Description": "SIRT1 negatively regulates rRNA expression",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0064460146,
+    "pvalue": 0.855830986,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-8939902",
+    "Description": "Regulation of RUNX2 expression and activity",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0064460146,
+    "pvalue": 0.855830986,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-429914",
+    "Description": "Deadenylation-dependent mRNA decay",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0065699764,
+    "pvalue": 0.861119282,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-5250941",
+    "Description": "Negative epigenetic regulation of rRNA expression",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0065699764,
+    "pvalue": 0.861119282,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-917937",
+    "Description": "Iron uptake and transport",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0066939383,
+    "pvalue": 0.866214232,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-212165",
+    "Description": "Epigenetic regulation of gene expression",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0119003347,
+    "pvalue": 0.870382237,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-448424",
+    "Description": "Interleukin-17 signaling",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0068179001,
+    "pvalue": 0.871122883,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-450294",
+    "Description": "MAP kinase activation",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0068179001,
+    "pvalue": 0.871122883,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-2672351",
+    "Description": "Stimuli-sensing channels",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0120242965,
+    "pvalue": 0.874127818,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-5358351",
+    "Description": "Signaling by Hedgehog",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0167348457,
+    "pvalue": 0.875326795,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-5610780",
+    "Description": "Degradation of GLI1 by the proteasome",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0069418619,
+    "pvalue": 0.875852023,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-388841",
+    "Description": "Costimulation by the CD28 family",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0070658237,
+    "pvalue": 0.880408196,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-202403",
+    "Description": "TCR signaling",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0122722202,
+    "pvalue": 0.881322314,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-3214841",
+    "Description": "PKMTs methylate histone lysines",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0071897855,
+    "pvalue": 0.884797708,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-68827",
+    "Description": "CDT1 association with the CDC6:ORC:origin complex",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0071897855,
+    "pvalue": 0.884797708,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-187577",
+    "Description": "SCF(Skp2)-mediated degradation of p27/p21",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0074377092,
+    "pvalue": 0.893100832,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-3214858",
+    "Description": "RMTs methylate histone arginines",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.007561671,
+    "pvalue": 0.897025942,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-5610787",
+    "Description": "Hedgehog 'off' state",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0128920293,
+    "pvalue": 0.897681059,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-8878166",
+    "Description": "Transcriptional regulation by RUNX2",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0078095946,
+    "pvalue": 0.904450454,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-9033241",
+    "Description": "Peroxisomal protein import",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0079335565,
+    "pvalue": 0.907960145,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-1483257",
+    "Description": "Phospholipid metabolism",
+    "GeneRatio_Calculated": 0.0136054422,
+    "BgRatio_Calculated": 0.0229329367,
+    "pvalue": 0.910450117,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-9007101",
+    "Description": "Rab regulation of trafficking",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0135118384,
+    "pvalue": 0.911924881,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-8939236",
+    "Description": "RUNX1 regulates transcription of genes involved in differentiation of HSCs",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0081814801,
+    "pvalue": 0.914598733,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-68867",
+    "Description": "Assembly of the pre-replicative complex",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0083054419,
+    "pvalue": 0.917736837,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-8852135",
+    "Description": "Protein ubiquitination",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0083054419,
+    "pvalue": 0.917736837,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-204005",
+    "Description": "COPII-mediated vesicle transport",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0084294037,
+    "pvalue": 0.920760008,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-6794362",
+    "Description": "Protein-protein interactions at synapses",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0084294037,
+    "pvalue": 0.920760008,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-9612973",
+    "Description": "Autophagy",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0140076856,
+    "pvalue": 0.921962105,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-168164",
+    "Description": "Toll Like Receptor 3 (TLR3) Cascade",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0085533656,
+    "pvalue": 0.923672442,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-380259",
+    "Description": "Loss of Nlp from mitotic centrosomes",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0085533656,
+    "pvalue": 0.923672442,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-380284",
+    "Description": "Loss of proteins required for interphase microtubule organization from the centrosome",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0085533656,
+    "pvalue": 0.923672442,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-3108232",
+    "Description": "SUMO E3 ligases SUMOylate target proteins",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0192140821,
+    "pvalue": 0.926079121,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-157579",
+    "Description": "Telomere Maintenance",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0086773274,
+    "pvalue": 0.926478181,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-69202",
+    "Description": "Cyclin E associated events during G1/S transition ",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0086773274,
+    "pvalue": 0.926478181,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-983169",
+    "Description": "Class I MHC mediated antigen processing & presentation",
+    "GeneRatio_Calculated": 0.0272108844,
+    "BgRatio_Calculated": 0.0415272096,
+    "pvalue": 0.927304199,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-168142",
+    "Description": "Toll Like Receptor 10 (TLR10) Cascade",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0088012892,
+    "pvalue": 0.929181122,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-168176",
+    "Description": "Toll Like Receptor 5 (TLR5) Cascade",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0088012892,
+    "pvalue": 0.929181122,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-975871",
+    "Description": "MyD88 cascade initiated on plasma membrane",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0088012892,
+    "pvalue": 0.929181122,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-166058",
+    "Description": "MyD88:MAL(TIRAP) cascade initiated on plasma membrane",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.008925251,
+    "pvalue": 0.931785017,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-168179",
+    "Description": "Toll Like Receptor TLR1:TLR2 Cascade",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.008925251,
+    "pvalue": 0.931785017,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-168188",
+    "Description": "Toll Like Receptor TLR6:TLR2 Cascade",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.008925251,
+    "pvalue": 0.931785017,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-181438",
+    "Description": "Toll Like Receptor 2 (TLR2) Cascade",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.008925251,
+    "pvalue": 0.931785017,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-69017",
+    "Description": "CDK-mediated phosphorylation and removal of Cdc6",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.008925251,
+    "pvalue": 0.931785017,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-69656",
+    "Description": "Cyclin A:Cdk2-associated events at S phase entry",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.008925251,
+    "pvalue": 0.931785017,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-8854518",
+    "Description": "AURKA Activation by TPX2",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.008925251,
+    "pvalue": 0.931785017,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-6781827",
+    "Description": "Transcription-Coupled Nucleotide Excision Repair (TC-NER)",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0090492128,
+    "pvalue": 0.934293486,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-2990846",
+    "Description": "SUMOylation",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0198338912,
+    "pvalue": 0.935397632,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-1483255",
+    "Description": "PI Metabolism",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0091731747,
+    "pvalue": 0.936710013,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-163125",
+    "Description": "Post-translational modification: synthesis of GPI-anchored proteins",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0091731747,
+    "pvalue": 0.936710013,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-194315",
+    "Description": "Signaling by Rho GTPases",
+    "GeneRatio_Calculated": 0.0340136054,
+    "BgRatio_Calculated": 0.0508243461,
+    "pvalue": 0.9367694,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-3858494",
+    "Description": "Beta-catenin independent WNT signaling",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0149993802,
+    "pvalue": 0.938897584,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-8856688",
+    "Description": "Golgi-to-ER retrograde transport",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.015123342,
+    "pvalue": 0.940751777,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-5696399",
+    "Description": "Global Genome Nucleotide Excision Repair (GG-NER)",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0094210983,
+    "pvalue": 0.941280554,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-73772",
+    "Description": "RNA Polymerase I Promoter Escape",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0095450601,
+    "pvalue": 0.943440924,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-380270",
+    "Description": "Recruitment of mitotic centrosome proteins and complexes",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0096690219,
+    "pvalue": 0.945522072,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-380287",
+    "Description": "Centrosome maturation",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0096690219,
+    "pvalue": 0.945522072,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-5250913",
+    "Description": "Positive epigenetic regulation of rRNA expression",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0096690219,
+    "pvalue": 0.945522072,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-5250924",
+    "Description": "B-WICH complex positively regulates rRNA expression",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0096690219,
+    "pvalue": 0.945522072,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-428157",
+    "Description": "Sphingolipid metabolism",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0097929838,
+    "pvalue": 0.947526892,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-70326",
+    "Description": "Glucose metabolism",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0099169456,
+    "pvalue": 0.949458176,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-8939211",
+    "Description": "ESR-mediated signaling",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0209495475,
+    "pvalue": 0.949497013,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-975138",
+    "Description": "TRAF6 mediated induction of NFkB and MAP kinases upon TLR7/8 or 9 activation",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0100409074,
+    "pvalue": 0.951318611,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-163200",
+    "Description": "Respiratory electron transport, ATP synthesis by chemiosmotic coupling, and heat production by uncoupling proteins.",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0101648692,
+    "pvalue": 0.953110788,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-168181",
+    "Description": "Toll Like Receptor 7/8 (TLR7/8) Cascade",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0101648692,
+    "pvalue": 0.953110788,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-202424",
+    "Description": "Downstream TCR signaling",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0101648692,
+    "pvalue": 0.953110788,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-975155",
+    "Description": "MyD88 dependent cascade initiated on endosome",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0101648692,
+    "pvalue": 0.953110788,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-1428517",
+    "Description": "The citric acid (TCA) cycle and respiratory electron transport",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0161150366,
+    "pvalue": 0.953778056,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-174143",
+    "Description": "APC/C-mediated degradation of cell cycle proteins",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.010288831,
+    "pvalue": 0.954837204,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-453276",
+    "Description": "Regulation of mitotic cell cycle",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.010288831,
+    "pvalue": 0.954837204,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-6804756",
+    "Description": "Regulation of TP53 Activity through Phosphorylation",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.010288831,
+    "pvalue": 0.954837204,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-6811442",
+    "Description": "Intra-Golgi and retrograde Golgi-to-ER traffic",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0215693566,
+    "pvalue": 0.95603852,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-2559582",
+    "Description": "Senescence-Associated Secretory Phenotype (SASP)",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0104127929,
+    "pvalue": 0.956500263,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-8951664",
+    "Description": "Neddylation",
+    "GeneRatio_Calculated": 0.0136054422,
+    "BgRatio_Calculated": 0.0268997149,
+    "pvalue": 0.959555182,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-69275",
+    "Description": "G2/M Transition",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0219412421,
+    "pvalue": 0.959574823,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-168138",
+    "Description": "Toll Like Receptor 9 (TLR9) Cascade",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0106607165,
+    "pvalue": 0.959645496,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-4086400",
+    "Description": "PCP/CE pathway",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0106607165,
+    "pvalue": 0.959645496,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-380320",
+    "Description": "Recruitment of NuMA to mitotic centrosomes",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0107846783,
+    "pvalue": 0.961132054,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-5693607",
+    "Description": "Processing of DNA double-strand break ends",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0107846783,
+    "pvalue": 0.961132054,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-453274",
+    "Description": "Mitotic G2-G2/M phases",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0221891657,
+    "pvalue": 0.961782621,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-5668541",
+    "Description": "TNFR2 non-canonical NF-kB pathway",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0116524111,
+    "pvalue": 0.970116582,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-73854",
+    "Description": "RNA Polymerase I Promoter Clearance",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0116524111,
+    "pvalue": 0.970116582,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-73864",
+    "Description": "RNA Polymerase I Transcription",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0117763729,
+    "pvalue": 0.971218517,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-5620912",
+    "Description": "Anchoring of the basal body to the plasma membrane",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0119003347,
+    "pvalue": 0.972279951,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-9020702",
+    "Description": "Interleukin-1 signaling",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0119003347,
+    "pvalue": 0.972279951,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-5633007",
+    "Description": "Regulation of TP53 Activity",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0182223875,
+    "pvalue": 0.972983322,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-983705",
+    "Description": "Signaling by the B Cell Receptor (BCR)",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0121482583,
+    "pvalue": 0.9742872,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-2559583",
+    "Description": "Cellular Senescence",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0189661584,
+    "pvalue": 0.977708772,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-5696398",
+    "Description": "Nucleotide Excision Repair",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0126441056,
+    "pvalue": 0.977877456,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-446652",
+    "Description": "Interleukin-1 family signaling",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0127680674,
+    "pvalue": 0.978694032,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-9609507",
+    "Description": "Protein localization",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0128920293,
+    "pvalue": 0.979480566,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-983168",
+    "Description": "Antigen processing: Ubiquitination & Proteasome degradation",
+    "GeneRatio_Calculated": 0.0170068027,
+    "BgRatio_Calculated": 0.0352051568,
+    "pvalue": 0.980080113,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-3247509",
+    "Description": "Chromatin modifying enzymes",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0198338912,
+    "pvalue": 0.982216694,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-4839726",
+    "Description": "Chromatin organization",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0198338912,
+    "pvalue": 0.982216694,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-2454202",
+    "Description": "Fc epsilon receptor (FCERI) signaling",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0142556093,
+    "pvalue": 0.986437726,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-3700989",
+    "Description": "Transcriptional Regulation by TP53",
+    "GeneRatio_Calculated": 0.0136054422,
+    "BgRatio_Calculated": 0.0324779968,
+    "pvalue": 0.98788728,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-1852241",
+    "Description": "Organelle biogenesis and maintenance",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0273955622,
+    "pvalue": 0.988729991,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-5693567",
+    "Description": "HDR through Homologous Recombination (HRR) or Single Strand Annealing (SSA)",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0148754184,
+    "pvalue": 0.988766722,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-68875",
+    "Description": "Mitotic Prophase",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0148754184,
+    "pvalue": 0.988766722,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-5693538",
+    "Description": "Homology Directed Repair",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0152473038,
+    "pvalue": 0.989968042,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-8878171",
+    "Description": "Transcriptional regulation by RUNX1",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0220652039,
+    "pvalue": 0.99012546,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-195721",
+    "Description": "Signaling by WNT",
+    "GeneRatio_Calculated": 0.0136054422,
+    "BgRatio_Calculated": 0.0343374241,
+    "pvalue": 0.992046611,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-5663220",
+    "Description": "RHO GTPases Activate Formins",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0161150366,
+    "pvalue": 0.992296343,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-69278",
+    "Description": "Cell Cycle, Mitotic",
+    "GeneRatio_Calculated": 0.0306122449,
+    "BgRatio_Calculated": 0.0597495971,
+    "pvalue": 0.993154032,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-2262752",
+    "Description": "Cellular responses to stress",
+    "GeneRatio_Calculated": 0.0238095238,
+    "BgRatio_Calculated": 0.0509483079,
+    "pvalue": 0.994050096,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-8953897",
+    "Description": "Cellular responses to external stimuli",
+    "GeneRatio_Calculated": 0.0238095238,
+    "BgRatio_Calculated": 0.0511962316,
+    "pvalue": 0.994339337,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-195258",
+    "Description": "RHO GTPase Effectors",
+    "GeneRatio_Calculated": 0.0136054422,
+    "BgRatio_Calculated": 0.0361968514,
+    "pvalue": 0.994819928,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-199977",
+    "Description": "ER to Golgi Anterograde Transport",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0177265402,
+    "pvalue": 0.995285563,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-201681",
+    "Description": "TCF dependent signaling in response to WNT",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0250402876,
+    "pvalue": 0.995557502,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-5693532",
+    "Description": "DNA Double-Strand Break Repair",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.018594273,
+    "pvalue": 0.996382188,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-69481",
+    "Description": "G2/M Checkpoints",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0193380439,
+    "pvalue": 0.997117257,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-5689880",
+    "Description": "Ub-specific processing proteases",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0210735094,
+    "pvalue": 0.998304301,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-948021",
+    "Description": "Transport to the Golgi and subsequent modification",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0211974712,
+    "pvalue": 0.998367431,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-68877",
+    "Description": "Mitotic Prometaphase",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0231808603,
+    "pvalue": 0.999110906,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-68882",
+    "Description": "Mitotic Anaphase",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0235527458,
+    "pvalue": 0.999206766,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-2555396",
+    "Description": "Mitotic Metaphase and Anaphase",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0236767076,
+    "pvalue": 0.999236373,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-446203",
+    "Description": "Asparagine N-linked glycosylation",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.031610264,
+    "pvalue": 0.999273259,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-5617833",
+    "Description": "Cilium Assembly",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0241725549,
+    "pvalue": 0.999344186,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-69620",
+    "Description": "Cell Cycle Checkpoints",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0339655386,
+    "pvalue": 0.999625087,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-73894",
+    "Description": "DNA Repair",
+    "GeneRatio_Calculated": 0.0068027211,
+    "BgRatio_Calculated": 0.0371885459,
+    "pvalue": 0.999849849,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-5688426",
+    "Description": "Deubiquitination",
+    "GeneRatio_Calculated": 0.0034013605,
+    "BgRatio_Calculated": 0.0291310276,
+    "pvalue": 0.999857477,
+    "padj": 0.999883019
+  },
+  {
+    "ReactomeID": "R-MMU-68886",
+    "Description": "M Phase",
+    "GeneRatio_Calculated": 0.0102040816,
+    "BgRatio_Calculated": 0.0451221024,
+    "pvalue": 0.999883019,
+    "padj": 0.999883019
+  }
+]

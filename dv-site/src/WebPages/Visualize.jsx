@@ -1,5 +1,5 @@
 import VisualizeHero from "../visualizeComponents/VisualizeHero";
-import VisualizeBody from "../visualizeComponents/VisualizeBody";
+// import VisualizeBody from "../visualizeComponents/VisualizeBody";
 import { motion as m } from "framer-motion";
 import VisualizeSection from "../visualizeComponents/VolcanoVisualizationsSection/VisualizationSection";
 

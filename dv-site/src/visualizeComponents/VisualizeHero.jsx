@@ -16,13 +16,16 @@ export default function Visualize() {
             <h1
               style={{
                 color: "white",
-                maxWidth: 1000,
+                maxWidth: 1100,
                 minWidth: 400,
                 textAlign: "center",
               }}
             >
-              Explore the entire enrichment analysis or view relevant
-              information to a specific pathway
+              Analyze gene expression patterns impacted by eIF5A hypusination
+              <br />
+              <br />
+              Explore regulatory interactions between eIF5A hypusination and
+              various pathways
             </h1>
           </m.div>
         </div>

@@ -28,6 +28,9 @@ a {
   color: #f1f1f1;
   text-decoration: inherit;
 }
+button {
+  color: white;
+}
 a:hover {
   color: #ffffff;
 }
@@ -37,7 +40,7 @@ body {
 }
 
 body::-webkit-scrollbar {
-  display: none;
+  display: 12px;
 }
 
 h1 {
@@ -45,7 +48,7 @@ h1 {
   line-height: 1.1;
 }
 
-button {
+/* button {
   border: transparent;
   background-color: transparent;
   font-size: 1em;
@@ -54,4 +57,4 @@ button {
 }
 button:hover {
   color: gray;
-}
+} */

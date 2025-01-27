@@ -9,5 +9,52 @@
   background-color: rgba(255, 255, 255);
   margin-bottom: 60px;
   overflow: hidden;
-  /* box-shadow: 0px 10px 15px 0px rgba(102, 102, 102, 0.3); */
+  transition: 0s;
+}
+.plotly .modebar-btn svg {
+  width: 20px; /* Ensure these styles override Plotly's defaults */
+  height: 20px;
+  margin: 2px; /* Reduced margin to fit within the parent */
+  background-color: white;
+  border-radius: 0;
+}
+
+.plotly .modebar-group {
+  width: 600;
+  display: flex; /* This is likely already set by Plotly's default styling */
+  flex-direction: column; /* Align children vertically for vertical orientation */
+  justify-content: center; /* Center children vertically */
+  align-items: center; /* Center children horizontally */
+  margin: 0 5px; /* Adjusted to ensure spacing between groups */
+  background-color: white;
+}
+/* Attempt to move the modebar to the bottom of the plot */
+.plot-container .modebar {
+  top: auto;
+  bottom: 0; /* Position at the bottom */
+  width: 100%; /* Optional: Adjust the width as needed */
+  justify-content: center; /* Center the modebar items if desired */
+}
+
+.trace-button {
+  width: 180px;
+  height: 30px;
+  border-radius: 5px;
+  margin: 10px;
+  font-size: medium;
+  background-color: gray;
+  border: solid;
+  border-width: 1px;
+  font-size: medium;
+  border-color: black;
+  transition: 0.07s;
+}
+
+.trace-button:hover {
+  transition: 0.07s;
+}
+.trace-button:active {
+  background-color: rgb(94, 94, 94);
+  /* box-shadow: 0px 0px 0px 0px rgba(39, 39, 39, 0.2); */
+  transition: 0.07s;
 }

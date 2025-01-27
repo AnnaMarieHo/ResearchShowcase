@@ -4,7 +4,13 @@ import { Link } from "react-router-dom";
 
 export default function MultiStateToggle({ sendDataToParent }) {
   const [activeButtonIndex, setActiveButtonIndex] = useState(0);
-  const buttonTexts = ["All Genes", "KEGG", "Reactome", "Wiki\nPathways"];
+  const buttonTexts = [
+    "All Genes",
+    "KEGG",
+    "Reactome",
+    "Wiki\nPathways",
+    "STRING",
+  ];
 
   const handleClick = (index) => {
     setActiveButtonIndex(index);
@@ -25,7 +31,9 @@ export default function MultiStateToggle({ sendDataToParent }) {
       <div
         className="overlay"
         style={{
-          left: `calc(${activeButtonIndex * 21}% + ${activeButtonIndex * 4}%)`,
+          left: `calc(${activeButtonIndex * 17}% + ${
+            activeButtonIndex * 2.7
+          }%)`,
         }}
       >
         {buttonTexts[activeButtonIndex]}
